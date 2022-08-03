@@ -1,0 +1,38 @@
+{
+    "name": "darkit",
+    "displayName": "Darkit",
+    "description": "A dark theme.",
+    "type": "module",
+    "version": "0.0.1",
+    "engines": {
+        "vscode": "^1.69.0"
+    },
+    "categories": [
+        "Themes"
+    ],
+    "contributes": {
+        "themes": [
+            {
+                "label": "Darkit",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Darkit-color-theme.json"
+            }
+        ]
+    },
+    "scripts": {
+        "build": "nodemon --exec build-theme ./config/theme.config.js"
+    },
+    "nodemonConfig": {
+        "ignore": [
+            "themes/*",
+            "build/*"
+        ]
+    },
+    "dependencies": {
+        "json-variables": "^11.0.19"
+    },
+    "devDependencies": {
+        "@two-beards/vscode-theme-builder": "^1.0.0",
+        "nodemon": "^2.0.19"
+    }
+}
