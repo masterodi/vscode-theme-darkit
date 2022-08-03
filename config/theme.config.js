@@ -112,5 +112,7 @@ module.exports = {
         htmlAttribute: '#AEAFF8',
         cssClass: '#63ffe3',
         cssProperty: '#ffa7c1',
+        jsonKey: '#ffa7c1',
+        jsonStringValue: '#92bef5',
     },
 };
