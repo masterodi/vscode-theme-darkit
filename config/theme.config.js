@@ -1,6 +1,6 @@
 module.exports = {
     name: 'Darkit',
-    inputFile: 'Darkit-color-theme.json',
+    inputFile: './config/Darkit-color-theme.json',
     outputDir: 'themes',
     colors: {
         'neutral-50': '#E6E8EA',
@@ -93,5 +93,24 @@ module.exports = {
         // utilities
         background: '#1E2024',
         transparent: '#00000000',
+        // syntax
+        string: '#ff63a7',
+        variable: '#BDC0C7',
+        constant: '#66e7ff',
+        function: '#92bef5',
+        storageType: '#8bf488',
+        keyword: '#888BF4',
+        keywordAccent: '#63ffe3',
+        operator: '#fdff6a',
+        number: '#66e7ff',
+        objectKey: '#ffa7c1',
+        primitive: '#fcb100',
+        class: '#ffd268',
+        tag: '#FC033D',
+        tagArrow: '#bb0e0e',
+        component: '#FD547B',
+        htmlAttribute: '#AEAFF8',
+        cssClass: '#63ffe3',
+        cssProperty: '#ffa7c1',
     },
 };
