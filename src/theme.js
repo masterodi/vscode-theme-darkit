@@ -1249,7 +1249,7 @@ const theme = {
         {
             name: '[VSCODE-CUSTOM] JS/TS Variable Other Object',
             scope: ['variable.other.object.js', 'variable.other.object.ts'],
-            settings: { foreground: colors.neutral[200] },
+            settings: { foreground: colors.dustyOrange[400] },
         },
         {
             name: '[VSCODE-CUSTOM] JS/TS Meta Object Literal Key',
