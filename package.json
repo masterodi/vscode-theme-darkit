@@ -2,7 +2,9 @@
     "name": "darkit",
     "displayName": "Darkit",
     "description": "A dark theme.",
-    "version": "0.0.1",
+    "type": "module",
+    "publisher": "mrheio",
+    "version": "0.0.2",
     "engines": {
         "vscode": "^1.69.0"
     },
@@ -19,7 +21,7 @@
         ]
     },
     "scripts": {
-        "build": "nodemon --exec build-theme ./config/theme.config.js"
+        "build": "nodemon ./src/build.js"
     },
     "nodemonConfig": {
         "ignore": [
@@ -28,6 +30,7 @@
         ]
     },
     "dependencies": {
+        "chroma-js": "^2.4.2",
         "json-variables": "^11.0.19"
     },
     "devDependencies": {
