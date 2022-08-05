@@ -32,3 +32,8 @@ class SomeClass:
     @classmethod
     def class_method(cls):
         print("the class method was called")
+
+class Foo:
+    pass
+
+f = Foo(3,4)
