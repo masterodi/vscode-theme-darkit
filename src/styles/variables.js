@@ -42,7 +42,7 @@ const variablesStyles = [
         name: 'Variable property',
         scope: ['variable.other.property'],
         settings: {
-            foreground: colors.indigo[200],
+            foreground: colors.indigo[300],
         },
     },
 ];

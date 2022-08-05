@@ -10,7 +10,7 @@ const storagesStyles = [
             'source.groovy storage.type.def',
         ],
         settings: {
-            foreground: colors.debianRed[400],
+            foreground: colors.debianRed[300],
             fontStyle: '',
         },
     },
@@ -57,7 +57,7 @@ const storagesStyles = [
         name: 'Modifiers',
         scope: ['storage.modifier'],
         settings: {
-            foreground: colors.debianRed[400],
+            foreground: colors.debianRed[300],
         },
     },
 ];

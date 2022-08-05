@@ -10,7 +10,7 @@ const serializableConfigLanguages = [
             'variable.other.key.toml',
         ],
         settings: {
-            foreground: colors.debianRed[400],
+            foreground: colors.debianRed[300],
         },
     },
     {

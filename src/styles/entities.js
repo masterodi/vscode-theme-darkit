@@ -30,7 +30,7 @@ const entitiesStyles = [
             'punctuation.definition.tag.end',
         ],
         settings: {
-            foreground: colors.blizzardBlue[300],
+            foreground: colors.blizzardBlue[400],
         },
     },
 ];

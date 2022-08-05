@@ -5,14 +5,14 @@ const keywordsStyle = [
         name: 'Keywords',
         scope: ['keyword', 'punctuation.definition.keyword'],
         settings: {
-            foreground: colors.debianRed[400],
+            foreground: colors.debianRed[300],
         },
     },
     {
         name: "Keyword 'new'",
         scope: ['keyword.control.new', 'keyword.operator.new'],
         settings: {
-            foreground: colors.debianRed[400],
+            foreground: colors.debianRed[300],
             fontStyle: 'bold',
         },
     },

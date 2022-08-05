@@ -9,6 +9,13 @@ const constantsStyles = [
         },
     },
     {
+        name: 'Numbers',
+        scope: ['constant.numeric'],
+        settings: {
+            foreground: colors.fuchsia[300],
+        },
+    },
+    {
         name: 'Variable constant',
         scope: ['variable.other.constant'],
         settings: {

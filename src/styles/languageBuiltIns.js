@@ -41,7 +41,7 @@ const languageBuiltInsStyles = [
         name: 'Json support.type.property-name',
         scope: ['support.type.property-name.json'],
         settings: {
-            foreground: colors.debianRed[400],
+            foreground: colors.debianRed[300],
         },
     },
 ];

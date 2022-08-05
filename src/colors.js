@@ -6,7 +6,7 @@ const generatePalette = (baseColor) => {
         100: baseColor.brighten(2.75),
         200: baseColor.brighten(2.25),
         300: baseColor.brighten(1.35),
-        400: baseColor.brighten(0.75),
+        400: baseColor.brighten(0.725),
         500: baseColor,
         600: baseColor.darken(1.25),
         700: baseColor.darken(1.75),
@@ -301,6 +301,19 @@ const rose = {
     900: '#881337',
 };
 
+const vividBlue = {
+    50: '#B1CDF8',
+    100: '#9EC1F7',
+    200: '#79A9F4',
+    300: '#5391F0',
+    400: '#2E79ED',
+    500: '#1363DF',
+    600: '#0F4CAB',
+    700: '#0A3578',
+    800: '#061E44',
+    900: '#010710',
+};
+
 const transparent = chroma('#000000').alpha(0);
 
 const baseNeutral = chroma('#777a80');
@@ -388,6 +401,7 @@ const colors = {
     fuchsia,
     pink,
     rose,
+    vividBlue,
 };
 
 export default colors;
