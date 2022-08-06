@@ -1,16 +1,27 @@
+name: Release
+
 on:
   push:
     branches:
       - main
-name: Deploy Extension
+  workflow_dispatch: # Put here!!
+
 jobs:
-  deploy:
+  release:
     runs-on: ubuntu-latest
+
     steps:
       - uses: actions/checkout@v2
-      - run: npm install
-      - uses: lannonbr/vsce-action@3.0.0
+      - uses: actions/setup-node@v1
         with:
-          args: "publish -p $MARKETPLACE_KEY"
-        env:
-          VSCE_TOKEN: ${{ secrets.MARKETPLACE_KEY }}
+          node-version: 14
+          registry-url: https://registry.npmjs.org/
+
+      - name: Install the dependencies
+        run: npm i
+
+      - name: Install vsce
+        run: npm i -g vsce
+
+      - name: Publish
+        run: vsce publish -p ${{ secrets.VSCE_TOKEN }}
