@@ -36,5 +36,9 @@
     "devDependencies": {
         "@two-beards/vscode-theme-builder": "^1.0.0",
         "nodemon": "^2.0.19"
+    },
+    "repository": {
+        "type": "git",
+        "url": "https://github.com/mrheio/darkit"
     }
 }
