@@ -144,7 +144,7 @@ const workbenchStyles = {
     'editor.selectionHighlightBackground': colors.primary[400].alpha(0.5),
     'editor.findMatchBackground': colors.neutral[600].alpha(0.5),
     'editor.findMatchBorder': colors.primary[400],
-    'editor.findMatchHighlightBackground': colors.neutral[700].alpha(0.5),
+    'editor.findMatchHighlightBackground': colors.neutral[400].alpha(0.5),
     'editor.findRangeHighlightBackground': colors.neutral[600].alpha(0.5),
     'editor.rangeHighlightBackground': colors.neutral[600].alpha(0.5),
     'editor.hoverHighlightBackground': colors.neutral[700].alpha(0.5),

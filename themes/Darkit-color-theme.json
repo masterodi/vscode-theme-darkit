@@ -144,7 +144,7 @@
         "editor.selectionHighlightBackground": "#4ae29980",
         "editor.findMatchBackground": "#41444980",
         "editor.findMatchBorder": "#4ae299",
-        "editor.findMatchHighlightBackground": "#2d303580",
+        "editor.findMatchHighlightBackground": "#999ca280",
         "editor.findRangeHighlightBackground": "#41444980",
         "editor.rangeHighlightBackground": "#41444980",
         "editor.hoverHighlightBackground": "#2d303580",
