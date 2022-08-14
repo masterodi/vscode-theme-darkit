@@ -154,7 +154,16 @@
         "editorIndentGuide.activeBackground": "#999ca280",
         "editorRuler.foreground": "#00430b80",
         "editorBracketMatch.background": "#007f4080",
-        "editorBracketMatch.border": "#04bd77"
+        "editorBracketMatch.border": "#04bd77",
+        "peekViewEditor.background": "#1a1d22",
+        "peekView.border": "#0f1217",
+        "peekViewResult.background": "#0f1217",
+        "peekViewTitle.background": "#0f1217",
+        "minimap.findMatchHighlight": "#00ff00",
+        "minimap.selectionOccurrenceHighlight": "#d4ffff",
+        "minimap.errorHighlight": "#ff6b63",
+        "editorOverviewRuler.wordHighlightStrongForeground": "#4ae299",
+        "editorOverviewRuler.wordHighlightForeground": "#d4ffff"
     },
     "tokenColors": [
         {

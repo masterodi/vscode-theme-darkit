@@ -155,6 +155,15 @@ const workbenchStyles = {
     'editorRuler.foreground': colors.primary[900].alpha(0.5),
     'editorBracketMatch.background': colors.primary[600].alpha(0.5),
     'editorBracketMatch.border': colors.primary[500],
+    'peekViewEditor.background': colors.neutral[800],
+    'peekView.border': colors.neutral[900],
+    'peekViewResult.background': colors.neutral[900],
+    'peekViewTitle.background': colors.neutral[900],
+    'minimap.findMatchHighlight': '#00ff00',
+    'minimap.selectionOccurrenceHighlight': colors.blizzardBlue[300],
+    'minimap.errorHighlight': colors.error[400],
+    'editorOverviewRuler.wordHighlightStrongForeground': colors.primary[400],
+    'editorOverviewRuler.wordHighlightForeground': colors.blizzardBlue[300],
 };
 
 export default workbenchStyles;
