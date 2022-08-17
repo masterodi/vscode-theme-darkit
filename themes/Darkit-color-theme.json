@@ -148,7 +148,7 @@
         "editor.findRangeHighlightBackground": "#41444980",
         "editor.rangeHighlightBackground": "#41444980",
         "editor.hoverHighlightBackground": "#2d303580",
-        "editor.wordHighlightBackground": "#2d303580",
+        "editor.wordHighlightBackground": "#777a8073",
         "editor.lineHighlightBackground": "#2d303580",
         "editorIndentGuide.background": "#2d303580",
         "editorIndentGuide.activeBackground": "#999ca280",

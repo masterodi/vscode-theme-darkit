@@ -4,7 +4,7 @@
     "description": "A dark theme.",
     "type": "module",
     "publisher": "mrheio",
-    "version": "1.0.4",
+    "version": "1.1.0",
     "engines": {
         "vscode": "^1.69.0"
     },
@@ -17,6 +17,11 @@
                 "label": "Darkit",
                 "uiTheme": "vs-dark",
                 "path": "./themes/Darkit-color-theme.json"
+            },
+            {
+                "label": "DarkitII",
+                "uiTheme": "vs-dark",
+                "path": "./themes/DarkitII-color-theme.json"
             }
         ]
     },

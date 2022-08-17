@@ -364,6 +364,32 @@ const magenta = generatePalette(baseMagenta);
 const black = chroma('#000000');
 const white = chroma('#ffffff');
 
+const fieryRose = {
+    50: '#FFFFFF',
+    100: '#FFFBFC',
+    200: '#FFD2DA',
+    300: '#FFAAB8',
+    400: '#FF8196',
+    500: '#FF5874',
+    600: '#FF2045',
+    700: '#E70027',
+    800: '#AF001D',
+    900: '#770014',
+};
+
+const vividGreen = {
+    50: '#FFFFFF',
+    100: '#FFFFFF',
+    200: '#DDFDE8',
+    300: '#B7FBCE',
+    400: '#90F8B3',
+    500: '#6AF699',
+    600: '#35F375',
+    700: '#0EE255',
+    800: '#0AAD41',
+    900: '#07782D',
+};
+
 const colors = {
     transparent,
     neutral,
@@ -402,6 +428,10 @@ const colors = {
     pink,
     rose,
     vividBlue,
+    white,
+    black,
+    fieryRose,
+    vividGreen,
 };
 
 export default colors;

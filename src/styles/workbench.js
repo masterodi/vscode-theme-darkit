@@ -148,7 +148,7 @@ const workbenchStyles = {
     'editor.findRangeHighlightBackground': colors.neutral[600].alpha(0.5),
     'editor.rangeHighlightBackground': colors.neutral[600].alpha(0.5),
     'editor.hoverHighlightBackground': colors.neutral[700].alpha(0.5),
-    'editor.wordHighlightBackground': colors.neutral[700].alpha(0.5),
+    'editor.wordHighlightBackground': colors.neutral[500].alpha(0.45),
     'editor.lineHighlightBackground': colors.neutral[700].alpha(0.5),
     'editorIndentGuide.background': colors.neutral[700].alpha(0.5),
     'editorIndentGuide.activeBackground': colors.neutral[400].alpha(0.5),
