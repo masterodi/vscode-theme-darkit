@@ -24,9 +24,10 @@ const themev2 = {
                 'entity.name.function',
                 'support.function',
                 'meta.function-call.generic',
+                'meta.method.declaration storage.type',
             ],
             settings: {
-                foreground: colors.teal[400],
+                foreground: colors.yaleBlue[400],
             },
         },
         {
@@ -47,7 +48,7 @@ const themev2 = {
                 'keyword.function',
             ],
             settings: {
-                foreground: colors.blue[400],
+                foreground: colors.indigo[400],
             },
         },
         {
@@ -61,21 +62,26 @@ const themev2 = {
                 'support.type',
             ],
             settings: {
-                foreground: colors.debianRed[400],
+                foreground: colors.rose[400],
             },
         },
         {
             name: 'Strings',
             scope: ['string'],
             settings: {
-                foreground: colors.dustyOrange[400],
+                foreground: colors.blizzardBlue[500],
             },
         },
         {
             name: 'Tags',
-            scope: ['entity.name.tag', 'support.type.property-name.json'],
+            scope: [
+                'entity.name.tag',
+                'support.type.property-name.json',
+                'variable.language.this',
+                'variable.language.super',
+            ],
             settings: {
-                foreground: colors.fieryRose[500],
+                foreground: colors.red[500],
             },
         },
         {
@@ -94,21 +100,21 @@ const themev2 = {
             name: 'Attribute name',
             scope: ['entity.other.attribute-name'],
             settings: {
-                foreground: colors.indigo[300],
+                foreground: colors.mikadoYellow[300],
             },
         },
         {
             name: 'Ids',
             scope: ['entity.other.attribute-name.id'],
             settings: {
-                foreground: colors.indigo[300],
+                foreground: colors.indigo[400],
             },
         },
         {
             name: 'Constant',
             scope: ['support.constant', 'constant.language'],
             settings: {
-                foreground: colors.amber[300],
+                foreground: colors.orange[400],
             },
         },
         {
@@ -143,7 +149,7 @@ const themev2 = {
                 'meta.property-list entity.name.tag',
             ],
             settings: {
-                foreground: colors.cyan[300],
+                foreground: colors.blizzardBlue[500],
             },
         },
     ],

@@ -190,10 +190,11 @@
             "scope": [
                 "entity.name.function",
                 "support.function",
-                "meta.function-call.generic"
+                "meta.function-call.generic",
+                "meta.method.declaration storage.type"
             ],
             "settings": {
-                "foreground": "#2dd4bf"
+                "foreground": "#53a5ff"
             }
         },
         {
@@ -216,7 +217,7 @@
                 "keyword.function"
             ],
             "settings": {
-                "foreground": "#60a5fa"
+                "foreground": "#818cf8"
             }
         },
         {
@@ -230,7 +231,7 @@
                 "support.type"
             ],
             "settings": {
-                "foreground": "#ff487d"
+                "foreground": "#FF4090"
             }
         },
         {
@@ -239,17 +240,19 @@
                 "string"
             ],
             "settings": {
-                "foreground": "#ffa361"
+                "foreground": "#8eebec"
             }
         },
         {
             "name": "Tags",
             "scope": [
                 "entity.name.tag",
-                "support.type.property-name.json"
+                "support.type.property-name.json",
+                "variable.language.this",
+                "variable.language.super"
             ],
             "settings": {
-                "foreground": "#FF5874"
+                "foreground": "#ef4444"
             }
         },
         {
@@ -270,7 +273,7 @@
                 "entity.other.attribute-name"
             ],
             "settings": {
-                "foreground": "#a5b4fc"
+                "foreground": "#ffff63"
             }
         },
         {
@@ -279,7 +282,7 @@
                 "entity.other.attribute-name.id"
             ],
             "settings": {
-                "foreground": "#a5b4fc"
+                "foreground": "#818cf8"
             }
         },
         {
@@ -289,7 +292,7 @@
                 "constant.language"
             ],
             "settings": {
-                "foreground": "#fcd34d"
+                "foreground": "#fb923c"
             }
         },
         {
@@ -328,7 +331,7 @@
                 "meta.property-list entity.name.tag"
             ],
             "settings": {
-                "foreground": "#67e8f9"
+                "foreground": "#8eebec"
             }
         }
     ]
