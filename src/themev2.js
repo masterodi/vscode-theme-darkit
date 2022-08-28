@@ -1,4 +1,4 @@
-import colors from './colors.js';
+import colors, { clrs } from './colors.js';
 import { workbenchStyles } from './styles/index.js';
 
 const themev2 = {
@@ -44,7 +44,7 @@ const themev2 = {
                 'variable.language',
                 'keyword.operator.expression',
                 'keyword.operator.new',
-                'variable.parameter.function.language.special.self',
+
                 'keyword.function',
             ],
             settings: {
@@ -62,7 +62,7 @@ const themev2 = {
                 'support.type',
             ],
             settings: {
-                foreground: colors.rose[400],
+                foreground: clrs.radialRed[500],
             },
         },
         {
@@ -79,9 +79,10 @@ const themev2 = {
                 'support.type.property-name.json',
                 'variable.language.this',
                 'variable.language.super',
+                'variable.parameter.function.language.special.self',
             ],
             settings: {
-                foreground: colors.red[500],
+                foreground: clrs.weirdGreen[500],
             },
         },
         {
@@ -100,7 +101,7 @@ const themev2 = {
             name: 'Attribute name',
             scope: ['entity.other.attribute-name'],
             settings: {
-                foreground: colors.mikadoYellow[300],
+                foreground: colors.lime[400],
             },
         },
         {

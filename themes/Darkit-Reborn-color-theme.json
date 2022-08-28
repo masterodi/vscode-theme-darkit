@@ -213,7 +213,6 @@
                 "variable.language",
                 "keyword.operator.expression",
                 "keyword.operator.new",
-                "variable.parameter.function.language.special.self",
                 "keyword.function"
             ],
             "settings": {
@@ -231,7 +230,7 @@
                 "support.type"
             ],
             "settings": {
-                "foreground": "#FF4090"
+                "foreground": "#F92672"
             }
         },
         {
@@ -249,10 +248,11 @@
                 "entity.name.tag",
                 "support.type.property-name.json",
                 "variable.language.this",
-                "variable.language.super"
+                "variable.language.super",
+                "variable.parameter.function.language.special.self"
             ],
             "settings": {
-                "foreground": "#ef4444"
+                "foreground": "#2BE98A"
             }
         },
         {
@@ -273,7 +273,7 @@
                 "entity.other.attribute-name"
             ],
             "settings": {
-                "foreground": "#ffff63"
+                "foreground": "#a3e635"
             }
         },
         {

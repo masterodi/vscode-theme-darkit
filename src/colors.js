@@ -434,4 +434,71 @@ const colors = {
     vividGreen,
 };
 
+const radialRed = {
+    50: '#FED9E6',
+    100: '#FDC5D9',
+    200: '#FC9DBF',
+    300: '#FB75A6',
+    400: '#FA4E8C',
+    500: '#F92672',
+    600: '#E10655',
+    700: '#AA0540',
+    800: '#74032C',
+    900: '#3D0217',
+};
+
+const lightBlue = {
+    50: '#FFFFFF',
+    100: '#EAFBFF',
+    200: '#C2F5FE',
+    300: '#9AEEFE',
+    400: '#71E7FD',
+    500: '#49E0FD',
+    600: '#12D7FC',
+    700: '#02B2D3',
+    800: '#02839C',
+    900: '#015464',
+};
+
+const weirdGreen = {
+    50: '#D1FAE6',
+    100: '#BFF8DC',
+    200: '#9AF5C7',
+    300: '#75F1B3',
+    400: '#50ED9E',
+    500: '#2BE98A',
+    600: '#15C76E',
+    700: '#0F9452',
+    800: '#0A6236',
+    900: '#052F1A',
+};
+
+export const clrs = {
+    slate,
+    gray,
+    zinc,
+    stone,
+    red,
+    orange,
+    yellow,
+    amber,
+    lime,
+    green,
+    emerald,
+    teal,
+    cyan,
+    sky,
+    blue,
+    indigo,
+    purple,
+    fuchsia,
+    pink,
+    rose,
+    white,
+    black,
+    radialRed,
+    lightBlue,
+    weirdGreen,
+};
+
 export default colors;
