@@ -101,7 +101,7 @@ const themev2 = {
             name: 'Attribute name',
             scope: ['entity.other.attribute-name'],
             settings: {
-                foreground: colors.lime[400],
+                foreground: colors.dustyOrange[400],
             },
         },
         {
@@ -115,7 +115,7 @@ const themev2 = {
             name: 'Constant',
             scope: ['support.constant', 'constant.language'],
             settings: {
-                foreground: colors.orange[400],
+                foreground: colors.dustyOrange[400],
             },
         },
         {
@@ -127,20 +127,14 @@ const themev2 = {
         },
         {
             name: 'Keyword operator',
-            scope: ['keyword.operator'],
-            settings: {
-                foreground: colors.indigo[300],
-            },
-        },
-        {
-            name: 'Keyword operator assignment',
             scope: [
+                'keyword.operator',
                 'keyword.operator.assignment',
                 'punctuation.accessor',
                 'punctuation.separator.key-value',
             ],
             settings: {
-                foreground: colors.debianRed[300],
+                foreground: colors.debianRed[400],
             },
         },
         {

@@ -273,7 +273,7 @@
                 "entity.other.attribute-name"
             ],
             "settings": {
-                "foreground": "#a3e635"
+                "foreground": "#ffa361"
             }
         },
         {
@@ -292,7 +292,7 @@
                 "constant.language"
             ],
             "settings": {
-                "foreground": "#fb923c"
+                "foreground": "#ffa361"
             }
         },
         {
@@ -307,21 +307,13 @@
         {
             "name": "Keyword operator",
             "scope": [
-                "keyword.operator"
-            ],
-            "settings": {
-                "foreground": "#a5b4fc"
-            }
-        },
-        {
-            "name": "Keyword operator assignment",
-            "scope": [
+                "keyword.operator",
                 "keyword.operator.assignment",
                 "punctuation.accessor",
                 "punctuation.separator.key-value"
             ],
             "settings": {
-                "foreground": "#ff6c9a"
+                "foreground": "#ff487d"
             }
         },
         {
