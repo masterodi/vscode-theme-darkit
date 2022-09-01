@@ -252,7 +252,7 @@
                 "variable.parameter.function.language.special.self"
             ],
             "settings": {
-                "foreground": "#2BE98A"
+                "foreground": "#f77fbe"
             }
         },
         {
@@ -273,7 +273,7 @@
                 "entity.other.attribute-name"
             ],
             "settings": {
-                "foreground": "#ffa361"
+                "foreground": "#56ffb6"
             }
         },
         {
@@ -292,7 +292,7 @@
                 "constant.language"
             ],
             "settings": {
-                "foreground": "#ffa361"
+                "foreground": "#fb923c"
             }
         },
         {
@@ -309,8 +309,7 @@
             "scope": [
                 "keyword.operator",
                 "keyword.operator.assignment",
-                "punctuation.accessor",
-                "punctuation.separator.key-value"
+                "punctuation.accessor"
             ],
             "settings": {
                 "foreground": "#ff487d"
@@ -323,7 +322,7 @@
                 "meta.property-list entity.name.tag"
             ],
             "settings": {
-                "foreground": "#8eebec"
+                "foreground": "#F92672"
             }
         }
     ]

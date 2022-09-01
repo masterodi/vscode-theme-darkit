@@ -82,7 +82,7 @@ const themev2 = {
                 'variable.parameter.function.language.special.self',
             ],
             settings: {
-                foreground: clrs.weirdGreen[500],
+                foreground: colors.lavenderPink[500],
             },
         },
         {
@@ -101,7 +101,7 @@ const themev2 = {
             name: 'Attribute name',
             scope: ['entity.other.attribute-name'],
             settings: {
-                foreground: colors.dustyOrange[400],
+                foreground: colors.tealishGreen[400],
             },
         },
         {
@@ -115,7 +115,7 @@ const themev2 = {
             name: 'Constant',
             scope: ['support.constant', 'constant.language'],
             settings: {
-                foreground: colors.dustyOrange[400],
+                foreground: colors.orange[400],
             },
         },
         {
@@ -131,7 +131,6 @@ const themev2 = {
                 'keyword.operator',
                 'keyword.operator.assignment',
                 'punctuation.accessor',
-                'punctuation.separator.key-value',
             ],
             settings: {
                 foreground: colors.debianRed[400],
@@ -144,7 +143,7 @@ const themev2 = {
                 'meta.property-list entity.name.tag',
             ],
             settings: {
-                foreground: colors.blizzardBlue[500],
+                foreground: clrs.radialRed[500],
             },
         },
     ],
