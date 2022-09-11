@@ -190,17 +190,17 @@
             "scope": [
                 "entity.name.function",
                 "support.function",
-                "meta.function-call.generic",
-                "meta.method.declaration storage.type"
+                "meta.function-call.generic"
             ],
             "settings": {
-                "foreground": "#53a5ff"
+                "foreground": "#b0ec38"
             }
         },
         {
             "name": "Keywords | Keyword operator",
             "scope": [
-                "keyword"
+                "keyword",
+                "meta.method.declaration storage.type"
             ],
             "settings": {
                 "foreground": "#818cf8"

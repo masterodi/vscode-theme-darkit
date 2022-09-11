@@ -24,15 +24,14 @@ const themev2 = {
                 'entity.name.function',
                 'support.function',
                 'meta.function-call.generic',
-                'meta.method.declaration storage.type',
             ],
             settings: {
-                foreground: colors.yaleBlue[400],
+                foreground: '#b0ec38',
             },
         },
         {
             name: 'Keywords | Keyword operator',
-            scope: ['keyword'],
+            scope: ['keyword', 'meta.method.declaration storage.type'],
             settings: {
                 foreground: colors.indigo[400],
             },
