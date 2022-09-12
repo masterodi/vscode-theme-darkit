@@ -26,7 +26,7 @@ const themev2 = {
                 'meta.function-call.generic',
             ],
             settings: {
-                foreground: clrs.yellow[500],
+                foreground: clrs.purple[300],
             },
         },
         {
@@ -59,7 +59,7 @@ const themev2 = {
                 'support.type',
             ],
             settings: {
-                foreground: clrs.blue[300],
+                foreground: clrs.blizzardBlue[500],
             },
         },
         {
@@ -86,7 +86,7 @@ const themev2 = {
                 'variable.parameter.function.language.special.self',
             ],
             settings: {
-                foreground: clrs.blue[400],
+                foreground: clrs.red[300],
             },
         },
         {
@@ -105,28 +105,28 @@ const themev2 = {
             name: 'Attribute name',
             scope: ['entity.other.attribute-name'],
             settings: {
-                foreground: clrs.purple[400],
+                foreground: clrs.zinc[400],
             },
         },
         {
             name: 'Ids',
             scope: ['entity.other.attribute-name.id'],
             settings: {
-                foreground: clrs.kiwi[400],
+                foreground: clrs.kiwi[500],
             },
         },
         {
             name: 'Constant',
             scope: ['support.constant', 'constant.language'],
             settings: {
-                foreground: clrs.radialRed[500],
+                foreground: clrs.vividGreen[500],
             },
         },
         {
             name: 'Numeric constant',
             scope: ['constant.numeric'],
             settings: {
-                foreground: clrs.orange[500],
+                foreground: clrs.vividGreen[500],
             },
         },
         {
@@ -137,7 +137,7 @@ const themev2 = {
                 'punctuation.accessor',
             ],
             settings: {
-                foreground: clrs.celeste[500],
+                foreground: clrs.radialRed[500],
             },
         },
         {
@@ -147,7 +147,7 @@ const themev2 = {
                 'meta.property-list entity.name.tag',
             ],
             settings: {
-                foreground: clrs.slate[300],
+                foreground: clrs.blue[300],
             },
         },
     ],

@@ -193,7 +193,7 @@
                 "meta.function-call.generic"
             ],
             "settings": {
-                "foreground": "#FFEB38"
+                "foreground": "#d8b4fe"
             }
         },
         {
@@ -229,7 +229,7 @@
                 "support.type"
             ],
             "settings": {
-                "foreground": "#93c5fd"
+                "foreground": "#8eebec"
             }
         },
         {
@@ -260,7 +260,7 @@
                 "variable.parameter.function.language.special.self"
             ],
             "settings": {
-                "foreground": "#60a5fa"
+                "foreground": "#FF5277"
             }
         },
         {
@@ -281,7 +281,7 @@
                 "entity.other.attribute-name"
             ],
             "settings": {
-                "foreground": "#c084fc"
+                "foreground": "#a1a1aa"
             }
         },
         {
@@ -290,7 +290,7 @@
                 "entity.other.attribute-name.id"
             ],
             "settings": {
-                "foreground": "#B0F269"
+                "foreground": "#B0EC38"
             }
         },
         {
@@ -300,7 +300,7 @@
                 "constant.language"
             ],
             "settings": {
-                "foreground": "#F92672"
+                "foreground": "#6AF699"
             }
         },
         {
@@ -309,7 +309,7 @@
                 "constant.numeric"
             ],
             "settings": {
-                "foreground": "#FF9A26"
+                "foreground": "#6AF699"
             }
         },
         {
@@ -320,7 +320,7 @@
                 "punctuation.accessor"
             ],
             "settings": {
-                "foreground": "#63F1EE"
+                "foreground": "#F92672"
             }
         },
         {
@@ -330,7 +330,7 @@
                 "meta.property-list entity.name.tag"
             ],
             "settings": {
-                "foreground": "#cbd5e1"
+                "foreground": "#93c5fd"
             }
         }
     ]
