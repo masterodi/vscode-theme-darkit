@@ -26,14 +26,14 @@ const themev2 = {
                 'meta.function-call.generic',
             ],
             settings: {
-                foreground: clrs.violet[300],
+                foreground: clrs.yellow[500],
             },
         },
         {
             name: 'Keywords | Keyword operator',
             scope: ['keyword', 'meta.method.declaration storage.type'],
             settings: {
-                foreground: clrs.radialRed[500],
+                foreground: clrs.indigo[400],
             },
         },
         {
@@ -46,7 +46,7 @@ const themev2 = {
                 'keyword.function',
             ],
             settings: {
-                foreground: clrs.radialRed[500],
+                foreground: clrs.indigo[400],
             },
         },
         {
@@ -59,14 +59,14 @@ const themev2 = {
                 'support.type',
             ],
             settings: {
-                foreground: clrs.celeste[500],
+                foreground: clrs.blue[300],
             },
         },
         {
             name: 'Primitives',
             scope: ['support.type.primitive'],
             settings: {
-                foreground: clrs.red[500],
+                foreground: clrs.red[300],
             },
         },
         {
@@ -105,7 +105,7 @@ const themev2 = {
             name: 'Attribute name',
             scope: ['entity.other.attribute-name'],
             settings: {
-                foreground: clrs.slate[400],
+                foreground: clrs.purple[400],
             },
         },
         {
@@ -119,14 +119,14 @@ const themev2 = {
             name: 'Constant',
             scope: ['support.constant', 'constant.language'],
             settings: {
-                foreground: clrs.yellow[400],
+                foreground: clrs.radialRed[500],
             },
         },
         {
             name: 'Numeric constant',
             scope: ['constant.numeric'],
             settings: {
-                foreground: clrs.yellow[400],
+                foreground: clrs.orange[500],
             },
         },
         {
@@ -137,7 +137,7 @@ const themev2 = {
                 'punctuation.accessor',
             ],
             settings: {
-                foreground: clrs.indigo[400],
+                foreground: clrs.celeste[500],
             },
         },
         {

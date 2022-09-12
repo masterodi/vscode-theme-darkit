@@ -193,7 +193,7 @@
                 "meta.function-call.generic"
             ],
             "settings": {
-                "foreground": "#c4b5fd"
+                "foreground": "#FFEB38"
             }
         },
         {
@@ -203,7 +203,7 @@
                 "meta.method.declaration storage.type"
             ],
             "settings": {
-                "foreground": "#F92672"
+                "foreground": "#818cf8"
             }
         },
         {
@@ -216,7 +216,7 @@
                 "keyword.function"
             ],
             "settings": {
-                "foreground": "#F92672"
+                "foreground": "#818cf8"
             }
         },
         {
@@ -229,7 +229,7 @@
                 "support.type"
             ],
             "settings": {
-                "foreground": "#63F1EE"
+                "foreground": "#93c5fd"
             }
         },
         {
@@ -238,7 +238,7 @@
                 "support.type.primitive"
             ],
             "settings": {
-                "foreground": "#FF0037"
+                "foreground": "#FF5277"
             }
         },
         {
@@ -281,7 +281,7 @@
                 "entity.other.attribute-name"
             ],
             "settings": {
-                "foreground": "#94a3b8"
+                "foreground": "#c084fc"
             }
         },
         {
@@ -300,7 +300,7 @@
                 "constant.language"
             ],
             "settings": {
-                "foreground": "#FFFF73"
+                "foreground": "#F92672"
             }
         },
         {
@@ -309,7 +309,7 @@
                 "constant.numeric"
             ],
             "settings": {
-                "foreground": "#FFFF73"
+                "foreground": "#FF9A26"
             }
         },
         {
@@ -320,7 +320,7 @@
                 "punctuation.accessor"
             ],
             "settings": {
-                "foreground": "#818cf8"
+                "foreground": "#63F1EE"
             }
         },
         {
