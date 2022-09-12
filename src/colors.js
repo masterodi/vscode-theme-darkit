@@ -81,29 +81,29 @@ const stone = {
 };
 
 const red = {
-    50: '#fef2f2',
-    100: '#fee2e2',
-    200: '#fecaca',
-    300: '#fca5a5',
-    400: '#f87171',
-    500: '#ef4444',
-    600: '#dc2626',
-    700: '#b91c1c',
-    800: '#991b1b',
-    900: '#7f1d1d',
+    50: '#FFB8C7',
+    100: '#FFA3B7',
+    200: '#FF7A97',
+    300: '#FF5277',
+    400: '#FF2957',
+    500: '#FF0037',
+    600: '#C7002B',
+    700: '#8F001F',
+    800: '#570013',
+    900: '#1F0007',
 };
 
 const orange = {
-    50: '#fff7ed',
-    100: '#ffedd5',
-    200: '#fed7aa',
-    300: '#fdba74',
-    400: '#fb923c',
-    500: '#f97316',
-    600: '#ea580c',
-    700: '#c2410c',
-    800: '#9a3412',
-    900: '#7c2d12',
+    50: '#FFEFDE',
+    100: '#FFE6C9',
+    200: '#FFD3A0',
+    300: '#FFC078',
+    400: '#FFAD4F',
+    500: '#FF9A26',
+    600: '#ED7F00',
+    700: '#B56100',
+    800: '#7D4300',
+    900: '#452500',
 };
 
 const amber = {
@@ -120,16 +120,16 @@ const amber = {
 };
 
 const yellow = {
-    50: '#fefce8',
-    100: '#fef9c3',
-    200: '#fef08a',
-    300: '#fde047',
-    400: '#facc15',
-    500: '#eab308',
-    600: '#ca8a04',
-    700: '#a16207',
-    800: '#854d0e',
-    900: '#713f12',
+    50: '#FFFFFF',
+    100: '#FFFFED',
+    200: '#FFFFC4',
+    300: '#FFFF9C',
+    400: '#FFFF73',
+    500: '#FFFF4A',
+    600: '#FFFF12',
+    700: '#D9D900',
+    800: '#A1A100',
+    900: '#696900',
 };
 
 const lime = {
@@ -460,7 +460,7 @@ const lightBlue = {
     900: '#015464',
 };
 
-const weirdGreen = {
+const aquaGreen = {
     50: '#D1FAE6',
     100: '#BFF8DC',
     200: '#9AF5C7',
@@ -473,7 +473,34 @@ const weirdGreen = {
     900: '#052F1A',
 };
 
+const kiwi = {
+    50: '#F5FDEC',
+    100: '#EBFCD9',
+    200: '#D7F9B4',
+    300: '#C4F58E',
+    400: '#B0F269',
+    500: '#9CEF43',
+    600: '#81E614',
+    700: '#64B30F',
+    800: '#477F0B',
+    900: '#2A4B06',
+};
+
+const celeste = {
+    50: '#FFFFFF',
+    100: '#F9FEFE',
+    200: '#D3FBFA',
+    300: '#AEF8F6',
+    400: '#88F4F2',
+    500: '#63F1EE',
+    600: '#30ECE8',
+    700: '#13D1CD',
+    800: '#0E9E9B',
+    900: '#0A6A68',
+};
+
 export const clrs = {
+    neutral,
     slate,
     gray,
     zinc,
@@ -494,11 +521,17 @@ export const clrs = {
     fuchsia,
     pink,
     rose,
+    violet,
     white,
     black,
     radialRed,
     lightBlue,
-    weirdGreen,
+    aquaGreen,
+    kiwi,
+    blizzardBlue,
+    tealishGreen,
+    celeste,
+    vividGreen,
 };
 
 export default colors;

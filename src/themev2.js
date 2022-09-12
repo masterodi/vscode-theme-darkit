@@ -1,4 +1,4 @@
-import colors, { clrs } from './colors.js';
+import { clrs } from './colors.js';
 import { workbenchStyles } from './styles/index.js';
 
 const themev2 = {
@@ -10,13 +10,13 @@ const themev2 = {
             name: 'Comments',
             scope: ['comment'],
             settings: {
-                foreground: colors.neutral[500],
+                foreground: clrs.neutral[500],
             },
         },
         {
             name: 'Variable',
             scope: ['variable'],
-            settings: { foreground: colors.neutral[200] },
+            settings: { foreground: clrs.neutral[100] },
         },
         {
             name: 'Functions',
@@ -26,14 +26,14 @@ const themev2 = {
                 'meta.function-call.generic',
             ],
             settings: {
-                foreground: '#b0ec38',
+                foreground: clrs.violet[300],
             },
         },
         {
             name: 'Keywords | Keyword operator',
             scope: ['keyword', 'meta.method.declaration storage.type'],
             settings: {
-                foreground: colors.indigo[400],
+                foreground: clrs.radialRed[500],
             },
         },
         {
@@ -43,11 +43,10 @@ const themev2 = {
                 'variable.language',
                 'keyword.operator.expression',
                 'keyword.operator.new',
-
                 'keyword.function',
             ],
             settings: {
-                foreground: colors.indigo[400],
+                foreground: clrs.radialRed[500],
             },
         },
         {
@@ -56,19 +55,25 @@ const themev2 = {
                 'support.class',
                 'entity.name.type',
                 'entity.other.inherited-class',
-                'support.type.primitive',
                 'entity.name.scope-resolution',
                 'support.type',
             ],
             settings: {
-                foreground: clrs.radialRed[500],
+                foreground: clrs.celeste[500],
+            },
+        },
+        {
+            name: 'Primitives',
+            scope: ['support.type.primitive'],
+            settings: {
+                foreground: clrs.red[500],
             },
         },
         {
             name: 'Strings',
             scope: ['string'],
             settings: {
-                foreground: colors.blizzardBlue[500],
+                foreground: clrs.tealishGreen[300],
             },
         },
         {
@@ -81,7 +86,7 @@ const themev2 = {
                 'variable.parameter.function.language.special.self',
             ],
             settings: {
-                foreground: colors.lavenderPink[500],
+                foreground: clrs.blue[400],
             },
         },
         {
@@ -93,35 +98,35 @@ const themev2 = {
                 'punctuation.definition.typeparameters.end',
             ],
             settings: {
-                foreground: colors.neutral[400],
+                foreground: clrs.neutral[400],
             },
         },
         {
             name: 'Attribute name',
             scope: ['entity.other.attribute-name'],
             settings: {
-                foreground: colors.tealishGreen[400],
+                foreground: clrs.slate[400],
             },
         },
         {
             name: 'Ids',
             scope: ['entity.other.attribute-name.id'],
             settings: {
-                foreground: colors.indigo[400],
+                foreground: clrs.kiwi[400],
             },
         },
         {
             name: 'Constant',
             scope: ['support.constant', 'constant.language'],
             settings: {
-                foreground: colors.orange[400],
+                foreground: clrs.yellow[400],
             },
         },
         {
             name: 'Numeric constant',
             scope: ['constant.numeric'],
             settings: {
-                foreground: colors.vividGreen[500],
+                foreground: clrs.yellow[400],
             },
         },
         {
@@ -132,7 +137,7 @@ const themev2 = {
                 'punctuation.accessor',
             ],
             settings: {
-                foreground: colors.debianRed[400],
+                foreground: clrs.indigo[400],
             },
         },
         {
@@ -142,7 +147,7 @@ const themev2 = {
                 'meta.property-list entity.name.tag',
             ],
             settings: {
-                foreground: clrs.radialRed[500],
+                foreground: clrs.slate[300],
             },
         },
     ],
