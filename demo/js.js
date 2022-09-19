@@ -1,4 +1,8 @@
-"use strict";
+const Something = () => {
+  return <div></div>;
+};
+
+("use strict");
 class Sale {
   constructor(price) {
     [this.decoratorsList, this.price] = [[], price];
