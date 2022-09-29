@@ -26,7 +26,7 @@ const edgeCasesStyles = [
         name: 'Shell variables prefixed with "$" (edge case)',
         scope: ['source.shell variable.other'],
         settings: {
-            foreground: colors.neutral[500],
+            foreground: colors.neutral[200],
         },
     },
     {
