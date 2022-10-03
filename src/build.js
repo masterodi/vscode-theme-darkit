@@ -2,6 +2,7 @@ import chroma from 'chroma-js';
 import { mkdir, writeFileSync } from 'fs';
 import theme from './theme.js';
 import themev2 from './themev2.js';
+import themev3 from './themev3.js';
 
 const changeColorsToHexAlphas = (theme) => {
     for (const [key, value] of Object.entries(theme)) {
@@ -26,5 +27,9 @@ mkdir('./themes', { recursive: true }, (err) => {
     writeFileSync(
         `./themes/${themev2.name}-color-theme.json`,
         parseTheme(themev2)
+    );
+    writeFileSync(
+        `./themes/${themev3.name}-color-theme.json`,
+        parseTheme(themev3)
     );
 });

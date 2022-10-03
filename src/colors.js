@@ -499,6 +499,19 @@ const celeste = {
     900: '#0A6A68',
 };
 
+const poloBlue = {
+    50: '#FFFFFF',
+    100: '#FBFCFD',
+    200: '#DDE9F2',
+    300: '#BFD7E7',
+    400: '#A2C4DC',
+    500: '#84B1D1',
+    600: '#5B97C2',
+    700: '#3E7BA7',
+    800: '#2F5D7E',
+    900: '#203F55',
+};
+
 export const clrs = {
     neutral,
     slate,
@@ -532,6 +545,7 @@ export const clrs = {
     tealishGreen,
     celeste,
     vividGreen,
+    poloBlue,
 };
 
 export default colors;

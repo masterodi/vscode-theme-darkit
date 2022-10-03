@@ -4,7 +4,7 @@
     "description": "A dark theme.",
     "type": "module",
     "publisher": "mrheio",
-    "version": "1.5.2",
+    "version": "1.6.0",
     "engines": {
         "vscode": "^1.69.0"
     },
@@ -13,6 +13,11 @@
     ],
     "contributes": {
         "themes": [
+            {
+                "label": "Darkit Knight",
+                "uiTheme": "vs-dark",
+                "path": "./themes/Darkit-Knight-color-theme.json"
+            },
             {
                 "label": "Darkit Reborn",
                 "uiTheme": "vs-dark",
