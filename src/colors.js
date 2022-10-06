@@ -512,6 +512,19 @@ const poloBlue = {
     900: '#203F55',
 };
 
+const lightCyan = {
+    50: '#FFFFFF',
+    100: '#FFFFFF',
+    200: '#F5FEFE',
+    300: '#CFFBFA',
+    400: '#AAF8F5',
+    500: '#84F5F1',
+    600: '#50F1EB',
+    700: '#1CEDE5',
+    800: '#10C1BB',
+    900: '#0B8D89',
+};
+
 export const clrs = {
     neutral,
     slate,
@@ -546,6 +559,7 @@ export const clrs = {
     celeste,
     vividGreen,
     poloBlue,
+    lightCyan,
 };
 
 export default colors;

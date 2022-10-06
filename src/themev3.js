@@ -1,4 +1,4 @@
-import { clrs } from './colors.js';
+import colors, { clrs } from './colors.js';
 import { workbenchStyles } from './styles/index.js';
 
 const themev3 = {
@@ -26,14 +26,14 @@ const themev3 = {
                 'meta.function-call.generic',
             ],
             settings: {
-                foreground: '#979ee8',
+                foreground: clrs.celeste[400],
             },
         },
         {
             name: 'Keywords | Keyword operator',
             scope: ['keyword', 'meta.method.declaration storage.type'],
             settings: {
-                foreground: clrs.celeste[800],
+                foreground: clrs.fuchsia[300],
             },
         },
         {
@@ -46,7 +46,7 @@ const themev3 = {
                 'keyword.function',
             ],
             settings: {
-                foreground: clrs.celeste[800],
+                foreground: clrs.fuchsia[300],
             },
         },
         {
@@ -59,7 +59,7 @@ const themev3 = {
                 'support.type',
             ],
             settings: {
-                foreground: '#90cbf5',
+                foreground: clrs.blue[400],
             },
         },
         {
@@ -70,14 +70,14 @@ const themev3 = {
                 'entity.other.attribute-name.pseudo-element',
             ],
             settings: {
-                foreground: clrs.red[200],
+                foreground: clrs.tealishGreen[300],
             },
         },
         {
             name: 'Strings',
             scope: ['string'],
             settings: {
-                foreground: clrs.tealishGreen[300],
+                foreground: clrs.indigo[300],
             },
         },
         {
@@ -91,7 +91,7 @@ const themev3 = {
                 'entity.name.tag.reference',
             ],
             settings: {
-                foreground: clrs.blizzardBlue[400],
+                foreground: colors.lavenderPink[500],
             },
         },
         {
@@ -103,14 +103,14 @@ const themev3 = {
                 'punctuation.definition.typeparameters.end',
             ],
             settings: {
-                foreground: clrs.blizzardBlue[600],
+                foreground: clrs.neutral[300],
             },
         },
         {
             name: 'Attribute name',
             scope: ['entity.other.attribute-name'],
             settings: {
-                foreground: clrs.poloBlue[600],
+                foreground: clrs.blue[200],
                 fontStyle: 'italic',
             },
         },
@@ -125,14 +125,14 @@ const themev3 = {
             name: 'Constant',
             scope: ['support.constant', 'constant.language'],
             settings: {
-                foreground: clrs.radialRed[400],
+                foreground: clrs.radialRed[500],
             },
         },
         {
             name: 'Numeric constant',
             scope: ['constant.numeric'],
             settings: {
-                foreground: clrs.radialRed[500],
+                foreground: clrs.tealishGreen[400],
             },
         },
         {
@@ -144,7 +144,7 @@ const themev3 = {
                 'punctuation.separator.key-value',
             ],
             settings: {
-                foreground: clrs.radialRed[600],
+                foreground: clrs.radialRed[500],
             },
         },
         {
@@ -167,7 +167,7 @@ const themev3 = {
                 'meta.object.member',
             ],
             settings: {
-                foreground: clrs.celeste[200],
+                foreground: clrs.indigo[200],
             },
         },
     ],
