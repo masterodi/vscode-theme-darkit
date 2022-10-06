@@ -319,7 +319,7 @@ const transparent = chroma('#000000').alpha(0);
 const baseNeutral = chroma('#777a80');
 const neutral = generatePalette(baseNeutral);
 
-const basePrimary = chroma('#04bd77');
+const basePrimary = chroma('#64748b');
 const primary = generatePalette(basePrimary);
 
 const baseSuccess = chroma('#10b981');

@@ -30,6 +30,14 @@ const themev3 = {
             },
         },
         {
+            name: 'Function parameter',
+            scope: ['variable.parameter'],
+            settings: {
+                foreground: colors.neutral[50],
+                fontStyle: 'italic',
+            },
+        },
+        {
             name: 'Keywords | Keyword operator',
             scope: ['keyword', 'meta.method.declaration storage.type'],
             settings: {
@@ -132,7 +140,7 @@ const themev3 = {
             name: 'Numeric constant',
             scope: ['constant.numeric'],
             settings: {
-                foreground: clrs.tealishGreen[400],
+                foreground: clrs.radialRed[500],
             },
         },
         {
@@ -168,6 +176,13 @@ const themev3 = {
             ],
             settings: {
                 foreground: clrs.indigo[200],
+            },
+        },
+        {
+            name: 'Variable other readwrite alias',
+            scope: ['variable.other.readwrite.alias'],
+            settings: {
+                foreground: clrs.tealishGreen[300],
             },
         },
     ],
