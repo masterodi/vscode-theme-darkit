@@ -254,7 +254,7 @@
                 "entity.other.attribute-name.pseudo-element"
             ],
             "settings": {
-                "foreground": "#FF527D"
+                "foreground": "#7AF8FF"
             }
         },
         {
@@ -281,7 +281,7 @@
             }
         },
         {
-            "Name": "Json key, Yaml key",
+            "name": "Json key, Yaml key",
             "scope": [
                 "support.type.property-name.json",
                 "source.yaml entity.name.tag"

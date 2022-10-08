@@ -72,7 +72,7 @@ const tokenColors = [
             'entity.other.attribute-name.pseudo-element',
         ],
         settings: {
-            foreground: colors.roseRed[400],
+            foreground: colors.cyan[200],
         },
     },
     {
@@ -97,7 +97,7 @@ const tokenColors = [
         },
     },
     {
-        Name: 'Json key, Yaml key',
+        name: 'Json key, Yaml key',
         scope: [
             'support.type.property-name.json',
             'source.yaml entity.name.tag',
