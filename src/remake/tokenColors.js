@@ -72,7 +72,7 @@ const tokenColors = [
             'entity.other.attribute-name.pseudo-element',
         ],
         settings: {
-            foreground: colors.roseRed[500],
+            foreground: colors.roseRed[400],
         },
     },
     {
@@ -181,7 +181,7 @@ const tokenColors = [
             'meta.object.member',
         ],
         settings: {
-            foreground: colors.slate[400],
+            foreground: colors.darkBlue[100],
         },
     },
     {

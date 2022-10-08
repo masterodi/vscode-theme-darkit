@@ -37,6 +37,19 @@ const emerald = {
     900: '#064e3b',
 };
 
+const blueGreen = {
+    50: '#8CF5D9',
+    100: '#79F3D3',
+    200: '#53F0C6',
+    300: '#2EEDBA',
+    400: '#13DFA8',
+    500: '#10B98C',
+    600: '#0C8565',
+    700: '#07523E',
+    800: '#031E17',
+    900: '#000000',
+};
+
 const indigo = {
     50: '#eef2ff',
     100: '#e0e7ff',
@@ -225,6 +238,7 @@ const colors = {
     redOrange,
     greenYellow,
     lightBlue,
+    blueGreen,
     transparent,
 };
 

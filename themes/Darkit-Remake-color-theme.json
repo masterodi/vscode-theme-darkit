@@ -1,6 +1,7 @@
 {
     "name": "Darkit Remake",
     "colors": {
+        "background": "#181B25",
         "foreground": "#e2e8f0",
         "focusBorder": "#64748b",
         "widget.shadow": "#0f172a",
@@ -33,7 +34,7 @@
         "listFilterWidget.noMatchesOutline": "#ef4444",
         "listFilterWidget.outline": "#00000000",
         "list.warningForeground": "#fdba74",
-        "list.errorForeground": "#FF295E",
+        "list.errorForeground": "#FF527D",
         "tree.indentGuidesStroke": "#00000000",
         "statusBar.background": "#181B25",
         "statusBar.foreground": "#e2e8f0",
@@ -87,8 +88,8 @@
         "terminal.ansiBrightBlue": "#7AAFFF",
         "terminal.ansiCyan": "#23B1A3",
         "terminal.ansiBrightCyan": "#57DED0",
-        "terminal.ansiGreen": "#34d399",
-        "terminal.ansiBrightGreen": "#6ee7b7",
+        "terminal.ansiGreen": "#53F0C6",
+        "terminal.ansiBrightGreen": "#79F3D3",
         "terminal.ansiMagenta": "#c084fc",
         "terminal.ansiBrightMagenta": "#d8b4fe",
         "terminal.ansiRed": "#FF527D",
@@ -116,9 +117,10 @@
         "scrollbarSlider.hoverBackground": "#2D3243",
         "scrollbarSlider.activeBackground": "#2D3243",
         "scrollbar.shadow": "#0C0E12",
-        "editorWidget.background": "#12141C",
-        "editorWidget.foreground": "#64748b",
+        "editorWidget.background": "#2D3243",
+        "editorWidget.foreground": "#cbd5e1",
         "editorWidget.resizeBorder": "#7680A4",
+        "editorWidget.border": "#12141C",
         "debugToolBar.background": "#2D3243",
         "debugToolBar.border": "#12141C",
         "debugIcon.continueForeground": "#79E4DA",
@@ -138,7 +140,7 @@
         "gitDecoration.stageModifiedResourceForeground": "#fed7aa",
         "gitDecoration.stageDeletedResourceForeground": "#FF527D",
         "gitDecoration.untrackedResourceForeground": "#79E4DA",
-        "gitDecoration.ignoredResourceForeground": "#2D3243",
+        "gitDecoration.ignoredResourceForeground": "#505978",
         "editor.background": "#181B25",
         "editor.foreground": "#e2e8f0",
         "editorLineNumber.foreground": "#2D3243",
@@ -252,7 +254,7 @@
                 "entity.other.attribute-name.pseudo-element"
             ],
             "settings": {
-                "foreground": "#FF295E"
+                "foreground": "#FF527D"
             }
         },
         {
@@ -374,7 +376,7 @@
                 "meta.object.member"
             ],
             "settings": {
-                "foreground": "#94a3b8"
+                "foreground": "#A7AEC4"
             }
         },
         {
