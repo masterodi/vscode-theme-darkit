@@ -137,14 +137,14 @@ const tokenColors = [
         name: 'Constant',
         scope: ['support.constant', 'constant.language'],
         settings: {
-            foreground: colors.roseRed[400],
+            foreground: colors.cyan[200],
         },
     },
     {
         name: 'Numeric constant',
         scope: ['constant.numeric'],
         settings: {
-            foreground: colors.roseRed[400],
+            foreground: colors.cyan[200],
         },
     },
     {
@@ -161,7 +161,7 @@ const tokenColors = [
             'punctuation.separator.period',
         ],
         settings: {
-            foreground: colors.slate[400],
+            foreground: colors.slate[300],
         },
     },
     {

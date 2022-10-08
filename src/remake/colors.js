@@ -219,6 +219,19 @@ const greenYellow = {
     900: '#5D700A',
 };
 
+const cyan = {
+    50: '#B8FBFF',
+    100: '#A3FAFF',
+    200: '#7AF8FF',
+    300: '#52F6FF',
+    400: '#29F4FF',
+    500: '#00F2FF',
+    600: '#00BDC7',
+    700: '#00888F',
+    800: '#005257',
+    900: '#001D1F',
+};
+
 const transparent = '#00000000';
 
 const colors = {
@@ -239,6 +252,7 @@ const colors = {
     greenYellow,
     lightBlue,
     blueGreen,
+    cyan,
     transparent,
 };
 

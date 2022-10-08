@@ -328,7 +328,7 @@
                 "constant.language"
             ],
             "settings": {
-                "foreground": "#FF527D"
+                "foreground": "#7AF8FF"
             }
         },
         {
@@ -337,7 +337,7 @@
                 "constant.numeric"
             ],
             "settings": {
-                "foreground": "#FF527D"
+                "foreground": "#7AF8FF"
             }
         },
         {
@@ -354,7 +354,7 @@
                 "punctuation.separator.period"
             ],
             "settings": {
-                "foreground": "#94a3b8"
+                "foreground": "#cbd5e1"
             }
         },
         {
