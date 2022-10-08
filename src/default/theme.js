@@ -17,7 +17,7 @@ import {
     workbenchStyles,
 } from './styles/index.js';
 
-const theme = {
+const darkitTheme = {
     name: 'Darkit',
     colors: workbenchStyles,
     tokenColors: [
@@ -40,4 +40,4 @@ const theme = {
     semanticHighlighting: true,
 };
 
-export default theme;
+export default darkitTheme;
