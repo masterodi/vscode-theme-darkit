@@ -85,6 +85,14 @@ const tokenColors = [
         },
     },
     {
+        name: 'String regex',
+        scope: ['string.regexp'],
+        settings: {
+            foreground: colors.indigo[300],
+            fontStyle: 'italic',
+        },
+    },
+    {
         name: 'Tags',
         scope: [
             'entity.name.tag',
