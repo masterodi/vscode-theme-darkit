@@ -19,9 +19,6 @@ jobs:
 
       - name: Install the dependencies
         run: npm i
-        
-      - name: Build theme
-        run: npm run build
 
       - name: Install vsce
         run: npm i -g vsce
