@@ -27,7 +27,8 @@
         ]
     },
     "scripts": {
-        "build": "nodemon ./src/build.js"
+        "dev": "nodemon ./src/build.js",
+        "build": "node ./src/build.js"
     },
     "nodemonConfig": {
         "ignore": [
