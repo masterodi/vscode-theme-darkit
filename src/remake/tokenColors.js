@@ -19,6 +19,8 @@ const tokenColors = [
             'entity.name.function',
             'support.function',
             'meta.function-call.generic',
+            'variable.other.constant.object.ts',
+            'variable.other.constant.object.tsx',
         ],
         settings: {
             foreground: colors.redOrange[200],
