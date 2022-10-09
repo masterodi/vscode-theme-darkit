@@ -269,6 +269,16 @@
             }
         },
         {
+            "name": "Strings regex",
+            "scope": [
+                "string.regexp"
+            ],
+            "settings": {
+                "foreground": "#a5b4fc",
+                "fontStyle": "italic"
+            }
+        },
+        {
             "name": "Tags",
             "scope": [
                 "entity.name.tag",
