@@ -171,7 +171,7 @@ const tokenColors = [
             'punctuation.separator.period',
         ],
         settings: {
-            foreground: colors.slate[300],
+            foreground: colors.blue[300],
         },
     },
     {
@@ -191,7 +191,7 @@ const tokenColors = [
             'meta.object.member',
         ],
         settings: {
-            foreground: colors.darkBlue[100],
+            foreground: colors.lightBlue[300],
         },
     },
     {

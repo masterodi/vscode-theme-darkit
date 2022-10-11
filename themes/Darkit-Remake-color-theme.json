@@ -269,7 +269,7 @@
             }
         },
         {
-            "name": "Strings regex",
+            "name": "String regex",
             "scope": [
                 "string.regexp"
             ],
@@ -388,7 +388,7 @@
                 "meta.object.member"
             ],
             "settings": {
-                "foreground": "#A7AEC4"
+                "foreground": "#B3E6F8"
             }
         },
         {
