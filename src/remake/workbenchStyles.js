@@ -1,7 +1,6 @@
 import colors from './colors.js';
 
 const workbenchStyles = {
-    background: colors.darkBlue[700],
     foreground: colors.slate[200],
     focusBorder: colors.slate[500],
     'widget.shadow': colors.slate[900],

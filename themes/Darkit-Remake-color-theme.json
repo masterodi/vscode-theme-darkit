@@ -1,7 +1,6 @@
 {
     "name": "Darkit Remake",
     "colors": {
-        "background": "#181B25",
         "foreground": "#e2e8f0",
         "focusBorder": "#64748b",
         "widget.shadow": "#0f172a",
