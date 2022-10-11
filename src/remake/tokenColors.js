@@ -191,7 +191,7 @@ const tokenColors = [
             'meta.object.member',
         ],
         settings: {
-            foreground: colors.lightBlue[300],
+            foreground: colors.slate[50],
         },
     },
     {
