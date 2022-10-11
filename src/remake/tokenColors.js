@@ -21,6 +21,7 @@ const tokenColors = [
             'meta.function-call.generic',
             'variable.other.constant.object.ts',
             'variable.other.constant.object.tsx',
+            'support.function.magic',
         ],
         settings: {
             foreground: colors.redOrange[200],
@@ -184,7 +185,6 @@ const tokenColors = [
     {
         name: 'Variable other property',
         scope: [
-            'support.function.magic',
             'support.variable',
             'variable.other.predefined',
             'variable.other.property',

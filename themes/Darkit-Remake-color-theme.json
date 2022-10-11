@@ -196,7 +196,8 @@
                 "support.function",
                 "meta.function-call.generic",
                 "variable.other.constant.object.ts",
-                "variable.other.constant.object.tsx"
+                "variable.other.constant.object.tsx",
+                "support.function.magic"
             ],
             "settings": {
                 "foreground": "#FFAFA3"
@@ -380,7 +381,6 @@
         {
             "name": "Variable other property",
             "scope": [
-                "support.function.magic",
                 "support.variable",
                 "variable.other.predefined",
                 "variable.other.property",
