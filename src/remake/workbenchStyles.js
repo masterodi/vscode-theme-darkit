@@ -146,7 +146,7 @@ const workbenchStyles = {
     'editorLineNumber.activeForeground': colors.darkBlue[300],
     'editorCursor.foreground': colors.darkBlue[50],
     'editorCursor.background': colors.darkBlue[50],
-    'editor.selectionBackground': colors.darkBlue[600],
+    'editor.selectionBackground': colors.darkBlue[500],
     'editor.inactiveSelectionBackground': colors.darkBlue[700],
     'editor.selectionHighlightBackground': colors.transparent,
     'editor.findMatchBackground': colors.darkBlue[500],
