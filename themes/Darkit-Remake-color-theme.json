@@ -219,7 +219,7 @@
                 "meta.method.declaration storage.type"
             ],
             "settings": {
-                "foreground": "#a5b4fc"
+                "foreground": "#7496C3"
             }
         },
         {
@@ -232,7 +232,7 @@
                 "keyword.function"
             ],
             "settings": {
-                "foreground": "#a5b4fc"
+                "foreground": "#7496C3"
             }
         },
         {
@@ -245,7 +245,7 @@
                 "support.type"
             ],
             "settings": {
-                "foreground": "#fb7185"
+                "foreground": "#57DED0"
             }
         },
         {
@@ -265,7 +265,7 @@
                 "string"
             ],
             "settings": {
-                "foreground": "#6ee7b7"
+                "foreground": "#7AAFFF"
             }
         },
         {
@@ -299,7 +299,7 @@
                 "source.yaml entity.name.tag"
             ],
             "settings": {
-                "foreground": "#a5b4fc"
+                "foreground": "#FF7A9C"
             }
         },
         {
@@ -320,7 +320,7 @@
                 "entity.other.attribute-name"
             ],
             "settings": {
-                "foreground": "#7AAFFF",
+                "foreground": "#a7f3d0",
                 "fontStyle": "italic"
             }
         },
@@ -330,7 +330,7 @@
                 "entity.other.attribute-name.id"
             ],
             "settings": {
-                "foreground": "#6ee7b7"
+                "foreground": "#23B1A3"
             }
         },
         {
@@ -340,7 +340,7 @@
                 "constant.language"
             ],
             "settings": {
-                "foreground": "#7AF8FF"
+                "foreground": "#FF7A9C"
             }
         },
         {
@@ -349,7 +349,7 @@
                 "constant.numeric"
             ],
             "settings": {
-                "foreground": "#7AF8FF"
+                "foreground": "#FF7A9C"
             }
         },
         {
@@ -388,7 +388,7 @@
                 "meta.object.member"
             ],
             "settings": {
-                "foreground": "#BDF2ED"
+                "foreground": "#ADC1DC"
             }
         },
         {

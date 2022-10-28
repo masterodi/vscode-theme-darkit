@@ -4,7 +4,7 @@
     "description": "A dark theme.",
     "type": "module",
     "publisher": "mrheio",
-    "version": "2.3.0",
+    "version": "2.4.0",
     "icon": "icon.png",
     "engines": {
         "vscode": "^1.7.0"

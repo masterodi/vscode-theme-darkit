@@ -258,6 +258,19 @@ const purplePink = {
     900: '#640752',
 };
 
+const washedBlue = {
+    50: '#D8E1EE',
+    100: '#C9D7E8',
+    200: '#ADC1DC',
+    300: '#90ACD0',
+    400: '#7496C3',
+    500: '#5781B7',
+    600: '#406596',
+    700: '#2F4B6F',
+    800: '#1F3047',
+    900: '#0E1620',
+};
+
 const transparent = '#00000000';
 
 const colors = {
@@ -281,6 +294,7 @@ const colors = {
     blueGreen,
     cyan,
     purplePink,
+    washedBlue,
     transparent,
 };
 

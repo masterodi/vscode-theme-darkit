@@ -38,7 +38,7 @@ const tokenColors = [
         name: 'Keywords | Keyword operator',
         scope: ['keyword', 'meta.method.declaration storage.type'],
         settings: {
-            foreground: colors.indigo[300],
+            foreground: colors.washedBlue[400],
         },
     },
     {
@@ -51,7 +51,7 @@ const tokenColors = [
             'keyword.function',
         ],
         settings: {
-            foreground: colors.indigo[300],
+            foreground: colors.washedBlue[400],
         },
     },
     {
@@ -64,7 +64,7 @@ const tokenColors = [
             'support.type',
         ],
         settings: {
-            foreground: colors.rose[400],
+            foreground: colors.turquoise[400],
         },
     },
     {
@@ -82,7 +82,7 @@ const tokenColors = [
         name: 'Strings',
         scope: ['string'],
         settings: {
-            foreground: colors.emerald[300],
+            foreground: colors.blue[300],
         },
     },
     {
@@ -114,7 +114,7 @@ const tokenColors = [
             'source.yaml entity.name.tag',
         ],
         settings: {
-            foreground: colors.indigo[300],
+            foreground: colors.roseRed[300],
         },
     },
     {
@@ -133,7 +133,7 @@ const tokenColors = [
         name: 'Attribute name',
         scope: ['entity.other.attribute-name'],
         settings: {
-            foreground: colors.blue[300],
+            foreground: colors.emerald[200],
             fontStyle: 'italic',
         },
     },
@@ -141,21 +141,21 @@ const tokenColors = [
         name: 'Ids',
         scope: ['entity.other.attribute-name.id'],
         settings: {
-            foreground: colors.emerald[300],
+            foreground: colors.turquoise[600],
         },
     },
     {
         name: 'Constant',
         scope: ['support.constant', 'constant.language'],
         settings: {
-            foreground: colors.cyan[200],
+            foreground: colors.roseRed[300],
         },
     },
     {
         name: 'Numeric constant',
         scope: ['constant.numeric'],
         settings: {
-            foreground: colors.cyan[200],
+            foreground: colors.roseRed[300],
         },
     },
     {
@@ -192,7 +192,7 @@ const tokenColors = [
             'meta.object.member',
         ],
         settings: {
-            foreground: colors.turquoise[100],
+            foreground: colors.washedBlue[200],
         },
     },
     {
