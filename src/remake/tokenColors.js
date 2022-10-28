@@ -24,7 +24,7 @@ const tokenColors = [
             'support.function.magic',
         ],
         settings: {
-            foreground: colors.redOrange[200],
+            foreground: colors.purplePink[300],
         },
     },
     {
@@ -170,6 +170,7 @@ const tokenColors = [
             'punctuation.definition.variable',
             'punctuation.separator.colon',
             'punctuation.separator.period',
+            'punctuation.section',
         ],
         settings: {
             foreground: colors.blue[300],
@@ -191,7 +192,7 @@ const tokenColors = [
             'meta.object.member',
         ],
         settings: {
-            foreground: colors.slate[50],
+            foreground: colors.turquoise[100],
         },
     },
     {

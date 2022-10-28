@@ -232,6 +232,32 @@ const cyan = {
     900: '#001D1F',
 };
 
+const yellow = {
+    50: '#FDF9EE',
+    100: '#FCF3DC',
+    200: '#F8E6B6',
+    300: '#F4DA91',
+    400: '#F1CD6C',
+    500: '#EDC147',
+    600: '#E5AE16',
+    700: '#B28711',
+    800: '#7F610C',
+    900: '#4C3A07',
+};
+
+const purplePink = {
+    50: '#FFFFFF',
+    100: '#FEF1FB',
+    200: '#FBCBF2',
+    300: '#F9A4E8',
+    400: '#F67EDE',
+    500: '#F358D4',
+    600: '#F024C7',
+    700: '#CD0EA7',
+    800: '#990B7C',
+    900: '#640752',
+};
+
 const transparent = '#00000000';
 
 const colors = {
@@ -250,9 +276,11 @@ const colors = {
     roseRed,
     redOrange,
     greenYellow,
+    yellow,
     lightBlue,
     blueGreen,
     cyan,
+    purplePink,
     transparent,
 };
 

@@ -200,7 +200,7 @@
                 "support.function.magic"
             ],
             "settings": {
-                "foreground": "#FFAFA3"
+                "foreground": "#F9A4E8"
             }
         },
         {
@@ -363,7 +363,8 @@
                 "punctuation.separator.dictionary.key-value",
                 "punctuation.definition.variable",
                 "punctuation.separator.colon",
-                "punctuation.separator.period"
+                "punctuation.separator.period",
+                "punctuation.section"
             ],
             "settings": {
                 "foreground": "#7AAFFF"
@@ -387,7 +388,7 @@
                 "meta.object.member"
             ],
             "settings": {
-                "foreground": "#f8fafc"
+                "foreground": "#BDF2ED"
             }
         },
         {
