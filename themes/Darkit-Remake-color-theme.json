@@ -200,7 +200,7 @@
                 "support.function.magic"
             ],
             "settings": {
-                "foreground": "#F9A4E8"
+                "foreground": "#8EDAF5"
             }
         },
         {
@@ -219,7 +219,7 @@
                 "meta.method.declaration storage.type"
             ],
             "settings": {
-                "foreground": "#7496C3"
+                "foreground": "#7AAFFF"
             }
         },
         {
@@ -232,7 +232,7 @@
                 "keyword.function"
             ],
             "settings": {
-                "foreground": "#7496C3"
+                "foreground": "#7AAFFF"
             }
         },
         {
@@ -245,7 +245,7 @@
                 "support.type"
             ],
             "settings": {
-                "foreground": "#57DED0"
+                "foreground": "#c4b5fd"
             }
         },
         {
@@ -256,7 +256,7 @@
                 "entity.other.attribute-name.pseudo-element"
             ],
             "settings": {
-                "foreground": "#7AF8FF"
+                "foreground": "#818cf8"
             }
         },
         {
@@ -265,7 +265,7 @@
                 "string"
             ],
             "settings": {
-                "foreground": "#7AAFFF"
+                "foreground": "#68F7CA"
             }
         },
         {
@@ -289,7 +289,7 @@
                 "entity.name.tag.reference"
             ],
             "settings": {
-                "foreground": "#79E4DA"
+                "foreground": "#a78bfa"
             }
         },
         {
@@ -299,7 +299,7 @@
                 "source.yaml entity.name.tag"
             ],
             "settings": {
-                "foreground": "#FF7A9C"
+                "foreground": "#90ACD0"
             }
         },
         {
@@ -311,7 +311,7 @@
                 "punctuation.definition.typeparameters.end"
             ],
             "settings": {
-                "foreground": "#64748b"
+                "foreground": "#94a3b8"
             }
         },
         {
@@ -320,7 +320,7 @@
                 "entity.other.attribute-name"
             ],
             "settings": {
-                "foreground": "#a7f3d0",
+                "foreground": "#90ACD0",
                 "fontStyle": "italic"
             }
         },
@@ -330,7 +330,7 @@
                 "entity.other.attribute-name.id"
             ],
             "settings": {
-                "foreground": "#23B1A3"
+                "foreground": "#35D7C7"
             }
         },
         {
@@ -340,7 +340,7 @@
                 "constant.language"
             ],
             "settings": {
-                "foreground": "#FF7A9C"
+                "foreground": "#FF527D"
             }
         },
         {
@@ -349,7 +349,7 @@
                 "constant.numeric"
             ],
             "settings": {
-                "foreground": "#FF7A9C"
+                "foreground": "#FF527D"
             }
         },
         {
@@ -364,10 +364,11 @@
                 "punctuation.definition.variable",
                 "punctuation.separator.colon",
                 "punctuation.separator.period",
-                "punctuation.section"
+                "punctuation.section",
+                "keyword.other.unit"
             ],
             "settings": {
-                "foreground": "#7AAFFF"
+                "foreground": "#f8fafc"
             }
         },
         {
@@ -376,7 +377,7 @@
                 "source.css support.type.property-name"
             ],
             "settings": {
-                "foreground": "#A7AEC4"
+                "foreground": "#5781B7"
             }
         },
         {
@@ -388,7 +389,7 @@
                 "meta.object.member"
             ],
             "settings": {
-                "foreground": "#ADC1DC"
+                "foreground": "#C9D7E8"
             }
         },
         {
@@ -397,7 +398,7 @@
                 "variable.other.readwrite.alias"
             ],
             "settings": {
-                "foreground": "#9BEBE3"
+                "foreground": "#ADC1DC"
             }
         }
     ]

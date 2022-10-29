@@ -271,6 +271,19 @@ const washedBlue = {
     900: '#0E1620',
 };
 
+const aquamarine = {
+    50: '#FFFFFF',
+    100: '#FFFFFF',
+    200: '#DCFDF3',
+    300: '#B5FBE5',
+    400: '#8FF9D8',
+    500: '#68F7CA',
+    600: '#33F4B7',
+    700: '#0CE39F',
+    800: '#09AE7A',
+    900: '#067854',
+};
+
 const transparent = '#00000000';
 
 const colors = {
@@ -295,6 +308,7 @@ const colors = {
     cyan,
     purplePink,
     washedBlue,
+    aquamarine,
     transparent,
 };
 

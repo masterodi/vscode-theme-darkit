@@ -24,7 +24,7 @@ const tokenColors = [
             'support.function.magic',
         ],
         settings: {
-            foreground: colors.purplePink[300],
+            foreground: colors.lightBlue[400],
         },
     },
     {
@@ -38,7 +38,7 @@ const tokenColors = [
         name: 'Keywords | Keyword operator',
         scope: ['keyword', 'meta.method.declaration storage.type'],
         settings: {
-            foreground: colors.washedBlue[400],
+            foreground: colors.blue[300],
         },
     },
     {
@@ -51,7 +51,7 @@ const tokenColors = [
             'keyword.function',
         ],
         settings: {
-            foreground: colors.washedBlue[400],
+            foreground: colors.blue[300],
         },
     },
     {
@@ -64,7 +64,7 @@ const tokenColors = [
             'support.type',
         ],
         settings: {
-            foreground: colors.turquoise[400],
+            foreground: colors.violet[300],
         },
     },
     {
@@ -75,14 +75,14 @@ const tokenColors = [
             'entity.other.attribute-name.pseudo-element',
         ],
         settings: {
-            foreground: colors.cyan[200],
+            foreground: colors.indigo[400],
         },
     },
     {
         name: 'Strings',
         scope: ['string'],
         settings: {
-            foreground: colors.blue[300],
+            foreground: colors.aquamarine[500],
         },
     },
     {
@@ -104,7 +104,7 @@ const tokenColors = [
             'entity.name.tag.reference',
         ],
         settings: {
-            foreground: colors.turquoise[300],
+            foreground: colors.violet[400],
         },
     },
     {
@@ -114,7 +114,7 @@ const tokenColors = [
             'source.yaml entity.name.tag',
         ],
         settings: {
-            foreground: colors.roseRed[300],
+            foreground: colors.washedBlue[300],
         },
     },
     {
@@ -126,14 +126,14 @@ const tokenColors = [
             'punctuation.definition.typeparameters.end',
         ],
         settings: {
-            foreground: colors.slate[500],
+            foreground: colors.slate[400],
         },
     },
     {
         name: 'Attribute name',
         scope: ['entity.other.attribute-name'],
         settings: {
-            foreground: colors.emerald[200],
+            foreground: colors.washedBlue[300],
             fontStyle: 'italic',
         },
     },
@@ -141,21 +141,21 @@ const tokenColors = [
         name: 'Ids',
         scope: ['entity.other.attribute-name.id'],
         settings: {
-            foreground: colors.turquoise[600],
+            foreground: colors.turquoise[500],
         },
     },
     {
         name: 'Constant',
         scope: ['support.constant', 'constant.language'],
         settings: {
-            foreground: colors.roseRed[300],
+            foreground: colors.roseRed[400],
         },
     },
     {
         name: 'Numeric constant',
         scope: ['constant.numeric'],
         settings: {
-            foreground: colors.roseRed[300],
+            foreground: colors.roseRed[400],
         },
     },
     {
@@ -171,16 +171,17 @@ const tokenColors = [
             'punctuation.separator.colon',
             'punctuation.separator.period',
             'punctuation.section',
+            'keyword.other.unit',
         ],
         settings: {
-            foreground: colors.blue[300],
+            foreground: colors.slate[50],
         },
     },
     {
         name: 'CSS property name',
         scope: ['source.css support.type.property-name'],
         settings: {
-            foreground: colors.darkBlue[100],
+            foreground: colors.washedBlue[500],
         },
     },
     {
@@ -192,14 +193,14 @@ const tokenColors = [
             'meta.object.member',
         ],
         settings: {
-            foreground: colors.washedBlue[200],
+            foreground: colors.washedBlue[100],
         },
     },
     {
         name: 'Variable other readwrite alias',
         scope: ['variable.other.readwrite.alias'],
         settings: {
-            foreground: colors.turquoise[200],
+            foreground: colors.washedBlue[200],
         },
     },
 ];
