@@ -174,7 +174,7 @@ const tokenColors = [
             'keyword.other.unit',
         ],
         settings: {
-            foreground: colors.slate[50],
+            foreground: colors.aquamarine[300],
         },
     },
     {

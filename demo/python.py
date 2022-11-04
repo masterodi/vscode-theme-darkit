@@ -11,7 +11,7 @@ def topo(G, ind=None, Q=[1]):
         for i in G:
             if ind[i] == 0:
                 Q.append(i)
-    if len(Q) == 0:
+    if not len(Q) == 0:
         return
     v = Q.popleft()
     print(v)
