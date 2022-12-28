@@ -5,7 +5,7 @@ const tokenColors = [
         name: 'Comments',
         scope: ['comment'],
         settings: {
-            foreground: colors.slate[600],
+            foreground: colors.darkBlue[300],
         },
     },
     {
@@ -19,12 +19,10 @@ const tokenColors = [
             'entity.name.function',
             'support.function',
             'meta.function-call.generic',
-            'variable.other.constant.object.ts',
-            'variable.other.constant.object.tsx',
             'support.function.magic',
         ],
         settings: {
-            foreground: colors.lightBlue[400],
+            foreground: colors.washedBlue[200],
         },
     },
     {
@@ -38,7 +36,7 @@ const tokenColors = [
         name: 'Keywords | Keyword operator',
         scope: ['keyword', 'meta.method.declaration storage.type'],
         settings: {
-            foreground: colors.blue[300],
+            foreground: colors.aquamarine[300],
         },
     },
     {
@@ -51,7 +49,7 @@ const tokenColors = [
             'keyword.function',
         ],
         settings: {
-            foreground: colors.blue[300],
+            foreground: colors.aquamarine[300],
         },
     },
     {
@@ -64,7 +62,7 @@ const tokenColors = [
             'support.type',
         ],
         settings: {
-            foreground: colors.violet[300],
+            foreground: colors.blue[200],
         },
     },
     {
@@ -75,7 +73,7 @@ const tokenColors = [
             'entity.other.attribute-name.pseudo-element',
         ],
         settings: {
-            foreground: colors.indigo[400],
+            foreground: colors.roseRed[300],
         },
     },
     {
@@ -104,7 +102,7 @@ const tokenColors = [
             'entity.name.tag.reference',
         ],
         settings: {
-            foreground: colors.violet[400],
+            foreground: colors.blue[300],
         },
     },
     {
@@ -114,7 +112,7 @@ const tokenColors = [
             'source.yaml entity.name.tag',
         ],
         settings: {
-            foreground: colors.washedBlue[300],
+            foreground: colors.blue[200],
         },
     },
     {
@@ -126,14 +124,14 @@ const tokenColors = [
             'punctuation.definition.typeparameters.end',
         ],
         settings: {
-            foreground: colors.slate[400],
+            foreground: colors.blue[200],
         },
     },
     {
         name: 'Attribute name',
         scope: ['entity.other.attribute-name'],
         settings: {
-            foreground: colors.washedBlue[300],
+            foreground: colors.washedBlue[400],
             fontStyle: 'italic',
         },
     },
@@ -146,16 +144,20 @@ const tokenColors = [
     },
     {
         name: 'Constant',
-        scope: ['support.constant', 'constant.language'],
+        scope: [
+            'support.constant',
+            'constant.language',
+            'support.type.builtin',
+        ],
         settings: {
-            foreground: colors.roseRed[400],
+            foreground: colors.roseRed[300],
         },
     },
     {
         name: 'Numeric constant',
         scope: ['constant.numeric'],
         settings: {
-            foreground: colors.roseRed[400],
+            foreground: colors.roseRed[300],
         },
     },
     {
@@ -174,14 +176,14 @@ const tokenColors = [
             'keyword.other.unit',
         ],
         settings: {
-            foreground: colors.aquamarine[300],
+            foreground: colors.washedBlue[400],
         },
     },
     {
         name: 'CSS property name',
         scope: ['source.css support.type.property-name'],
         settings: {
-            foreground: colors.washedBlue[500],
+            foreground: colors.darkBlue[50],
         },
     },
     {
@@ -193,14 +195,21 @@ const tokenColors = [
             'meta.object.member',
         ],
         settings: {
-            foreground: colors.washedBlue[100],
+            foreground: colors.washedBlue[300],
         },
     },
     {
         name: 'Variable other readwrite alias',
         scope: ['variable.other.readwrite.alias'],
         settings: {
-            foreground: colors.washedBlue[200],
+            foreground: colors.washedBlue[100],
+        },
+    },
+    {
+        name: 'Variable other constant object',
+        scope: ['variable.other.constant.object'],
+        settings: {
+            foreground: colors.slate[300],
         },
     },
 ];

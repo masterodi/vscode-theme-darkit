@@ -177,7 +177,7 @@
                 "comment"
             ],
             "settings": {
-                "foreground": "#475569"
+                "foreground": "#7680A4"
             }
         },
         {
@@ -195,12 +195,10 @@
                 "entity.name.function",
                 "support.function",
                 "meta.function-call.generic",
-                "variable.other.constant.object.ts",
-                "variable.other.constant.object.tsx",
                 "support.function.magic"
             ],
             "settings": {
-                "foreground": "#8EDAF5"
+                "foreground": "#ADC1DC"
             }
         },
         {
@@ -219,7 +217,7 @@
                 "meta.method.declaration storage.type"
             ],
             "settings": {
-                "foreground": "#7AAFFF"
+                "foreground": "#B5FBE5"
             }
         },
         {
@@ -232,7 +230,7 @@
                 "keyword.function"
             ],
             "settings": {
-                "foreground": "#7AAFFF"
+                "foreground": "#B5FBE5"
             }
         },
         {
@@ -245,7 +243,7 @@
                 "support.type"
             ],
             "settings": {
-                "foreground": "#c4b5fd"
+                "foreground": "#A3C8FF"
             }
         },
         {
@@ -256,7 +254,7 @@
                 "entity.other.attribute-name.pseudo-element"
             ],
             "settings": {
-                "foreground": "#818cf8"
+                "foreground": "#FF7A9C"
             }
         },
         {
@@ -289,7 +287,7 @@
                 "entity.name.tag.reference"
             ],
             "settings": {
-                "foreground": "#a78bfa"
+                "foreground": "#7AAFFF"
             }
         },
         {
@@ -299,7 +297,7 @@
                 "source.yaml entity.name.tag"
             ],
             "settings": {
-                "foreground": "#90ACD0"
+                "foreground": "#A3C8FF"
             }
         },
         {
@@ -311,7 +309,7 @@
                 "punctuation.definition.typeparameters.end"
             ],
             "settings": {
-                "foreground": "#94a3b8"
+                "foreground": "#A3C8FF"
             }
         },
         {
@@ -320,7 +318,7 @@
                 "entity.other.attribute-name"
             ],
             "settings": {
-                "foreground": "#90ACD0",
+                "foreground": "#7496C3",
                 "fontStyle": "italic"
             }
         },
@@ -337,10 +335,11 @@
             "name": "Constant",
             "scope": [
                 "support.constant",
-                "constant.language"
+                "constant.language",
+                "support.type.builtin"
             ],
             "settings": {
-                "foreground": "#FF527D"
+                "foreground": "#FF7A9C"
             }
         },
         {
@@ -349,7 +348,7 @@
                 "constant.numeric"
             ],
             "settings": {
-                "foreground": "#FF527D"
+                "foreground": "#FF7A9C"
             }
         },
         {
@@ -368,7 +367,7 @@
                 "keyword.other.unit"
             ],
             "settings": {
-                "foreground": "#B5FBE5"
+                "foreground": "#7496C3"
             }
         },
         {
@@ -377,7 +376,7 @@
                 "source.css support.type.property-name"
             ],
             "settings": {
-                "foreground": "#5781B7"
+                "foreground": "#B3B9CC"
             }
         },
         {
@@ -389,7 +388,7 @@
                 "meta.object.member"
             ],
             "settings": {
-                "foreground": "#C9D7E8"
+                "foreground": "#90ACD0"
             }
         },
         {
@@ -398,7 +397,16 @@
                 "variable.other.readwrite.alias"
             ],
             "settings": {
-                "foreground": "#ADC1DC"
+                "foreground": "#C9D7E8"
+            }
+        },
+        {
+            "name": "Variable other constant object",
+            "scope": [
+                "variable.other.constant.object"
+            ],
+            "settings": {
+                "foreground": "#cbd5e1"
             }
         }
     ]
