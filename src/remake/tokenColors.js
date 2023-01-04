@@ -62,7 +62,7 @@ const tokenColors = [
             'support.type',
         ],
         settings: {
-            foreground: colors.purple[300],
+            foreground: colors.indigo[400],
         },
     },
     {
