@@ -22,7 +22,7 @@ const tokenColors = [
             'support.function.magic',
         ],
         settings: {
-            foreground: colors.washedBlue[200],
+            foreground: colors.blue[100],
         },
     },
     {
@@ -62,7 +62,7 @@ const tokenColors = [
             'support.type',
         ],
         settings: {
-            foreground: colors.blue[200],
+            foreground: colors.purple[300],
         },
     },
     {
@@ -176,7 +176,7 @@ const tokenColors = [
             'keyword.other.unit',
         ],
         settings: {
-            foreground: colors.washedBlue[400],
+            foreground: colors.cyan[100],
         },
     },
     {
@@ -195,14 +195,14 @@ const tokenColors = [
             'meta.object.member',
         ],
         settings: {
-            foreground: colors.washedBlue[300],
+            foreground: colors.slate[200],
         },
     },
     {
         name: 'Variable other readwrite alias',
         scope: ['variable.other.readwrite.alias'],
         settings: {
-            foreground: colors.washedBlue[100],
+            foreground: colors.washedBlue[200],
         },
     },
     {
