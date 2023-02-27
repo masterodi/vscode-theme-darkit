@@ -1,51 +1,51 @@
 {
-    "name": "darkit",
-    "displayName": "Darkit",
-    "description": "A dark theme.",
-    "type": "module",
-    "publisher": "mrheio",
-    "version": "3.3.0",
-    "icon": "icon.png",
-    "engines": {
-        "vscode": "^1.7.0"
-    },
-    "categories": [
-        "Themes"
-    ],
-    "contributes": {
-        "themes": [
-            {
-                "label": "Darkit Remake",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Darkit-Remake-color-theme.json"
-            },
-            {
-                "label": "Darkit",
-                "uiTheme": "vs-dark",
-                "path": "./themes/Darkit-color-theme.json"
-            }
-        ]
-    },
-    "scripts": {
-        "dev": "nodemon ./src/build.js",
-        "build": "node ./src/build.js"
-    },
-    "nodemonConfig": {
-        "ignore": [
-            "themes/*",
-            "build/*"
-        ]
-    },
-    "dependencies": {
-        "chroma-js": "^2.4.2",
-        "json-variables": "^11.0.19"
-    },
-    "devDependencies": {
-        "@two-beards/vscode-theme-builder": "^1.0.0",
-        "nodemon": "^2.0.19"
-    },
-    "repository": {
-        "type": "git",
-        "url": "https://github.com/mrheio/darkit"
-    }
+	"name": "darkit",
+	"displayName": "Darkit",
+	"description": "A dark theme.",
+	"type": "module",
+	"publisher": "mrheio",
+	"version": "3.4.0",
+	"icon": "icon.png",
+	"engines": {
+		"vscode": "^1.7.0"
+	},
+	"categories": [
+		"Themes"
+	],
+	"contributes": {
+		"themes": [
+			{
+				"label": "Darkit Remake",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Darkit-Remake-color-theme.json"
+			},
+			{
+				"label": "Darkit",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Darkit-color-theme.json"
+			}
+		]
+	},
+	"scripts": {
+		"dev": "nodemon ./src/build.js",
+		"build": "node ./src/build.js"
+	},
+	"nodemonConfig": {
+		"ignore": [
+			"themes/*",
+			"build/*"
+		]
+	},
+	"dependencies": {
+		"chroma-js": "^2.4.2",
+		"json-variables": "^11.0.19"
+	},
+	"devDependencies": {
+		"@two-beards/vscode-theme-builder": "^1.0.0",
+		"nodemon": "^2.0.19"
+	},
+	"repository": {
+		"type": "git",
+		"url": "https://github.com/mrheio/darkit"
+	}
 }
