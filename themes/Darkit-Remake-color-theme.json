@@ -207,6 +207,7 @@
                 "variable.parameter"
             ],
             "settings": {
+                "foreground": "#c7d2fe",
                 "fontStyle": "italic"
             }
         },
@@ -318,7 +319,7 @@
                 "entity.other.attribute-name"
             ],
             "settings": {
-                "foreground": "#7496C3",
+                "foreground": "#90ACD0",
                 "fontStyle": "italic"
             }
         },
@@ -394,10 +395,11 @@
         {
             "name": "Variable other readwrite alias",
             "scope": [
-                "variable.other.readwrite.alias"
+                "variable.other.readwrite.alias",
+                "entity.name.namespace"
             ],
             "settings": {
-                "foreground": "#ADC1DC"
+                "foreground": "#FFD3CC"
             }
         },
         {

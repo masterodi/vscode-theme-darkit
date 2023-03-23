@@ -29,6 +29,7 @@ const tokenColors = [
 		name: 'Function parameter',
 		scope: ['variable.parameter'],
 		settings: {
+			foreground: colors.indigo[200],
 			fontStyle: 'italic',
 		},
 	},
@@ -131,7 +132,7 @@ const tokenColors = [
 		name: 'Attribute name',
 		scope: ['entity.other.attribute-name'],
 		settings: {
-			foreground: colors.washedBlue[400],
+			foreground: colors.washedBlue[300],
 			fontStyle: 'italic',
 		},
 	},
@@ -200,9 +201,9 @@ const tokenColors = [
 	},
 	{
 		name: 'Variable other readwrite alias',
-		scope: ['variable.other.readwrite.alias'],
+		scope: ['variable.other.readwrite.alias', 'entity.name.namespace'],
 		settings: {
-			foreground: colors.washedBlue[200],
+			foreground: colors.redOrange[100],
 		},
 	},
 	{
