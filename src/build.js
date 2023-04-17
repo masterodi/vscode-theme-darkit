@@ -1,36 +1,33 @@
-import chroma from 'chroma-js';
-import { mkdir, writeFileSync } from 'fs';
-import darkitTheme from './default/theme.js';
-import darkitRemakeTheme from './remake/theme.js';
+import { mkdir, writeFile } from 'fs';
+import remakeTheme from './remake/theme.js';
+import yamiTheme from './yami/theme.js';
 
-const changeColorsToHexAlphas = (theme) => {
-    for (const [key, value] of Object.entries(theme)) {
-        if (typeof value === 'object') {
-            changeColorsToHexAlphas(value);
-        }
-        if (value?.hasOwnProperty('_rgb')) {
-            theme[key] = chroma(value).hex();
-        }
-    }
-    return theme;
+const THEMES_PATH = `${process.cwd()}/themes`;
+
+const buildThemes = (...themes) => {
+	mkdir(THEMES_PATH, { recursive: true }, (err) => {
+		if (err) {
+			console.log(err);
+			process.exit(1);
+		}
+
+		for (const theme of themes) {
+			const THEME_PATH = `${THEMES_PATH}/${theme.name.replaceAll(
+				' ',
+				'-'
+			)}-color-theme.json`;
+			writeFile(
+				THEME_PATH,
+				JSON.stringify(theme, undefined, 4),
+				(err) => {
+					if (err) {
+						console.log(err);
+						process.exit(1);
+					}
+				}
+			);
+		}
+	});
 };
 
-const parseTheme = (theme) =>
-    JSON.stringify(changeColorsToHexAlphas(theme), null, 4);
-
-const buildThemes = (themes) => {
-    mkdir('./themes', { recursive: true }, (err) => {
-        if (err) {
-            process.exit(1);
-        }
-
-        themes.forEach((theme) => {
-            writeFileSync(
-                `./themes/${theme.name.replaceAll(' ', '-')}-color-theme.json`,
-                parseTheme(theme)
-            );
-        });
-    });
-};
-
-buildThemes([darkitTheme, darkitRemakeTheme]);
+buildThemes(remakeTheme, yamiTheme);

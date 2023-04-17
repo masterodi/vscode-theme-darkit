@@ -15,6 +15,11 @@
 	"contributes": {
 		"themes": [
 			{
+				"label": "Darkit Yami",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Darkit-Yami-color-theme.json"
+			},
+			{
 				"label": "Darkit Remake",
 				"uiTheme": "vs-dark",
 				"path": "./themes/Darkit-Remake-color-theme.json"
