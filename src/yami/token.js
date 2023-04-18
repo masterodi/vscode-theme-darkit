@@ -5,14 +5,14 @@ const tokenColors = [
 		name: 'Comments',
 		scope: ['comment'],
 		settings: {
-			foreground: colors.gray,
+			foreground: colors.gray[400],
 		},
 	},
 	{
 		name: 'Variable',
-		scope: ['variable'],
+		scope: ['variable', 'text'],
 		settings: {
-			foreground: '#ffffff',
+			foreground: colors.white,
 		},
 	},
 	{
@@ -24,7 +24,7 @@ const tokenColors = [
 			'support.function.magic',
 		],
 		settings: {
-			foreground: '#a3faff',
+			foreground: '#8a9eff',
 		},
 	},
 	{
@@ -37,9 +37,7 @@ const tokenColors = [
 	{
 		name: 'Keywords | Keyword operator',
 		scope: ['keyword', 'meta.method.declaration storage.type'],
-		settings: {
-			foreground: '#8DBDFF',
-		},
+		settings: { foreground: colors.paleBlue[300] },
 	},
 	{
 		name: 'Storage (let, const, async, function, class, extends, ...) | Variable language | Keyword operator expression | Keyword operator new',
@@ -50,9 +48,7 @@ const tokenColors = [
 			'keyword.operator.new',
 			'keyword.function',
 		],
-		settings: {
-			foreground: '#8DBDFF',
-		},
+		settings: { foreground: colors.paleBlue[300] },
 	},
 	{
 		name: 'Classes',
@@ -64,7 +60,7 @@ const tokenColors = [
 			'support.type',
 		],
 		settings: {
-			foreground: '#ff73a6',
+			foreground: colors.teal[50],
 		},
 	},
 	{
@@ -75,19 +71,20 @@ const tokenColors = [
 			'entity.other.attribute-name.pseudo-element',
 		],
 		settings: {
-			foreground: colors.teal,
+			foreground: colors.pinkRed[400],
 		},
 	},
 	{
 		name: 'Strings',
 		scope: ['string'],
-		settings: { foreground: '#A493ff' },
+		settings: { foreground: colors.emerald[400] },
 	},
 	{
 		name: 'String regex',
 		scope: ['string.regexp'],
 		settings: {
-			fontStyle: 'italic',
+			foreground: colors.emerald[700],
+			fontStyle: 'bold',
 		},
 	},
 	{
@@ -101,7 +98,7 @@ const tokenColors = [
 			'entity.name.tag.reference',
 		],
 		settings: {
-			foreground: colors.lightRoseRed,
+			foreground: colors.teal[200],
 		},
 	},
 	{
@@ -110,7 +107,9 @@ const tokenColors = [
 			'support.type.property-name.json',
 			'source.yaml entity.name.tag',
 		],
-		settings: {},
+		settings: {
+			foreground: '#8a9eff',
+		},
 	},
 	{
 		name: 'Punctuation tag',
@@ -121,22 +120,29 @@ const tokenColors = [
 			'punctuation.definition.typeparameters.end',
 		],
 		settings: {
-			foreground: colors.gray,
+			foreground: colors.paleBlue[600],
 		},
 	},
 	{
 		name: 'Attribute name',
 		scope: ['entity.other.attribute-name'],
 		settings: {
-			foreground: colors.roseRed,
-			fontStyle: 'italic',
+			foreground: colors.paleBlue[200],
 		},
 	},
 	{
 		name: 'Ids',
 		scope: ['entity.other.attribute-name.id'],
 		settings: {
-			foreground: colors.lightIndigo,
+			foreground: colors.paleBlue[50],
+			fontStyle: 'italic',
+		},
+	},
+	{
+		name: 'CSS property name',
+		scope: ['source.css support.type.property-name'],
+		settings: {
+			foreground: colors.paleBlue[400],
 		},
 	},
 	{
@@ -147,14 +153,14 @@ const tokenColors = [
 			'support.type.builtin',
 		],
 		settings: {
-			foreground: colors.teal,
+			foreground: colors.pinkRed[500],
 		},
 	},
 	{
 		name: 'Numeric constant',
 		scope: ['constant.numeric'],
 		settings: {
-			foreground: colors.lightTeal,
+			foreground: colors.pinkRed[300],
 		},
 	},
 	{
@@ -173,14 +179,7 @@ const tokenColors = [
 			'keyword.other.unit',
 		],
 		settings: {
-			foreground: colors.roseRed,
-		},
-	},
-	{
-		name: 'CSS property name',
-		scope: ['source.css support.type.property-name'],
-		settings: {
-			foreground: colors.cyan,
+			foreground: colors.teal[300],
 		},
 	},
 	{
@@ -191,21 +190,21 @@ const tokenColors = [
 			'variable.other.property',
 			'meta.object.member',
 		],
-		settings: { foreground: '#d2e4fc' },
+		settings: {
+			foreground: colors.lightBlue[100],
+		},
 	},
 	{
 		name: 'Variable other readwrite alias',
 		scope: ['variable.other.readwrite.alias', 'entity.name.namespace'],
 		settings: {
-			foreground: '#e8d2fc',
+			foreground: colors.paleBlue[50],
 		},
 	},
 	{
 		name: 'Variable other constant object',
 		scope: ['variable.other.constant.object'],
-		settings: {
-			foreground: '#ffd4dc',
-		},
+		settings: {},
 	},
 ];
 

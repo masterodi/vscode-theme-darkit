@@ -4,7 +4,7 @@
 	"description": "A dark theme.",
 	"type": "module",
 	"publisher": "mrheio",
-	"version": "3.6.0",
+	"version": "3.6.1",
 	"icon": "icon.png",
 	"engines": {
 		"vscode": "^1.7.0"
@@ -37,16 +37,13 @@
 	},
 	"nodemonConfig": {
 		"ignore": [
-			"themes/*",
-			"build/*"
+			"themes/*"
 		]
 	},
 	"dependencies": {
-		"chroma-js": "^2.4.2",
-		"json-variables": "^11.0.19"
+		"color": "^4.2.3"
 	},
 	"devDependencies": {
-		"@two-beards/vscode-theme-builder": "^1.0.0",
 		"nodemon": "^2.0.19"
 	},
 	"repository": {

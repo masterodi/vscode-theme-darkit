@@ -37,6 +37,8 @@ console.log(sale.getPrice()); //112.88
 
 getPrice();
 
+const re = /ab+c/;
+
 //deeply nested
 
 async function asyncCall() {
