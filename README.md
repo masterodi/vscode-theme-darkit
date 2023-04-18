@@ -1,6 +1,6 @@
 # Darkit
 
-<b>`Darkit` is officialy deprecated and unmaintained. Please use `Darkit Remake`.</b>
+<!-- <b>`Darkit` is officialy deprecated and unmaintained. Please use `Darkit Remake`.</b> -->
 
 <br />
 
