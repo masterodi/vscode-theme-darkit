@@ -4,7 +4,7 @@
 	"description": "A dark theme.",
 	"type": "module",
 	"publisher": "mrheio",
-	"version": "3.6.2",
+	"version": "3.7.0",
 	"icon": "icon.png",
 	"engines": {
 		"vscode": "^1.7.0"
@@ -18,6 +18,11 @@
 				"label": "Darkit",
 				"uiTheme": "vs-dark",
 				"path": "./themes/Darkit-Remake-color-theme.json"
+			},
+			{
+				"label": "Darkit Yami",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Darkit-Yami-color-theme.json"
 			}
 		]
 	},

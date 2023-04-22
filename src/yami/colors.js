@@ -23,7 +23,7 @@ const white = '#fff';
 const black = '#000';
 
 const baseGray = Color('#777');
-const baseDarkGray = Color('#202020');
+const baseDarkGray = Color('#18181f');
 const baseTeal = Color('#24ffe8');
 const baseCyan = Color('#43e9f2');
 const basePinkRed = Color('#ff4d74');
@@ -31,6 +31,10 @@ const basePaleBlue = Color('#7883ad');
 const baseOrange = Color('#f78764');
 const baseLightBlue = Color('#54c9ff');
 const baseEmerald = Color('#4dffaf');
+const baseIndigo = Color('#694eed');
+const basePurpleBlue = Color('#4e53ed');
+const baseYellow = Color('#f9d949');
+const basePink = Color('#E384FF');
 
 const gray = generatePalette(baseGray);
 const darkGray = generatePalette(baseDarkGray);
@@ -41,6 +45,10 @@ const paleBlue = generatePalette(basePaleBlue);
 const orange = generatePalette(baseOrange);
 const lightBlue = generatePalette(baseLightBlue);
 const emerald = generatePalette(baseEmerald);
+const indigo = generatePalette(baseIndigo);
+const purpleBlue = generatePalette(basePurpleBlue);
+const yellow = generatePalette(baseYellow);
+const pink = generatePalette(basePink);
 
 const colors = {
 	transparent,
@@ -55,6 +63,10 @@ const colors = {
 	orange,
 	lightBlue,
 	emerald,
+	indigo,
+	purpleBlue,
+	yellow,
+	pink,
 };
 
 export default colors;

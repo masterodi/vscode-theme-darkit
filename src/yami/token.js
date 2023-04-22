@@ -24,7 +24,7 @@ const tokenColors = [
 			'support.function.magic',
 		],
 		settings: {
-			foreground: '#8a9eff',
+			foreground: colors.indigo[300],
 		},
 	},
 	{
@@ -37,7 +37,7 @@ const tokenColors = [
 	{
 		name: 'Keywords | Keyword operator',
 		scope: ['keyword', 'meta.method.declaration storage.type'],
-		settings: { foreground: colors.paleBlue[300] },
+		settings: { foreground: colors.paleBlue[100] },
 	},
 	{
 		name: 'Storage (let, const, async, function, class, extends, ...) | Variable language | Keyword operator expression | Keyword operator new',
@@ -48,7 +48,7 @@ const tokenColors = [
 			'keyword.operator.new',
 			'keyword.function',
 		],
-		settings: { foreground: colors.paleBlue[300] },
+		settings: { foreground: colors.paleBlue[100] },
 	},
 	{
 		name: 'Classes',
@@ -60,7 +60,7 @@ const tokenColors = [
 			'support.type',
 		],
 		settings: {
-			foreground: colors.teal[50],
+			foreground: colors.teal[200],
 		},
 	},
 	{
@@ -71,19 +71,19 @@ const tokenColors = [
 			'entity.other.attribute-name.pseudo-element',
 		],
 		settings: {
-			foreground: colors.pinkRed[400],
+			foreground: colors.pink[500],
 		},
 	},
 	{
 		name: 'Strings',
 		scope: ['string'],
-		settings: { foreground: colors.emerald[400] },
+		settings: { foreground: colors.pinkRed[400] },
 	},
 	{
 		name: 'String regex',
 		scope: ['string.regexp'],
 		settings: {
-			foreground: colors.emerald[700],
+			foreground: colors.pinkRed[500],
 			fontStyle: 'bold',
 		},
 	},
@@ -108,7 +108,7 @@ const tokenColors = [
 			'source.yaml entity.name.tag',
 		],
 		settings: {
-			foreground: '#8a9eff',
+			foreground: colors.purpleBlue[200],
 		},
 	},
 	{
@@ -127,14 +127,14 @@ const tokenColors = [
 		name: 'Attribute name',
 		scope: ['entity.other.attribute-name'],
 		settings: {
-			foreground: colors.paleBlue[200],
+			foreground: colors.paleBlue[100],
 		},
 	},
 	{
 		name: 'Ids',
 		scope: ['entity.other.attribute-name.id'],
 		settings: {
-			foreground: colors.paleBlue[50],
+			foreground: colors.lightBlue[100],
 			fontStyle: 'italic',
 		},
 	},
@@ -142,7 +142,7 @@ const tokenColors = [
 		name: 'CSS property name',
 		scope: ['source.css support.type.property-name'],
 		settings: {
-			foreground: colors.paleBlue[400],
+			foreground: colors.purpleBlue[100],
 		},
 	},
 	{
@@ -153,14 +153,14 @@ const tokenColors = [
 			'support.type.builtin',
 		],
 		settings: {
-			foreground: colors.pinkRed[500],
+			foreground: colors.lightBlue[300],
 		},
 	},
 	{
 		name: 'Numeric constant',
 		scope: ['constant.numeric'],
 		settings: {
-			foreground: colors.pinkRed[300],
+			foreground: colors.lightBlue[300],
 		},
 	},
 	{
@@ -179,7 +179,7 @@ const tokenColors = [
 			'keyword.other.unit',
 		],
 		settings: {
-			foreground: colors.teal[300],
+			foreground: colors.pinkRed[500],
 		},
 	},
 	{
@@ -198,7 +198,7 @@ const tokenColors = [
 		name: 'Variable other readwrite alias',
 		scope: ['variable.other.readwrite.alias', 'entity.name.namespace'],
 		settings: {
-			foreground: colors.paleBlue[50],
+			foreground: colors.emerald[300],
 		},
 	},
 	{
