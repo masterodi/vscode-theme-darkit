@@ -203,7 +203,7 @@ const tokenColors = [
 		name: 'Variable other readwrite alias',
 		scope: ['variable.other.readwrite.alias', 'entity.name.namespace'],
 		settings: {
-			foreground: colors.blueGreen[600][200],
+			foreground: colors.yellow[200],
 		},
 	},
 	{
