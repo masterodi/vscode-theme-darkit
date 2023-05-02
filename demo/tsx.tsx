@@ -1,7 +1,7 @@
-import { Component, OnInit, OnDestroy } from '@angular/core'
-import { Person, SearchService } from '../shared'
+import { Component, OnDestroy, OnInit } from '@angular/core'
 import { ActivatedRoute } from '@angular/router'
 import { Subscription } from 'rxjs'
+import { Person, SearchService } from '../shared'
 
 @Component({
   selector: 'app-search',
@@ -9,7 +9,7 @@ import { Subscription } from 'rxjs'
   styleUrls: ['./search.component.css']
 })
 export class SearchComponent implements OnInit, OnDestroy {
-  query: string
+  query: string | null
   searchResults: Array<Person>
   sub: Subscription
 

@@ -37,7 +37,7 @@ console.log(sale.getPrice()); //112.88
 
 getPrice();
 
-const re = /ab+c/;
+const re = /ab+cdefg/;
 
 //deeply nested
 
