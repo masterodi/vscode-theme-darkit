@@ -2,7 +2,6 @@ const Something = () => {
   return <div></div>;
 };
 
-("use strict");
 class Sale {
   constructor(price) {
     [this.decoratorsList, this.price] = [[], price];
@@ -48,6 +47,10 @@ async function asyncCall() {
 const options = {
   connections: {
     compression: false,
+  },
+
+  function() {
+    return [].length > 0;
   },
 };
 

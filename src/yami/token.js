@@ -5,15 +5,13 @@ const tokenColors = [
 		name: 'Comments',
 		scope: ['comment'],
 		settings: {
-			foreground: colors.gray[600],
+			foreground: colors.gray[400],
 		},
 	},
 	{
 		name: 'Variable',
 		scope: ['variable', 'text'],
-		settings: {
-			foreground: colors.white,
-		},
+		settings: { foreground: colors.white },
 	},
 	{
 		name: 'Functions',
@@ -23,9 +21,7 @@ const tokenColors = [
 			'meta.function-call.generic',
 			'support.function.magic',
 		],
-		settings: {
-			foreground: colors.blueGreen[500][300],
-		},
+		settings: { foreground: colors.indigo[300] },
 	},
 	{
 		name: 'Function parameter',
@@ -37,9 +33,7 @@ const tokenColors = [
 	{
 		name: 'Keywords | Keyword operator',
 		scope: ['keyword', 'meta.method.declaration storage.type'],
-		settings: {
-			foreground: colors.indigo[300],
-		},
+		settings: { foreground: colors.blue[300] },
 	},
 	{
 		name: 'Storage (let, const, async, function, class, extends, ...) | Variable language | Keyword operator expression | Keyword operator new',
@@ -50,9 +44,7 @@ const tokenColors = [
 			'keyword.operator.new',
 			'keyword.function',
 		],
-		settings: {
-			foreground: colors.indigo[300],
-		},
+		settings: { foreground: colors.blue[300] },
 	},
 	{
 		name: 'Keyword operator',
@@ -70,7 +62,7 @@ const tokenColors = [
 			'keyword.other.unit',
 		],
 		settings: {
-			foreground: colors.blue[200],
+			foreground: colors.blueGreen4[200],
 		},
 	},
 	{
@@ -82,22 +74,20 @@ const tokenColors = [
 			'entity.name.scope-resolution',
 			'support.type',
 		],
-		settings: {
-			foreground: colors.pink[300],
-		},
+		settings: { foreground: colors.blueGreen3[300] },
 	},
 	{
 		name: 'Strings',
 		scope: ['string'],
 		settings: {
-			foreground: colors.blue[400],
+			foreground: colors.blueGreen2[300],
 		},
 	},
 	{
 		name: 'String regex',
 		scope: ['string.regexp'],
 		settings: {
-			foreground: colors.blue[300],
+			foreground: colors.blueGreen2[300],
 			fontStyle: 'bold',
 		},
 	},
@@ -112,7 +102,7 @@ const tokenColors = [
 			'entity.name.tag.reference',
 		],
 		settings: {
-			foreground: colors.pink[400],
+			foreground: colors.blueGreen4[300],
 		},
 	},
 	{
@@ -121,7 +111,7 @@ const tokenColors = [
 			'support.type.property-name.json',
 			'source.yaml entity.name.tag',
 		],
-		settings: { foreground: colors.pink[300] },
+		settings: { foreground: colors.blue[400] },
 	},
 	{
 		name: 'Punctuation tag',
@@ -132,14 +122,14 @@ const tokenColors = [
 			'punctuation.definition.typeparameters.end',
 		],
 		settings: {
-			foreground: colors.gray[400],
+			foreground: colors.gray[300],
 		},
 	},
 	{
 		name: 'Attribute name',
 		scope: ['entity.other.attribute-name'],
 		settings: {
-			foreground: colors.indigo[200],
+			foreground: colors.blue[200],
 			fontStyle: 'italic',
 		},
 	},
@@ -147,15 +137,14 @@ const tokenColors = [
 		name: 'Ids',
 		scope: ['entity.other.attribute-name.id'],
 		settings: {
-			fontStyle: 'italic bold underline',
+			foreground: colors.blue[600],
+			fontStyle: 'italic bold',
 		},
 	},
 	{
 		name: 'CSS property name',
 		scope: ['source.css support.type.property-name'],
-		settings: {
-			foreground: colors.yellow[300],
-		},
+		settings: { foreground: colors.blue[400] },
 	},
 	{
 		name: 'Primitives',
@@ -165,7 +154,7 @@ const tokenColors = [
 			'entity.other.attribute-name.pseudo-element',
 		],
 		settings: {
-			foreground: colors.violet[200],
+			foreground: colors.pinkRed[400],
 		},
 	},
 	{
@@ -176,17 +165,14 @@ const tokenColors = [
 			'support.type.builtin',
 		],
 		settings: {
-			foreground: colors.violet[100],
+			foreground: colors.pinkRed[500],
 		},
 	},
 	{
 		name: 'Numeric constant',
 		scope: ['constant.numeric'],
-		settings: {
-			foreground: colors.pinkRed[400],
-		},
+		settings: { foreground: colors.pinkRed[500] },
 	},
-
 	{
 		name: 'Variable other property',
 		scope: [
@@ -196,21 +182,26 @@ const tokenColors = [
 			'meta.object.member',
 		],
 		settings: {
-			foreground: colors.gray[50],
+			foreground: colors.blue[200],
 		},
 	},
 	{
 		name: 'Variable other readwrite alias',
 		scope: ['variable.other.readwrite.alias', 'entity.name.namespace'],
 		settings: {
-			foreground: colors.yellow[200],
+			foreground: colors.blueGreen4[100],
 		},
 	},
 	{
 		name: 'Variable other constant object',
 		scope: ['variable.other.constant.object'],
+		settings: {},
+	},
+	{
+		name: 'Variable other property',
+		scope: ['support.variable.property'],
 		settings: {
-			foreground: colors.blueGreen[400][200],
+			foreground: colors.blueGreen4[400],
 		},
 	},
 ];
