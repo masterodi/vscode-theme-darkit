@@ -168,7 +168,7 @@ const workbenchColors = {
 	'gitDecoration.untrackedResourceForeground': '#79E4DA',
 	'gitDecoration.ignoredResourceForeground': '#505978',
 	'editor.background': bg.editor,
-	'editor.foreground': text.highlight,
+	'editor.foreground': text.highlight.lighten(0.2),
 	'editorLineNumber.foreground': text.dimmedExtra,
 	'editorLineNumber.activeForeground': accent.base,
 	'editorCursor.foreground': '#B3B9CC',

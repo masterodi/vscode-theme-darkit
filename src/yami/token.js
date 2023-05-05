@@ -21,7 +21,9 @@ const tokenColors = [
 			'meta.function-call.generic',
 			'support.function.magic',
 		],
-		settings: { foreground: colors.indigo[300] },
+		settings: {
+			foreground: colors.pinkRed[400],
+		},
 	},
 	{
 		name: 'Function parameter',
@@ -33,7 +35,9 @@ const tokenColors = [
 	{
 		name: 'Keywords | Keyword operator',
 		scope: ['keyword', 'meta.method.declaration storage.type'],
-		settings: { foreground: colors.blue[300] },
+		settings: {
+			foreground: colors.blueGreen2[300],
+		},
 	},
 	{
 		name: 'Storage (let, const, async, function, class, extends, ...) | Variable language | Keyword operator expression | Keyword operator new',
@@ -44,7 +48,9 @@ const tokenColors = [
 			'keyword.operator.new',
 			'keyword.function',
 		],
-		settings: { foreground: colors.blue[300] },
+		settings: {
+			foreground: colors.blueGreen2[300],
+		},
 	},
 	{
 		name: 'Keyword operator',
@@ -62,7 +68,7 @@ const tokenColors = [
 			'keyword.other.unit',
 		],
 		settings: {
-			foreground: colors.blueGreen4[200],
+			foreground: colors.blueGreen4[500],
 		},
 	},
 	{
@@ -74,20 +80,20 @@ const tokenColors = [
 			'entity.name.scope-resolution',
 			'support.type',
 		],
-		settings: { foreground: colors.blueGreen3[300] },
+		settings: {
+			foreground: colors.blue[300],
+		},
 	},
 	{
 		name: 'Strings',
 		scope: ['string'],
-		settings: {
-			foreground: colors.blueGreen2[300],
-		},
+		settings: { foreground: colors.orangeRed[300] },
 	},
 	{
 		name: 'String regex',
 		scope: ['string.regexp'],
 		settings: {
-			foreground: colors.blueGreen2[300],
+			foreground: colors.orangeRed[300],
 			fontStyle: 'bold',
 		},
 	},
@@ -102,7 +108,7 @@ const tokenColors = [
 			'entity.name.tag.reference',
 		],
 		settings: {
-			foreground: colors.blueGreen4[300],
+			foreground: colors.blue[200],
 		},
 	},
 	{
@@ -111,7 +117,7 @@ const tokenColors = [
 			'support.type.property-name.json',
 			'source.yaml entity.name.tag',
 		],
-		settings: { foreground: colors.blue[400] },
+		settings: {},
 	},
 	{
 		name: 'Punctuation tag',
@@ -129,7 +135,7 @@ const tokenColors = [
 		name: 'Attribute name',
 		scope: ['entity.other.attribute-name'],
 		settings: {
-			foreground: colors.blue[200],
+			foreground: colors.blueGreen2[300],
 			fontStyle: 'italic',
 		},
 	},
@@ -137,14 +143,14 @@ const tokenColors = [
 		name: 'Ids',
 		scope: ['entity.other.attribute-name.id'],
 		settings: {
-			foreground: colors.blue[600],
+			foreground: colors.blueGreen2[500],
 			fontStyle: 'italic bold',
 		},
 	},
 	{
 		name: 'CSS property name',
 		scope: ['source.css support.type.property-name'],
-		settings: { foreground: colors.blue[400] },
+		settings: {},
 	},
 	{
 		name: 'Primitives',
@@ -154,7 +160,7 @@ const tokenColors = [
 			'entity.other.attribute-name.pseudo-element',
 		],
 		settings: {
-			foreground: colors.pinkRed[400],
+			foreground: colors.blueGreen4[500],
 		},
 	},
 	{
@@ -164,14 +170,14 @@ const tokenColors = [
 			'constant.language',
 			'support.type.builtin',
 		],
-		settings: {
-			foreground: colors.pinkRed[500],
-		},
+		settings: { foreground: colors.blueGreen4[300] },
 	},
 	{
 		name: 'Numeric constant',
 		scope: ['constant.numeric'],
-		settings: { foreground: colors.pinkRed[500] },
+		settings: {
+			foreground: colors.indigo[200],
+		},
 	},
 	{
 		name: 'Variable other property',
@@ -182,27 +188,25 @@ const tokenColors = [
 			'meta.object.member',
 		],
 		settings: {
-			foreground: colors.blue[200],
+			foreground: colors.blue[100],
 		},
 	},
 	{
 		name: 'Variable other readwrite alias',
 		scope: ['variable.other.readwrite.alias', 'entity.name.namespace'],
 		settings: {
-			foreground: colors.blueGreen4[100],
+			foreground: colors.blueGreen2[100],
 		},
 	},
 	{
 		name: 'Variable other constant object',
 		scope: ['variable.other.constant.object'],
-		settings: {},
+		settings: { foreground: colors.indigo[300] },
 	},
 	{
 		name: 'Variable other property',
 		scope: ['support.variable.property'],
-		settings: {
-			foreground: colors.blueGreen4[400],
-		},
+		settings: {},
 	},
 ];
 
