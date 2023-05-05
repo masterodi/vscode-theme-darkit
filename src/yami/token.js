@@ -201,7 +201,7 @@ const tokenColors = [
 	{
 		name: 'Variable other constant object',
 		scope: ['variable.other.constant.object'],
-		settings: { foreground: colors.indigo[300] },
+		settings: { foreground: colors.indigo[100] },
 	},
 	{
 		name: 'Variable other property',
