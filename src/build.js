@@ -1,7 +1,6 @@
 import Color from 'color';
 import { mkdir, writeFile } from 'fs';
-import remakeTheme from './remake/theme.js';
-import yamiTheme from './yami/theme.js';
+import remakeTheme from './default/theme.js';
 
 const THEMES_PATH = `${process.cwd()}/themes`;
 
@@ -63,4 +62,4 @@ const buildThemes = (...themes) => {
 	});
 };
 
-buildThemes(remakeTheme, yamiTheme);
+buildThemes(remakeTheme);
