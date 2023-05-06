@@ -29,7 +29,7 @@ const colors = {
 	black: '#000',
 	white: '#fff',
 	gray: generatePalette('#888888'),
-	darkGray: generatePalette('#161616'),
+	darkGray: generatePalette('#202d2d'),
 	red: generatePalette('#fc5d5d'),
 	orangeRed: generatePalette('#ff7559'),
 	orange: generatePalette('#fc8a5d'),

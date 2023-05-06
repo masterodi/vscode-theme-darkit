@@ -15,7 +15,7 @@ const text = {
 	onAccent: colors.darkGray[900],
 };
 const accent = {
-	base: colors.indigo[400],
+	base: colors.blueGreen2[500],
 };
 const border = colors.transparent;
 const focusBorder = main[200];

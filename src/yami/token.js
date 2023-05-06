@@ -22,7 +22,7 @@ const tokenColors = [
 			'support.function.magic',
 		],
 		settings: {
-			foreground: colors.pink[300],
+			foreground: colors.blueGreen3[400],
 		},
 	},
 	{
@@ -36,7 +36,7 @@ const tokenColors = [
 		name: 'Keywords | Keyword operator',
 		scope: ['keyword', 'meta.method.declaration storage.type'],
 		settings: {
-			foreground: colors.blueGreen4[300],
+			foreground: colors.indigo[200],
 		},
 	},
 	{
@@ -49,7 +49,7 @@ const tokenColors = [
 			'keyword.function',
 		],
 		settings: {
-			foreground: colors.blueGreen4[300],
+			foreground: colors.indigo[200],
 		},
 	},
 	{
@@ -81,19 +81,19 @@ const tokenColors = [
 			'support.type',
 		],
 		settings: {
-			foreground: colors.blue[400],
+			foreground: colors.pinkRed[500],
 		},
 	},
 	{
 		name: 'Strings',
 		scope: ['string'],
-		settings: { foreground: colors.pinkRed[400] },
+		settings: { foreground: colors.blueGreen2[400] },
 	},
 	{
 		name: 'String regex',
 		scope: ['string.regexp'],
 		settings: {
-			foreground: colors.pinkRed[400],
+			foreground: colors.blueGreen2[400],
 			fontStyle: 'bold',
 		},
 	},
@@ -108,7 +108,7 @@ const tokenColors = [
 			'entity.name.tag.reference',
 		],
 		settings: {
-			foreground: colors.blue[300],
+			foreground: colors.pinkRed[400],
 		},
 	},
 	{
@@ -135,7 +135,7 @@ const tokenColors = [
 		name: 'Attribute name',
 		scope: ['entity.other.attribute-name'],
 		settings: {
-			foreground: colors.blueGreen4[300],
+			foreground: colors.yellowOrange[400],
 			fontStyle: 'italic',
 		},
 	},
@@ -143,14 +143,14 @@ const tokenColors = [
 		name: 'Ids',
 		scope: ['entity.other.attribute-name.id'],
 		settings: {
-			foreground: colors.blueGreen2[500],
+			foreground: colors.yellowOrange[700],
 			fontStyle: 'italic bold',
 		},
 	},
 	{
 		name: 'CSS property name',
 		scope: ['source.css support.type.property-name'],
-		settings: { foreground: colors.indigo[200] },
+		settings: { foreground: colors.blue[200] },
 	},
 	{
 		name: 'Primitives',
@@ -160,7 +160,7 @@ const tokenColors = [
 			'entity.other.attribute-name.pseudo-element',
 		],
 		settings: {
-			foreground: colors.orange[400],
+			foreground: colors.pinkRed[400],
 		},
 	},
 	{
@@ -170,13 +170,13 @@ const tokenColors = [
 			'constant.language',
 			'support.type.builtin',
 		],
-		settings: { foreground: colors.yellowOrange[600] },
+		settings: { foreground: colors.pinkRed[500] },
 	},
 	{
 		name: 'Numeric constant',
 		scope: ['constant.numeric'],
 		settings: {
-			foreground: colors.blueGreen1[500],
+			foreground: colors.orange[400],
 		},
 	},
 	{
@@ -195,7 +195,7 @@ const tokenColors = [
 		name: 'Variable other readwrite alias',
 		scope: ['variable.other.readwrite.alias', 'entity.name.namespace'],
 		settings: {
-			foreground: colors.blue[200],
+			foreground: colors.blueGreen2[200],
 		},
 	},
 	{
