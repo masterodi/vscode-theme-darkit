@@ -354,7 +354,7 @@
                 "support.function.magic"
             ],
             "settings": {
-                "foreground": "#7AF8FF"
+                "foreground": "#B5FBE5"
             }
         },
         {
@@ -475,7 +475,7 @@
                 "entity.other.attribute-name"
             ],
             "settings": {
-                "foreground": "#8FF9D8",
+                "foreground": "#A3C8FF",
                 "fontStyle": "italic"
             }
         },

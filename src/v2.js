@@ -408,7 +408,7 @@ const v2Theme = {
 				'support.function.magic',
 			],
 			settings: {
-				foreground: colors.cyan[200],
+				foreground: colors.aquamarine[300],
 			},
 		},
 		{
@@ -518,7 +518,7 @@ const v2Theme = {
 			name: 'Attribute name',
 			scope: ['entity.other.attribute-name'],
 			settings: {
-				foreground: colors.aquamarine[400],
+				foreground: colors.blue[200],
 				fontStyle: 'italic',
 			},
 		},
