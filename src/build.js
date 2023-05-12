@@ -1,6 +1,7 @@
 import Color from 'color';
 import { mkdir, writeFile } from 'fs';
-import remakeTheme from './default/theme.js';
+import defaultTheme from './default/theme.js';
+import v2Theme from './v2.js';
 
 const THEMES_PATH = `${process.cwd()}/themes`;
 
@@ -62,4 +63,4 @@ const buildThemes = (...themes) => {
 	});
 };
 
-buildThemes(remakeTheme);
+buildThemes(defaultTheme, v2Theme);

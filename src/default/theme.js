@@ -1,11 +1,11 @@
 import tokenColors from './tokens.js';
 import workbenchStyles from './workbench.js';
 
-const theme = {
+const defaultTheme = {
 	name: 'Darkit',
 	colors: workbenchStyles,
 	tokenColors: tokenColors,
 	semanticHighlighting: true,
 };
 
-export default theme;
+export default defaultTheme;

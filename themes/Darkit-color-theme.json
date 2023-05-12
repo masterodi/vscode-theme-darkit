@@ -169,7 +169,6 @@
         "minimap.findMatchHighlight": "#505978",
         "minimap.selectionOccurrenceHighlight": "#cbd5e1"
     },
-    "semanticHighlighting": true,
     "tokenColors": [
         {
             "name": "Comments",
@@ -411,5 +410,6 @@
                 "foreground": "#cbd5e1"
             }
         }
-    ]
+    ],
+    "semanticHighlighting": true
 }
