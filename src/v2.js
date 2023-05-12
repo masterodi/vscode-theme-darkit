@@ -408,7 +408,7 @@ const v2Theme = {
 				'support.function.magic',
 			],
 			settings: {
-				foreground: colors.aquamarine[300],
+				foreground: colors.aquamarine[400],
 			},
 		},
 		{
