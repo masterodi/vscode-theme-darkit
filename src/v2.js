@@ -397,7 +397,7 @@ const v2Theme = {
 		{
 			name: 'Variable',
 			scope: ['variable'],
-			settings: { foreground: colors.slate[200] },
+			settings: { foreground: colors.slate[100] },
 		},
 		{
 			name: 'Functions',
@@ -406,6 +406,7 @@ const v2Theme = {
 				'support.function',
 				'meta.function-call.generic',
 				'support.function.magic',
+				'punctuation.definition.template-expression',
 			],
 			settings: {
 				foreground: colors.cyan[300],
