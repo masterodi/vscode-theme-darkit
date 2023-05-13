@@ -1,3 +1,4 @@
+import json
 from collections import deque
 
 
@@ -20,6 +21,7 @@ def topo(G, ind=None, Q=[1]):
         if ind[w] == 0:
             Q.append(w)
     topo(G, ind, Q)
+    json.load()
 
 
 class SomeClass:

@@ -408,7 +408,7 @@ const v2Theme = {
 				'support.function.magic',
 			],
 			settings: {
-				foreground: colors.aquamarine[400],
+				foreground: colors.cyan[300],
 			},
 		},
 		{
@@ -511,7 +511,7 @@ const v2Theme = {
 				'punctuation.definition.typeparameters.end',
 			],
 			settings: {
-				foreground: colors.blue[200],
+				foreground: colors.redOrange[300],
 			},
 		},
 		{

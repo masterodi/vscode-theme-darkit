@@ -354,7 +354,7 @@
                 "support.function.magic"
             ],
             "settings": {
-                "foreground": "#8FF9D8"
+                "foreground": "#52F6FF"
             }
         },
         {
@@ -466,7 +466,7 @@
                 "punctuation.definition.typeparameters.end"
             ],
             "settings": {
-                "foreground": "#A3C8FF"
+                "foreground": "#FF8C7A"
             }
         },
         {
