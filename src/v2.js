@@ -582,7 +582,7 @@ const v2Theme = {
 				'meta.object.member',
 			],
 			settings: {
-				foreground: colors.blue[200],
+				foreground: colors.aquamarine[400],
 			},
 		},
 		{
