@@ -590,7 +590,7 @@ const v2Theme = {
 			name: 'Variable other readwrite alias',
 			scope: ['variable.other.readwrite.alias', 'entity.name.namespace'],
 			settings: {
-				foreground: colors.violet[300],
+				foreground: colors.purple[300],
 			},
 		},
 		{
