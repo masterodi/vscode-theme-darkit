@@ -1,5 +1,6 @@
 import Color from 'color';
 import { mkdir, writeFile } from 'fs';
+import blackTheme from './black.js';
 import defaultTheme from './default/theme.js';
 import v2Theme from './v2.js';
 
@@ -63,4 +64,4 @@ const buildThemes = (...themes) => {
 	});
 };
 
-buildThemes(defaultTheme, v2Theme);
+buildThemes(defaultTheme, v2Theme, blackTheme);

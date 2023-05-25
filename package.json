@@ -4,7 +4,7 @@
 	"description": "A dark theme.",
 	"type": "module",
 	"publisher": "mrheio",
-	"version": "9.7.0",
+	"version": "10.0.0",
 	"icon": "icon.png",
 	"engines": {
 		"vscode": "^1.7.0"
@@ -14,6 +14,11 @@
 	],
 	"contributes": {
 		"themes": [
+			{
+				"label": "Darkit Black",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Darkit-Black-color-theme.json"
+			},
 			{
 				"label": "Darkit",
 				"uiTheme": "vs-dark",
