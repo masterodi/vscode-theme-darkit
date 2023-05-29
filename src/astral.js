@@ -1,7 +1,7 @@
 import colors from './colors.js';
 
-const v2Theme = {
-	name: 'Darkit V2',
+const astralTheme = {
+	name: 'Darkit Astral',
 	colors: {
 		foreground: '#787c99',
 		descriptionForeground: '#545c7e',
@@ -604,4 +604,4 @@ const v2Theme = {
 	semanticHighlighting: true,
 };
 
-export default v2Theme;
+export default astralTheme;
