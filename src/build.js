@@ -2,6 +2,7 @@ import Color from 'color';
 import { mkdir, writeFile } from 'fs';
 import astralTheme from './astral.js';
 import defaultTheme from './default/theme.js';
+import malakaiTheme from './malakai.js';
 
 const THEMES_PATH = `${process.cwd()}/themes`;
 
@@ -63,4 +64,4 @@ const buildThemes = (...themes) => {
 	});
 };
 
-buildThemes(defaultTheme, astralTheme);
+buildThemes(defaultTheme, astralTheme, malakaiTheme);

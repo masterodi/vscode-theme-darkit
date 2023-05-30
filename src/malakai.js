@@ -2,30 +2,32 @@ import Color from 'color';
 import colors from './colors.js';
 
 const text = {
-	highlight: Color(colors.slate[50]).hex(),
-	base: Color(colors.slate[300]).hex(),
-	dimmed: Color(colors.slate[600]).hex(),
+	highlight: Color(colors.gray[50]).hex(),
+	base: Color(colors.gray[300]).hex(),
+	dimmed: Color(colors.gray[600]).hex(),
 };
 const bg = {
-	editor: Color(colors.violet[500]).darken(0.75).desaturate(0.65).hex(),
-	blocks: Color(colors.violet[500]).darken(0.8).desaturate(0.65).hex(),
+	editor: Color(colors.gray[500]).darken(0.75).desaturate(0.65).hex(),
+	blocks: Color(colors.gray[500]).darken(0.8).desaturate(0.65).hex(),
+	highlight: Color(colors.gray[500]).darken(0.6).desaturate(0.65).hex(),
+	highlightExtra: Color(colors.gray[500]).darken(0.5).desaturate(0.65).hex(),
 };
-const border = Color(colors.violet[500]).darken(0.85).desaturate(0.65).hex();
-const accent = Color(colors.violet[500]).hex();
+const border = Color(colors.gray[500]).darken(0.85).desaturate(0.65).hex();
+const accent = Color(colors.aquamarine[600]).hex();
 
-const midnightTheme = {
-	name: 'Darkit Midnight',
+const malakaiTheme = {
+	name: 'Darkit Malakai',
 	semanticHighlighting: true,
 	colors: {
-		foreground: '#787c99',
+		foreground: text.base,
 		descriptionForeground: '#545c7e',
 		focusBorder: '#545c7e33',
 		errorForeground: '#5a607d',
-		'widget.shadow': '#ffffff00',
-		'scrollbar.shadow': '#00000033',
-		'badge.background': '#7e83b233',
-		'badge.foreground': '#a9b1d6',
-		'icon.foreground': '#7982a9',
+		'widget.shadow': border,
+		'scrollbar.shadow': border,
+		'badge.background': bg.highlight,
+		'badge.foreground': text.highlight,
+		'icon.foreground': text.base,
 		'settings.headerForeground': '#6183bb',
 		'window.activeBorder': '#0d0f17',
 		'window.inactiveBorder': '#0d0f17',
@@ -41,17 +43,18 @@ const midnightTheme = {
 		'extensionBadge.remoteForeground': '#ffffff',
 
 		'button.background': bg.editor,
-		'button.hoverBackground': '#3d59a1AA',
-		'button.secondaryBackground': '#41496b',
+		'button.hoverBackground': bg.highlight,
+		'button.secondaryBackground': bg.highlightExtra,
 		'button.foreground': '#ffffff',
 		'progressBar.background': '#3d59a1',
 
-		'input.background': '#1b1e2e',
-		'input.foreground': '#a9b1d6',
-		'input.border': '#282e44',
-		'input.placeholderForeground': '#4a5272',
-		'inputOption.activeForeground': '#c0caf5',
-		'inputOption.activeBackground': '#3d59a144',
+		'input.background': bg.editor,
+		'input.foreground': text.base,
+		'input.border': border,
+		'input.placeholderForeground': text.dimmed,
+		'inputOption.activeForeground': accent,
+		'inputOption.activeBackground': colors.transparent,
+		'inputOption.activeBorder': colors.transparent,
 
 		'inputValidation.infoForeground': '#bbc2e0',
 		'inputValidation.infoBackground': '#3d59a15c',
@@ -63,42 +66,42 @@ const midnightTheme = {
 		'inputValidation.errorBackground': '#85353e',
 		'inputValidation.errorBorder': '#963c47',
 
-		'dropdown.foreground': '#7982a9',
+		'dropdown.foreground': text.base,
 		'dropdown.background': bg.blocks,
 		'dropdown.listBackground': '#1b1e2e',
 
 		'activityBar.background': bg.blocks,
-		'activityBar.foreground': '#7982a9',
+		'activityBar.foreground': text.base,
 		//"activityBar.activeBorder": "#41496b",
 		//"activityBar.activeBackground": "#1c2030",
-		'activityBar.inactiveForeground': '#41496b', //#3b4261
+		'activityBar.inactiveForeground': text.dimmed, //#3b4261
 		'activityBar.border': border,
-		'activityBarBadge.background': '#3d59a1',
-		'activityBarBadge.foreground': '#fff',
+		'activityBarBadge.background': bg.highlight,
+		'activityBarBadge.foreground': text.highlight,
 
 		'tree.indentGuidesStroke': '#2e344f',
-		'sideBar.foreground': '#7982a9',
+		'sideBar.foreground': text.dimmed,
 		'sideBar.background': bg.blocks,
 		'sideBar.border': border,
-		'sideBarTitle.foreground': '#7982a9',
+		'sideBarTitle.foreground': text.base,
 		'sideBarSectionHeader.background': bg.blocks,
-		'sideBarSectionHeader.foreground': '#a9b1d6',
+		'sideBarSectionHeader.foreground': text.highlight,
 		'sideBarSectionHeader.border': border,
-		'sideBar.dropBackground': '#292e42',
+		'sideBar.dropBackground': bg.highlight,
 
-		'list.dropBackground': '#292e42',
+		'list.dropBackground': bg.highlight,
 		'list.deemphasizedForeground': '#7982a9',
-		'list.activeSelectionBackground': '#2c324a',
+		'list.activeSelectionBackground': bg.highlight,
 
-		'list.activeSelectionForeground': '#a9b1d6',
-		'list.inactiveSelectionBackground': '#292e42',
-		'list.inactiveSelectionForeground': '#a9b1d6',
-		'list.focusBackground': '#292e42',
-		'list.focusForeground': '#a9b1d6',
-		'list.hoverBackground': '#1b1e2e',
-		'list.hoverForeground': '#a9b1d6',
+		'list.activeSelectionForeground': text.base,
+		'list.inactiveSelectionBackground': bg.highlight,
+		'list.inactiveSelectionForeground': text.base,
+		'list.focusBackground': bg.highlight,
+		'list.focusForeground': text.highlight,
+		'list.hoverBackground': bg.highlight,
+		'list.hoverForeground': bg.dimmed,
 
-		'list.highlightForeground': '#668ac4',
+		'list.highlightForeground': text.highlight,
 		'list.invalidItemForeground': '#c97018',
 		'list.errorForeground': '#bb616b',
 		'list.warningForeground': '#c49a5a',
@@ -110,9 +113,9 @@ const midnightTheme = {
 		'pickerGroup.foreground': '#a9b1d6',
 		'pickerGroup.border': '#1b1e2e',
 
-		'scrollbarSlider.background': '#9cacff15',
-		'scrollbarSlider.hoverBackground': '#9cacff10',
-		'scrollbarSlider.activeBackground': '#9cacff22',
+		'scrollbarSlider.background': bg.highlight,
+		'scrollbarSlider.hoverBackground': bg.highlightExtra,
+		'scrollbarSlider.activeBackground': accent,
 
 		'editorBracketHighlight.foreground1': '#698cd6', //"#7AA2F7",
 		'editorBracketHighlight.foreground2': '#68b3de', //"#7DCFFF",
@@ -131,7 +134,7 @@ const midnightTheme = {
 
 		'selection.background': '#6f7bb635',
 		'editor.background': bg.editor,
-		'editor.foreground': '#a9b1d6',
+		'editor.foreground': text.highlight,
 		'editor.foldBackground': '#181b294a',
 		'editorLink.activeForeground': '#a9b1d6',
 
@@ -151,14 +154,14 @@ const midnightTheme = {
 		'editorCursor.foreground': '#c0caf5',
 		'editorIndentGuide.background': '#292e42',
 		'editorIndentGuide.activeBackground': '#3b4261',
-		'editorLineNumber.foreground': '#3b4261',
-		'editorLineNumber.activeForeground': '#737aa2',
-		'editor.lineHighlightBackground': '#292e42',
+		'editorLineNumber.foreground': text.dimmed,
+		'editorLineNumber.activeForeground': accent,
+		'editor.lineHighlightBackground': bg.highlight,
 		'editorWhitespace.foreground': '#3b4261',
 
 		'editorMarkerNavigation.background': '#1f2335',
 		'editorHoverWidget.background': '#1f2335',
-		'editorHoverWidget.border': '#1b1e2e',
+		'editorHoverWidget.border': border,
 
 		'editorBracketMatch.background': '#1f2335',
 		'editorBracketMatch.border': '#545c7e', //"#3b4261",
@@ -193,20 +196,20 @@ const midnightTheme = {
 		'minimapGutter.addedBackground': '#1C5957',
 		'minimapGutter.deletedBackground': '#944449',
 
-		'editorGroup.border': '#1b1e2e',
+		'editorGroup.border': border,
 		'editorGroup.dropBackground': '#292e42',
-		'editorGroupHeader.tabsBorder': '#1b1e2e',
-		'editorGroupHeader.tabsBackground': '#1f2335',
-		'editorGroupHeader.noTabsBackground': '#1f2335',
-		'editorGroupHeader.border': '#1b1e2e',
+		'editorGroupHeader.tabsBorder': colors.transparent,
+		'editorGroupHeader.tabsBackground': bg.blocks,
+		'editorGroupHeader.noTabsBackground': bg.blocks,
+		'editorGroupHeader.border': colors.transparent,
 
 		'editorPane.background': '#1f2335',
 
-		'editorWidget.foreground': '#7982a9',
-		'editorWidget.background': '#1f2335',
-		'editorWidget.resizeBorder': '#545c7e33',
+		'editorWidget.foreground': text.base,
+		'editorWidget.background': bg.blocks,
+		'editorWidget.resizeBorder': bg.highlight,
 
-		'editorSuggestWidget.background': '#1f2335',
+		'editorSuggestWidget.background': bg.blocks,
 		'editorSuggestWidget.border': '#1b1e2e',
 		'editorSuggestWidget.selectedBackground': '#282e44',
 		'editorSuggestWidget.highlightForeground': '#668ac4',
@@ -215,17 +218,17 @@ const midnightTheme = {
 		'editorLightBulb.foreground': '#e0af68',
 		'editorLightBulbAutoFix.foreground': '#e0af68',
 
-		'peekView.border': '#1b1e2e',
-		'peekViewEditor.background': '#1f2335',
+		'peekView.border': border,
+		'peekViewEditor.background': bg.blocks,
 		'peekViewEditor.matchHighlightBackground': '#3d59a166',
-		'peekViewTitle.background': '#1b1e2e',
-		'peekViewTitleLabel.foreground': '#a9b1d6',
+		'peekViewTitle.background': bg.blocks,
+		'peekViewTitleLabel.foreground': text.base,
 		'peekViewTitleDescription.foreground': '#7982a9',
-		'peekViewResult.background': '#1b1e2e',
-		'peekViewResult.selectionForeground': '#a9b1d6',
-		'peekViewResult.selectionBackground': '#3d59a133',
+		'peekViewResult.background': bg.blocks,
+		'peekViewResult.selectionForeground': text.base,
+		'peekViewResult.selectionBackground': bg.highlight,
 		'peekViewResult.lineForeground': '#a9b1d6',
-		'peekViewResult.fileForeground': '#7982a9',
+		'peekViewResult.fileForeground': text.dimmed,
 		'peekViewResult.matchHighlightBackground': '#3d59a166',
 
 		'diffEditor.insertedTextBackground': '#41a6b520',
@@ -242,9 +245,10 @@ const midnightTheme = {
 		'tab.inactiveBackground': bg.blocks,
 		'tab.activeForeground': text.base,
 		'tab.hoverForeground': text.highlight,
-		'tab.activeBorder': accent,
+		'tab.activeBorder': colors.transparent,
+		'tab.activeBorderTop': accent,
 		'tab.inactiveForeground': text.dimmed,
-		'tab.border': border,
+		'tab.border': colors.transparent,
 		'tab.unfocusedActiveForeground': '#a9b1d6',
 		'tab.unfocusedInactiveForeground': '#7982a9',
 		'tab.unfocusedHoverForeground': '#a9b1d6',
@@ -272,7 +276,7 @@ const midnightTheme = {
 		'statusBar.noFolderBackground': bg.blocks,
 		'statusBar.debuggingBackground': bg.editor,
 		'statusBar.debuggingForeground': text.base,
-		'statusBarItem.activeBackground': '#1b1e2e',
+		'statusBarItem.activeBackground': bg.highlight,
 		'statusBarItem.hoverBackground': bg.editor,
 		'statusBarItem.prominentBackground': '#1b1e2e',
 		'statusBarItem.prominentHoverBackground': '#282e44',
@@ -287,8 +291,8 @@ const midnightTheme = {
 		'textLink.foreground': '#668ac4',
 		'textLink.activeForeground': '#7dcfff',
 		'textPreformat.foreground': '#73daca',
-		'textBlockQuote.background': '#1f2335',
-		'textCodeBlock.background': '#1f2335',
+		'textBlockQuote.background': bg.blocks,
+		'textCodeBlock.background': bg.blocks,
 		'textSeparator.foreground': '#545c7e',
 
 		'debugExceptionWidget.border': '#963c47',
@@ -384,7 +388,7 @@ const midnightTheme = {
 		'gitlens.gutterBackgroundColor': '#1f2335',
 
 		'notificationCenterHeader.background': '#1b1e2e',
-		'notifications.background': '#1b1e2e',
+		'notifications.background': bg.blocks,
 		'notificationLink.foreground': '#6183bb',
 		'notificationsErrorIcon.foreground': '#bb616b',
 		'notificationsWarningIcon.foreground': '#bba461',
@@ -414,6 +418,32 @@ const midnightTheme = {
 			settings: { foreground: colors.slate[100] },
 		},
 		{
+			name: 'Variable other property',
+			scope: [
+				'support.variable',
+				'variable.other.predefined',
+				'variable.other.property',
+				'meta.object.member',
+			],
+			settings: {
+				foreground: colors.lightBlue[200],
+			},
+		},
+		{
+			name: 'Variable other readwrite alias',
+			scope: ['variable.other.readwrite.alias', 'entity.name.namespace'],
+			settings: {
+				foreground: colors.violet[300],
+			},
+		},
+		{
+			name: 'Variable other constant object',
+			scope: ['variable.other.constant.object'],
+			settings: {
+				foreground: colors.slate[300],
+			},
+		},
+		{
 			name: 'Functions',
 			scope: [
 				'entity.name.function',
@@ -423,48 +453,30 @@ const midnightTheme = {
 				'punctuation.definition.template-expression',
 			],
 			settings: {
-				foreground: colors.cyan[300],
+				foreground: colors.indigo[400],
 			},
 		},
 		{
 			name: 'Function parameter',
 			scope: ['variable.parameter'],
 			settings: {
-				foreground: colors.blue[100],
+				foreground: colors.indigo[200],
 				fontStyle: 'italic',
 			},
 		},
 		{
-			name: 'Keywords | Keyword operator',
-			scope: ['keyword', 'meta.method.declaration storage.type'],
+			name: 'Strings',
+			scope: ['string'],
 			settings: {
-				foreground: colors.indigo[300],
+				foreground: colors.yellow[300],
 			},
 		},
 		{
-			name: 'Storage (let, const, async, function, class, extends, ...) | Variable language | Keyword operator expression | Keyword operator new',
-			scope: [
-				'storage',
-				'variable.language',
-				'keyword.operator.expression',
-				'keyword.operator.new',
-				'keyword.function',
-			],
+			name: 'String regex',
+			scope: ['string.regexp'],
 			settings: {
-				foreground: colors.indigo[300],
-			},
-		},
-		{
-			name: 'Classes',
-			scope: [
-				'support.class',
-				'entity.name.type',
-				'entity.other.inherited-class',
-				'entity.name.scope-resolution',
-				'support.type',
-			],
-			settings: {
-				foreground: colors.orange[300],
+				foreground: colors.yellow[400],
+				fontStyle: 'italic',
 			},
 		},
 		{
@@ -475,73 +487,7 @@ const midnightTheme = {
 				'entity.other.attribute-name.pseudo-element',
 			],
 			settings: {
-				foreground: colors.roseRed[300],
-			},
-		},
-		{
-			name: 'Strings',
-			scope: ['string'],
-			settings: {
-				foreground: colors.purplePink[400],
-			},
-		},
-		{
-			name: 'String regex',
-			scope: ['string.regexp'],
-			settings: {
-				foreground: colors.indigo[300],
-				fontStyle: 'italic',
-			},
-		},
-		{
-			name: 'Tags',
-			scope: [
-				'entity.name.tag',
-				'variable.language.this',
-				'variable.language.super',
-				'variable.parameter.function.language.special.self',
-				'variable.language.special.self',
-				'entity.name.tag.reference',
-			],
-			settings: {
-				foreground: colors.redOrange[200],
-			},
-		},
-		{
-			name: 'Json key, Yaml key',
-			scope: [
-				'support.type.property-name.json',
-				'source.yaml entity.name.tag',
-			],
-			settings: {
-				foreground: colors.blue[200],
-			},
-		},
-		{
-			name: 'Punctuation tag',
-			scope: [
-				'punctuation.definition.tag.begin',
-				'punctuation.definition.tag.end',
-				'punctuation.definition.typeparameters.begin',
-				'punctuation.definition.typeparameters.end',
-			],
-			settings: {
-				foreground: colors.redOrange[300],
-			},
-		},
-		{
-			name: 'Attribute name',
-			scope: ['entity.other.attribute-name'],
-			settings: {
-				foreground: colors.blue[200],
-				fontStyle: 'italic',
-			},
-		},
-		{
-			name: 'Ids',
-			scope: ['entity.other.attribute-name.id'],
-			settings: {
-				foreground: colors.turquoise[500],
+				foreground: colors.violet[400],
 			},
 		},
 		{
@@ -552,14 +498,14 @@ const midnightTheme = {
 				'support.type.builtin',
 			],
 			settings: {
-				foreground: colors.roseRed[300],
+				foreground: colors.cyan[400],
 			},
 		},
 		{
 			name: 'Numeric constant',
 			scope: ['constant.numeric'],
 			settings: {
-				foreground: colors.roseRed[300],
+				foreground: colors.cyan[400],
 			},
 		},
 		{
@@ -578,43 +524,95 @@ const midnightTheme = {
 				'keyword.other.unit',
 			],
 			settings: {
-				foreground: colors.cyan[100],
+				foreground: colors.violet[400],
 			},
 		},
 		{
-			name: 'CSS property name',
-			scope: ['source.css support.type.property-name'],
+			name: 'Keywords | Keyword operator',
+			scope: ['keyword', 'meta.method.declaration storage.type'],
 			settings: {
-				foreground: colors.violet[300],
+				foreground: colors.aquamarine[600],
 			},
 		},
 		{
-			name: 'Variable other property',
+			name: 'Storage (let, const, async, function, class, extends, ...) | Variable language | Keyword operator expression | Keyword operator new',
 			scope: [
-				'support.variable',
-				'variable.other.predefined',
-				'variable.other.property',
-				'meta.object.member',
+				'storage',
+				'variable.language',
+				'keyword.operator.expression',
+				'keyword.operator.new',
+				'keyword.function',
 			],
 			settings: {
-				foreground: colors.aquamarine[400],
+				foreground: colors.aquamarine[600],
 			},
 		},
 		{
-			name: 'Variable other readwrite alias',
-			scope: ['variable.other.readwrite.alias', 'entity.name.namespace'],
+			name: 'Classes',
+			scope: [
+				'support.class',
+				'entity.name.type',
+				'entity.other.inherited-class',
+				'entity.name.scope-resolution',
+				'support.type',
+			],
 			settings: {
-				foreground: colors.purple[300],
+				foreground: colors.pink[500],
 			},
 		},
 		{
-			name: 'Variable other constant object',
-			scope: ['variable.other.constant.object'],
+			name: 'Tags',
+			scope: [
+				'entity.name.tag',
+				'variable.language.this',
+				'variable.language.super',
+				'variable.parameter.function.language.special.self',
+				'variable.language.special.self',
+				'entity.name.tag.reference',
+			],
 			settings: {
-				foreground: colors.slate[300],
+				foreground: colors.pink[500],
+			},
+		},
+		{
+			name: 'Punctuation tag',
+			scope: [
+				'punctuation.definition.tag.begin',
+				'punctuation.definition.tag.end',
+				'punctuation.definition.typeparameters.begin',
+				'punctuation.definition.typeparameters.end',
+			],
+			settings: {
+				foreground: colors.pink[700],
+			},
+		},
+		{
+			name: 'HTML Attribute name',
+			scope: ['entity.other.attribute-name'],
+			settings: {
+				foreground: colors.pink[400],
+				fontStyle: 'italic',
+			},
+		},
+		{
+			name: 'HTML Ids',
+			scope: ['entity.other.attribute-name.id'],
+			settings: {
+				foreground: colors.orange[400],
+			},
+		},
+		{
+			name: 'Json key, Yaml key',
+			scope: [
+				'support.type.property-name.json',
+				'source.yaml entity.name.tag',
+				'source.css support.type.property-name',
+			],
+			settings: {
+				foreground: colors.blueGreen[300],
 			},
 		},
 	],
 };
 
-export default midnightTheme;
+export default malakaiTheme;
