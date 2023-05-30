@@ -235,7 +235,7 @@
         "textSeparator.foreground": "#545c7e",
         "debugExceptionWidget.border": "#963c47",
         "debugExceptionWidget.background": "#1b1e2e",
-        "debugToolBar.background": "#1b1e2e",
+        "debugToolBar.background": "#151515",
         "debugConsole.infoForeground": "#7982a9",
         "debugConsole.errorForeground": "#bb616b",
         "debugConsole.sourceForeground": "#7982a9",
@@ -274,15 +274,14 @@
         "terminal.ansiBrightMagenta": "#bb9af7",
         "terminal.ansiBrightCyan": "#7dcfff",
         "terminal.ansiBrightWhite": "#a9b1d6",
-        "gitDecoration.modifiedResourceForeground": "#6183bb",
-        "gitDecoration.ignoredResourceForeground": "#545c7e",
-        "gitDecoration.deletedResourceForeground": "#914c54",
-        "gitDecoration.renamedResourceForeground": "#449dab",
-        "gitDecoration.addedResourceForeground": "#449dab",
-        "gitDecoration.untrackedResourceForeground": "#449dab",
-        "gitDecoration.conflictingResourceForeground": "#e0af68cc",
-        "gitDecoration.stageDeletedResourceForeground": "#914c54",
-        "gitDecoration.stageModifiedResourceForeground": "#6183bb",
+        "gitDecoration.addedResourceForeground": "#79E4DA",
+        "gitDecoration.modifiedResourceForeground": "#fed7aa",
+        "gitDecoration.deletedResourceForeground": "#FF527D",
+        "gitDecoration.renamedResourceForeground": "#34d399",
+        "gitDecoration.stageModifiedResourceForeground": "#fed7aa",
+        "gitDecoration.stageDeletedResourceForeground": "#FF527D",
+        "gitDecoration.untrackedResourceForeground": "#79E4DA",
+        "gitDecoration.ignoredResourceForeground": "#505978",
         "notebook.editorBackground": "#24283b",
         "notebook.cellEditorBackground": "#1f2335",
         "notebook.cellBorderColor": "#1b1e2e",
@@ -335,7 +334,7 @@
                 "comment"
             ],
             "settings": {
-                "foreground": "#7680A4"
+                "foreground": "#686868"
             }
         },
         {
@@ -356,7 +355,7 @@
                 "meta.object.member"
             ],
             "settings": {
-                "foreground": "#fed7aa"
+                "foreground": "#fdba74"
             }
         },
         {
@@ -397,7 +396,7 @@
                 "variable.parameter"
             ],
             "settings": {
-                "foreground": "#c7d2fe",
+                "foreground": "#F7F7F7",
                 "fontStyle": "italic"
             }
         },
@@ -467,7 +466,7 @@
                 "keyword.other.unit"
             ],
             "settings": {
-                "foreground": "#a78bfa"
+                "foreground": "#a5b4fc"
             }
         },
         {

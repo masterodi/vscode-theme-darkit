@@ -297,7 +297,7 @@ const malakaiTheme = {
 
 		'debugExceptionWidget.border': '#963c47',
 		'debugExceptionWidget.background': '#1b1e2e',
-		'debugToolBar.background': '#1b1e2e',
+		'debugToolBar.background': bg.blocks,
 
 		'debugConsole.infoForeground': '#7982a9',
 		'debugConsole.errorForeground': '#bb616b',
@@ -344,15 +344,14 @@ const malakaiTheme = {
 		'terminal.ansiBrightCyan': '#7dcfff',
 		'terminal.ansiBrightWhite': '#a9b1d6',
 
-		'gitDecoration.modifiedResourceForeground': '#6183bb',
-		'gitDecoration.ignoredResourceForeground': '#545c7e',
-		'gitDecoration.deletedResourceForeground': '#914c54',
-		'gitDecoration.renamedResourceForeground': '#449dab',
-		'gitDecoration.addedResourceForeground': '#449dab',
-		'gitDecoration.untrackedResourceForeground': '#449dab',
-		'gitDecoration.conflictingResourceForeground': '#e0af68cc',
-		'gitDecoration.stageDeletedResourceForeground': '#914c54',
-		'gitDecoration.stageModifiedResourceForeground': '#6183bb',
+		'gitDecoration.addedResourceForeground': '#79E4DA',
+		'gitDecoration.modifiedResourceForeground': '#fed7aa',
+		'gitDecoration.deletedResourceForeground': '#FF527D',
+		'gitDecoration.renamedResourceForeground': '#34d399',
+		'gitDecoration.stageModifiedResourceForeground': '#fed7aa',
+		'gitDecoration.stageDeletedResourceForeground': '#FF527D',
+		'gitDecoration.untrackedResourceForeground': '#79E4DA',
+		'gitDecoration.ignoredResourceForeground': '#505978',
 
 		'notebook.editorBackground': '#24283b',
 		'notebook.cellEditorBackground': '#1f2335',
@@ -409,7 +408,7 @@ const malakaiTheme = {
 			name: 'Comments',
 			scope: ['comment'],
 			settings: {
-				foreground: colors.darkBlue[300],
+				foreground: colors.gray[500],
 			},
 		},
 		{
@@ -426,7 +425,7 @@ const malakaiTheme = {
 				'meta.object.member',
 			],
 			settings: {
-				foreground: colors.orange[200],
+				foreground: colors.orange[300],
 			},
 		},
 		{
@@ -460,7 +459,7 @@ const malakaiTheme = {
 			name: 'Function parameter',
 			scope: ['variable.parameter'],
 			settings: {
-				foreground: colors.indigo[200],
+				foreground: colors.gray[50],
 				fontStyle: 'italic',
 			},
 		},
@@ -524,7 +523,7 @@ const malakaiTheme = {
 				'keyword.other.unit',
 			],
 			settings: {
-				foreground: colors.violet[400],
+				foreground: colors.indigo[300],
 			},
 		},
 		{
