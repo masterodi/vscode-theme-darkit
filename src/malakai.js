@@ -20,7 +20,7 @@ const malakaiTheme = {
 	semanticHighlighting: true,
 	colors: {
 		foreground: text.base,
-		descriptionForeground: '#545c7e',
+		descriptionForeground: text.dimmed,
 		focusBorder: '#545c7e33',
 		errorForeground: '#5a607d',
 		'widget.shadow': border,
@@ -42,8 +42,8 @@ const malakaiTheme = {
 		'extensionBadge.remoteBackground': '#3d59a1',
 		'extensionBadge.remoteForeground': '#ffffff',
 
-		'button.background': bg.editor,
-		'button.hoverBackground': bg.highlight,
+		'button.background': bg.highlight,
+		'button.hoverBackground': bg.highlightExtra,
 		'button.secondaryBackground': bg.highlightExtra,
 		'button.foreground': '#ffffff',
 		'progressBar.background': '#3d59a1',
@@ -110,8 +110,8 @@ const malakaiTheme = {
 		'listFilterWidget.outline': '#3d59a1',
 		'listFilterWidget.noMatchesOutline': '#a6333f',
 
-		'pickerGroup.foreground': '#a9b1d6',
-		'pickerGroup.border': '#1b1e2e',
+		'pickerGroup.foreground': accent,
+		'pickerGroup.border': border,
 
 		'scrollbarSlider.background': bg.highlight,
 		'scrollbarSlider.hoverBackground': bg.highlightExtra,
@@ -160,7 +160,7 @@ const malakaiTheme = {
 		'editorWhitespace.foreground': '#3b4261',
 
 		'editorMarkerNavigation.background': '#1f2335',
-		'editorHoverWidget.background': '#1f2335',
+		'editorHoverWidget.background': bg.highlight,
 		'editorHoverWidget.border': border,
 
 		'editorBracketMatch.background': '#1f2335',
@@ -288,9 +288,9 @@ const malakaiTheme = {
 		'titleBar.border': border,
 
 		'walkThrough.embeddedEditorBackground': '#1f2335',
-		'textLink.foreground': '#668ac4',
+		'textLink.foreground': accent,
 		'textLink.activeForeground': '#7dcfff',
-		'textPreformat.foreground': '#73daca',
+		'textPreformat.foreground': accent,
 		'textBlockQuote.background': bg.blocks,
 		'textCodeBlock.background': bg.blocks,
 		'textSeparator.foreground': '#545c7e',
@@ -322,8 +322,8 @@ const malakaiTheme = {
 		'debugIcon.breakpointUnverifiedForeground': '#c24242',
 
 		'terminal.background': bg.blocks,
-		'terminal.foreground': '#7982a9',
-		'terminal.selectionBackground': '#6f7bb640',
+		'terminal.foreground': text.base,
+		'terminal.selectionBackground': bg.highlight,
 		// "terminalCursor.background": "",
 		// "terminalCursor.foreground": "",
 
@@ -394,15 +394,15 @@ const malakaiTheme = {
 		'notificationsWarningIcon.foreground': '#bba461',
 		'notificationsInfoIcon.foreground': '#0da0ba',
 
-		'menubar.selectionForeground': '#c0caf5',
-		'menubar.selectionBackground': '#2f3549',
-		'menubar.selectionBorder': '#1b1e2e',
+		'menubar.selectionForeground': text.base,
+		'menubar.selectionBackground': bg.highlight,
+		'menubar.selectionBorder': border,
 		'menu.foreground': '#7982a9',
 		'menu.background': bg.blocks,
-		'menu.selectionForeground': '#c0caf5',
-		'menu.selectionBackground': '#2f3549',
-		'menu.separatorBackground': '#1b1e2e',
-		'menu.border': '#1b1e2e',
+		'menu.selectionForeground': text.base,
+		'menu.selectionBackground': bg.highlight,
+		'menu.separatorBackground': border,
+		'menu.border': border,
 	},
 	tokenColors: [
 		{
@@ -426,7 +426,7 @@ const malakaiTheme = {
 				'meta.object.member',
 			],
 			settings: {
-				foreground: colors.lightBlue[200],
+				foreground: colors.orange[200],
 			},
 		},
 		{
