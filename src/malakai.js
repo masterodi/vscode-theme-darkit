@@ -525,7 +525,7 @@ const malakaiTheme = {
 				'keyword.other.unit',
 			],
 			settings: {
-				foreground: colors.lightBlue[300],
+				foreground: colors.lightBlue[400],
 			},
 		},
 		{

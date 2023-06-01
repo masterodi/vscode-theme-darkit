@@ -280,7 +280,7 @@
         "gitDecoration.renamedResourceForeground": "#34d399",
         "gitDecoration.stageModifiedResourceForeground": "#fed7aa",
         "gitDecoration.stageDeletedResourceForeground": "#FF527D",
-        "gitDecoration.untrackedResourceForeground": "#79E4DA",
+        "gitDecoration.untrackedResourceForeground": "#3E3E3E",
         "gitDecoration.ignoredResourceForeground": "#505978",
         "notebook.editorBackground": "#24283b",
         "notebook.cellEditorBackground": "#1f2335",
@@ -467,7 +467,7 @@
                 "keyword.other.unit"
             ],
             "settings": {
-                "foreground": "#c084fc"
+                "foreground": "#8EDAF5"
             }
         },
         {
