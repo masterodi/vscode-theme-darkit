@@ -280,7 +280,7 @@
         "gitDecoration.renamedResourceForeground": "#34d399",
         "gitDecoration.stageModifiedResourceForeground": "#fed7aa",
         "gitDecoration.stageDeletedResourceForeground": "#FF527D",
-        "gitDecoration.untrackedResourceForeground": "#3E3E3E",
+        "gitDecoration.untrackedResourceForeground": "#79E4DA",
         "gitDecoration.ignoredResourceForeground": "#3E3E3E",
         "notebook.editorBackground": "#24283b",
         "notebook.cellEditorBackground": "#1f2335",

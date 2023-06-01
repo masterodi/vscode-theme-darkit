@@ -351,7 +351,7 @@ const malakaiTheme = {
 		'gitDecoration.renamedResourceForeground': '#34d399',
 		'gitDecoration.stageModifiedResourceForeground': '#fed7aa',
 		'gitDecoration.stageDeletedResourceForeground': '#FF527D',
-		'gitDecoration.untrackedResourceForeground': colors.gray[700],
+		'gitDecoration.untrackedResourceForeground': '#79E4DA',
 		'gitDecoration.ignoredResourceForeground': colors.gray[700],
 
 		'notebook.editorBackground': '#24283b',
