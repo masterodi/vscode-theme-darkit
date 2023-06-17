@@ -318,7 +318,7 @@
                 "entity.other.attribute-name"
             ],
             "settings": {
-                "foreground": "#90ACD0",
+                "foreground": "#D9F3FC",
                 "fontStyle": "italic"
             }
         },
@@ -376,7 +376,7 @@
                 "source.css support.type.property-name"
             ],
             "settings": {
-                "foreground": "#B3B9CC"
+                "foreground": "#fdba74"
             }
         },
         {
