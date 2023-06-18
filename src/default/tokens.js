@@ -132,7 +132,7 @@ const tokens = [
 		name: 'Attribute name',
 		scope: ['entity.other.attribute-name'],
 		settings: {
-			foreground: colors.lightBlue[200],
+			foreground: colors.cyan[500],
 			fontStyle: 'italic',
 		},
 	},

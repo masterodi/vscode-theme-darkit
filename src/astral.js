@@ -304,7 +304,7 @@ const astralTheme = {
 		'debugIcon.breakpointUnverifiedForeground': '#c24242',
 
 		'terminal.background': '#1f2335',
-		'terminal.foreground': '#7982a9',
+		'terminal.foreground': '#96a3d6',
 		'terminal.selectionBackground': '#6f7bb640',
 		// "terminalCursor.background": "",
 		// "terminalCursor.foreground": "",
