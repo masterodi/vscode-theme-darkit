@@ -67,19 +67,6 @@ const roseRed = {
 	900: '#470012',
 };
 
-const redOrange = {
-	50: '#FFE4E0',
-	100: '#FFD3CC',
-	200: '#FFAFA3',
-	300: '#FF8C7A',
-	400: '#FF6952',
-	500: '#FF4529',
-	600: '#F02000',
-	700: '#B81800',
-	800: '#801100',
-	900: '#470A00',
-};
-
 const orange = {
 	50: '#fff7ed',
 	100: '#ffedd5',
@@ -169,32 +156,6 @@ const aquamarine = {
 	700: '#0CE39F',
 	800: '#09AE7A',
 	900: '#067854',
-};
-
-const blueGreen = {
-	50: '#8CF5D9',
-	100: '#79F3D3',
-	200: '#53F0C6',
-	300: '#2EEDBA',
-	400: '#13DFA8',
-	500: '#10B98C',
-	600: '#0C8565',
-	700: '#07523E',
-	800: '#031E17',
-	900: '#000000',
-};
-
-const turquoise = {
-	50: '#CEF5F1',
-	100: '#BDF2ED',
-	200: '#9BEBE3',
-	300: '#79E4DA',
-	400: '#57DED0',
-	500: '#35D7C7',
-	600: '#23B1A3',
-	700: '#1A8278',
-	800: '#10534D',
-	900: '#072422',
 };
 
 const cyan = {
@@ -336,7 +297,6 @@ const colors = {
 	red,
 	rose,
 	roseRed,
-	redOrange,
 	orange,
 	yellow,
 	greenYellow,
@@ -344,8 +304,6 @@ const colors = {
 	green,
 	emerald,
 	aquamarine,
-	blueGreen,
-	turquoise,
 	cyan,
 	blue,
 	lightBlue,

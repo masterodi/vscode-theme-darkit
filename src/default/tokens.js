@@ -140,7 +140,7 @@ const tokens = [
 		name: 'Ids',
 		scope: ['entity.other.attribute-name.id'],
 		settings: {
-			foreground: colors.turquoise[500],
+			foreground: colors.aquamarine[500],
 		},
 	},
 	{
@@ -203,7 +203,7 @@ const tokens = [
 		name: 'Variable other readwrite alias',
 		scope: ['variable.other.readwrite.alias', 'entity.name.namespace'],
 		settings: {
-			foreground: colors.redOrange[100],
+			foreground: colors.violet[300],
 		},
 	},
 	{

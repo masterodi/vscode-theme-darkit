@@ -445,7 +445,7 @@
                 "entity.name.tag.reference"
             ],
             "settings": {
-                "foreground": "#FFAFA3"
+                "foreground": "#fdba74"
             }
         },
         {
@@ -467,7 +467,7 @@
                 "punctuation.definition.typeparameters.end"
             ],
             "settings": {
-                "foreground": "#FF8C7A"
+                "foreground": "#fb923c"
             }
         },
         {
@@ -486,7 +486,7 @@
                 "entity.other.attribute-name.id"
             ],
             "settings": {
-                "foreground": "#35D7C7"
+                "foreground": "#68F7CA"
             }
         },
         {

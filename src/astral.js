@@ -490,7 +490,7 @@ const astralTheme = {
 				'entity.name.tag.reference',
 			],
 			settings: {
-				foreground: colors.redOrange[200],
+				foreground: colors.orange[300],
 			},
 		},
 		{
@@ -512,7 +512,7 @@ const astralTheme = {
 				'punctuation.definition.typeparameters.end',
 			],
 			settings: {
-				foreground: colors.redOrange[300],
+				foreground: colors.orange[400],
 			},
 		},
 		{
@@ -527,7 +527,7 @@ const astralTheme = {
 			name: 'Ids',
 			scope: ['entity.other.attribute-name.id'],
 			settings: {
-				foreground: colors.turquoise[500],
+				foreground: colors.aquamarine[500],
 			},
 		},
 		{

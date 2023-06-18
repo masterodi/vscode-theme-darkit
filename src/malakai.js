@@ -610,7 +610,7 @@ const malakaiTheme = {
 				'source.css support.type.property-name',
 			],
 			settings: {
-				foreground: colors.blueGreen[300],
+				foreground: colors.aquamarine[600],
 			},
 		},
 	],

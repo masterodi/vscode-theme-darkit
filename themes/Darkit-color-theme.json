@@ -85,10 +85,10 @@
         "terminal.ansiBrightBlack": "#475569",
         "terminal.ansiBlue": "#297EFF",
         "terminal.ansiBrightBlue": "#7AAFFF",
-        "terminal.ansiCyan": "#23B1A3",
-        "terminal.ansiBrightCyan": "#57DED0",
-        "terminal.ansiGreen": "#53F0C6",
-        "terminal.ansiBrightGreen": "#79F3D3",
+        "terminal.ansiCyan": "#00BDC7",
+        "terminal.ansiBrightCyan": "#29F4FF",
+        "terminal.ansiGreen": "#a7f3d0",
+        "terminal.ansiBrightGreen": "#d1fae5",
         "terminal.ansiMagenta": "#c084fc",
         "terminal.ansiBrightMagenta": "#d8b4fe",
         "terminal.ansiRed": "#FF527D",
@@ -122,7 +122,7 @@
         "editorWidget.border": "#0C0E12",
         "debugToolBar.background": "#2D3243",
         "debugToolBar.border": "#12141C",
-        "debugIcon.continueForeground": "#79E4DA",
+        "debugIcon.continueForeground": "#B5FBE5",
         "debugIcon.restartForeground": "#7AAFFF",
         "debugIcon.disconnectForeground": "#FF527D",
         "debugIcon.stepOverForeground": "#a5b4fc",
@@ -132,13 +132,13 @@
         "notifications.foreground": "#e2e8f0",
         "notificationLink.foreground": "#6ee7b7",
         "notificationToast.border": "#12141C",
-        "gitDecoration.addedResourceForeground": "#79E4DA",
+        "gitDecoration.addedResourceForeground": "#B5FBE5",
         "gitDecoration.modifiedResourceForeground": "#fed7aa",
         "gitDecoration.deletedResourceForeground": "#FF527D",
         "gitDecoration.renamedResourceForeground": "#34d399",
         "gitDecoration.stageModifiedResourceForeground": "#fed7aa",
         "gitDecoration.stageDeletedResourceForeground": "#FF527D",
-        "gitDecoration.untrackedResourceForeground": "#79E4DA",
+        "gitDecoration.untrackedResourceForeground": "#B5FBE5",
         "gitDecoration.ignoredResourceForeground": "#505978",
         "editor.background": "#181B25",
         "editor.foreground": "#e2e8f0",
@@ -328,7 +328,7 @@
                 "entity.other.attribute-name.id"
             ],
             "settings": {
-                "foreground": "#35D7C7"
+                "foreground": "#68F7CA"
             }
         },
         {
@@ -398,7 +398,7 @@
                 "entity.name.namespace"
             ],
             "settings": {
-                "foreground": "#FFD3CC"
+                "foreground": "#c4b5fd"
             }
         },
         {
