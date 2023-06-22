@@ -1,41 +1,21 @@
-import Color from 'color';
 import { mkdir, writeFile } from 'fs';
-import astralTheme from './astral.js';
-import defaultTheme from './default/theme.js';
-import malakaiTheme from './malakai.js';
-
-const THEMES_PATH = `${process.cwd()}/themes`;
+import { astral, base, malakai } from './themes/index.js';
+import {
+	THEMES_PATH,
+	getThemePath,
+	parseTokenColors,
+	parseWorkbenchColors,
+} from './utils.js';
 
 const parseTheme = (theme) => {
-	const { colors, tokenColors } = theme;
+	const { colors: workbenchColors, tokenColors } = theme;
 
-	const parsedColors = {};
-
-	for (const [key, value] of Object.entries(colors)) {
-		if (value instanceof Color) {
-			parsedColors[key] = value.hex();
-		} else {
-			parsedColors[key] = value;
-		}
-	}
-
-	const parsedTokenColors = [];
-
-	for (const token of tokenColors) {
-		if (token?.settings?.foreground instanceof Color) {
-			const parsedForeground = token.settings.foreground.hex();
-			parsedTokenColors.push({
-				...token,
-				settings: { ...token.settings, foreground: parsedForeground },
-			});
-		} else {
-			parsedTokenColors.push(token);
-		}
-	}
+	const parsedWorkbenchColors = parseWorkbenchColors(workbenchColors);
+	const parsedTokenColors = parseTokenColors(tokenColors);
 
 	const parsedTheme = {
 		...theme,
-		colors: parsedColors,
+		colors: parsedWorkbenchColors,
 		tokenColors: parsedTokenColors,
 	};
 
@@ -43,25 +23,25 @@ const parseTheme = (theme) => {
 };
 
 const buildThemes = (...themes) => {
-	mkdir(THEMES_PATH, { recursive: true }, (err) => {
+	const handleError = (err) => {
 		if (err) {
 			console.log(err);
 			process.exit(1);
 		}
+	};
+
+	mkdir(THEMES_PATH, { recursive: true }, (err) => {
+		handleError(err);
 
 		for (const theme of themes) {
-			const THEME_PATH = `${THEMES_PATH}/${theme.name.replaceAll(
-				' ',
-				'-'
-			)}-color-theme.json`;
-			writeFile(THEME_PATH, parseTheme(theme), (err) => {
-				if (err) {
-					console.log(err);
-					process.exit(1);
-				}
+			const THEME_PATH = getThemePath(theme);
+			const parsedTheme = parseTheme(theme);
+
+			writeFile(THEME_PATH, parsedTheme, (err) => {
+				handleError(err);
 			});
 		}
 	});
 };
 
-buildThemes(defaultTheme, astralTheme, malakaiTheme);
+buildThemes(base, astral, malakai);

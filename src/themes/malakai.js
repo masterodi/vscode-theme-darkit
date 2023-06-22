@@ -1,5 +1,5 @@
 import Color from 'color';
-import colors from './colors.js';
+import colors from '../colors.js';
 
 const text = {
 	highlight: Color(colors.gray[50]).hex(),
