@@ -1,3 +1,5 @@
+import Color from 'color';
+
 export const maybeGetHex = (color) => {
 	return color instanceof Color ? color.hex() : color;
 };
