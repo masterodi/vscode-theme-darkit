@@ -1,4 +1,4 @@
-import { mkdir, writeFile } from 'fs';
+import { mkdirSync, writeFileSync } from 'fs';
 import { astral, base, malakai } from './themes/index.js';
 import {
 	THEMES_PATH,
@@ -23,25 +23,14 @@ const parseTheme = (theme) => {
 };
 
 const buildThemes = (...themes) => {
-	const handleError = (err) => {
-		if (err) {
-			console.log(err);
-			process.exit(1);
-		}
-	};
+	const result = mkdirSync(THEMES_PATH, { recursive: true });
 
-	mkdir(THEMES_PATH, { recursive: true }, (err) => {
-		handleError(err);
+	for (const theme of themes) {
+		const THEME_PATH = getThemePath(theme);
+		const parsedTheme = parseTheme(theme);
 
-		for (const theme of themes) {
-			const THEME_PATH = getThemePath(theme);
-			const parsedTheme = parseTheme(theme);
-
-			writeFile(THEME_PATH, parsedTheme, (err) => {
-				handleError(err);
-			});
-		}
-	});
+		writeFileSync(THEME_PATH, parsedTheme);
+	}
 };
 
 buildThemes(base, astral, malakai);
