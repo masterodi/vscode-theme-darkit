@@ -5,7 +5,7 @@ import {
 	getThemePath,
 	parseTokenColors,
 	parseWorkbenchColors,
-} from './utils.js';
+} from './utils/index.js';
 
 const parseTheme = (theme) => {
 	const { colors: workbenchColors, tokenColors } = theme;

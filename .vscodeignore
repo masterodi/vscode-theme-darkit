@@ -8,3 +8,6 @@
 /src/
 /build/
 /demo/
+.prettierrc
+.prettierignore
+.husky

@@ -1,3 +1,5 @@
+export * from './tokens.js';
+
 import Color from 'color';
 
 export const maybeGetHex = (color) => {

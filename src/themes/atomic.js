@@ -1,5 +1,6 @@
 import Color from 'color';
 import colors from '../colors.js';
+import { createTokenColors } from '../utils/tokens.js';
 
 const text = {
 	highlight: Color(colors.gray[50]).hex(),
@@ -8,13 +9,19 @@ const text = {
 	onAccent: Color(colors.gray[900]).hex(),
 };
 const bg = {
-	editor: Color(colors.gray[500]).darken(0.75).desaturate(0.65).hex(),
-	blocks: Color(colors.gray[500]).darken(0.8).desaturate(0.65).hex(),
-	highlight: Color(colors.gray[500]).darken(0.6).desaturate(0.65).hex(),
-	highlightExtra: Color(colors.gray[500]).darken(0.5).desaturate(0.65).hex(),
+	editor: Color(colors.washedBlue[500]).darken(0.75).desaturate(0.65).hex(),
+	blocks: Color(colors.washedBlue[500]).darken(0.8).desaturate(0.65).hex(),
+	highlight: Color(colors.washedBlue[500]).darken(0.6).desaturate(0.65).hex(),
+	highlightExtra: Color(colors.washedBlue[500])
+		.darken(0.5)
+		.desaturate(0.65)
+		.hex(),
 };
-const border = Color(colors.gray[500]).darken(0.85).desaturate(0.65).hex();
-const accent = Color(colors.aquamarine[600]).hex();
+const border = Color(colors.washedBlue[500])
+	.darken(0.85)
+	.desaturate(0.65)
+	.hex();
+const accent = Color(colors.lightBlue[600]).hex();
 
 const atomicTheme = {
 	name: 'Darkit Atomic',
@@ -404,216 +411,32 @@ const atomicTheme = {
 		'menu.separatorBackground': border,
 		'menu.border': border,
 	},
-	tokenColors: [
-		{
-			name: 'Comments',
-			scope: ['comment'],
-			settings: {
-				foreground: colors.gray[500],
-			},
+	tokenColors: createTokenColors({
+		comments: { color: colors.gray[500], style: 'bold' },
+		variables: { color: colors.white },
+		objectProperties: { color: colors.indigo[200] },
+		readWriteAliases: { color: colors.gray[300] },
+		constantObjects: {},
+		functions: { color: colors.blue[300] },
+		functionParameters: {
+			color: colors.lightBlue[200],
+			style: 'italic bold',
 		},
-		{
-			name: 'Variable',
-			scope: ['variable'],
-			settings: { foreground: colors.slate[100] },
-		},
-		{
-			name: 'Variable other property',
-			scope: [
-				'support.variable',
-				'variable.other.predefined',
-				'variable.other.property',
-				'meta.object.member',
-			],
-			settings: {
-				foreground: colors.orange[300],
-			},
-		},
-		{
-			name: 'Variable other readwrite alias',
-			scope: ['variable.other.readwrite.alias', 'entity.name.namespace'],
-			settings: {
-				foreground: colors.violet[300],
-			},
-		},
-		{
-			name: 'Variable other constant object',
-			scope: ['variable.other.constant.object'],
-			settings: {
-				foreground: colors.slate[300],
-			},
-		},
-		{
-			name: 'Functions',
-			scope: [
-				'entity.name.function',
-				'support.function',
-				'meta.function-call.generic',
-				'support.function.magic',
-				'punctuation.definition.template-expression',
-			],
-			settings: {
-				foreground: colors.indigo[400],
-			},
-		},
-		{
-			name: 'Function parameter',
-			scope: ['variable.parameter'],
-			settings: {
-				foreground: colors.gray[50],
-				fontStyle: 'italic',
-			},
-		},
-		{
-			name: 'Strings',
-			scope: ['string'],
-			settings: {
-				foreground: colors.yellow[300],
-			},
-		},
-		{
-			name: 'String regex',
-			scope: ['string.regexp'],
-			settings: {
-				foreground: colors.yellow[400],
-				fontStyle: 'italic',
-			},
-		},
-		{
-			name: 'Primitives',
-			scope: [
-				'support.type.primitive',
-				'entity.other.attribute-name.pseudo-class',
-				'entity.other.attribute-name.pseudo-element',
-			],
-			settings: {
-				foreground: colors.violet[400],
-			},
-		},
-		{
-			name: 'Constant',
-			scope: [
-				'support.constant',
-				'constant.language',
-				'support.type.builtin',
-			],
-			settings: {
-				foreground: colors.cyan[400],
-			},
-		},
-		{
-			name: 'Numeric constant',
-			scope: ['constant.numeric'],
-			settings: {
-				foreground: colors.cyan[400],
-			},
-		},
-		{
-			name: 'Keyword operator',
-			scope: [
-				'keyword.operator',
-				'keyword.operator.assignment',
-				'punctuation.separator',
-				'punctuation.accessor',
-				'punctuation.separator.key-value',
-				'punctuation.definition.block.sequence.item',
-				'punctuation.separator.dictionary.key-value',
-				'punctuation.definition.variable',
-				'punctuation.separator.colon',
-				'punctuation.separator.period',
-				'punctuation.section',
-				'keyword.other.unit',
-			],
-			settings: {
-				foreground: colors.lightBlue[400],
-			},
-		},
-		{
-			name: 'Keywords | Keyword operator',
-			scope: ['keyword', 'meta.method.declaration storage.type'],
-			settings: {
-				foreground: colors.aquamarine[600],
-			},
-		},
-		{
-			name: 'Storage (let, const, async, function, class, extends, ...) | Variable language | Keyword operator expression | Keyword operator new',
-			scope: [
-				'storage',
-				'variable.language',
-				'keyword.operator.expression',
-				'keyword.operator.new',
-				'keyword.function',
-			],
-			settings: {
-				foreground: colors.aquamarine[600],
-			},
-		},
-		{
-			name: 'Classes',
-			scope: [
-				'support.class',
-				'entity.name.type',
-				'entity.other.inherited-class',
-				'entity.name.scope-resolution',
-				'support.type',
-			],
-			settings: {
-				foreground: colors.pink[500],
-			},
-		},
-		{
-			name: 'Tags',
-			scope: [
-				'entity.name.tag',
-				'variable.language.this',
-				'variable.language.super',
-				'variable.parameter.function.language.special.self',
-				'variable.language.special.self',
-				'entity.name.tag.reference',
-			],
-			settings: {
-				foreground: colors.pink[500],
-			},
-		},
-		{
-			name: 'Punctuation tag',
-			scope: [
-				'punctuation.definition.tag.begin',
-				'punctuation.definition.tag.end',
-				'punctuation.definition.typeparameters.begin',
-				'punctuation.definition.typeparameters.end',
-			],
-			settings: {
-				foreground: colors.pink[700],
-			},
-		},
-		{
-			name: 'HTML Attribute name',
-			scope: ['entity.other.attribute-name'],
-			settings: {
-				foreground: colors.pink[400],
-				fontStyle: 'italic',
-			},
-		},
-		{
-			name: 'HTML Ids',
-			scope: ['entity.other.attribute-name.id'],
-			settings: {
-				foreground: colors.orange[400],
-			},
-		},
-		{
-			name: 'Json key, Yaml key',
-			scope: [
-				'support.type.property-name.json',
-				'source.yaml entity.name.tag',
-				'source.css support.type.property-name',
-			],
-			settings: {
-				foreground: colors.aquamarine[600],
-			},
-		},
-	],
+		strings: { color: colors.washedBlue[300] },
+		regex: { color: colors.slate[300], style: 'bold' },
+		primitives: { color: colors.yellow[400] },
+		constants: { color: colors.orange[300] },
+		numbers: { color: colors.orange[300] },
+		keywords: { color: colors.purple[400] },
+		storage: { color: colors.purple[400] },
+		operators: { color: colors.cyan[300] },
+		classes: { color: colors.yellow[300] },
+		tags: { color: colors.roseRed[400] },
+		tagsPunctuation: { color: colors.gray[200] },
+		htmlAttributes: { color: colors.aquamarine[400] },
+		htmlIds: { color: colors.cyan[200] },
+		jsonYamlKeys: { color: colors.roseRed[400] },
+	}),
 };
 
 export default atomicTheme;

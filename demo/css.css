@@ -1,15 +1,15 @@
 .someClass {
-  font-family: serif;
+	font-family: serif;
 }
 
 #someID {
-  background: yellow;
+	background: yellow;
 }
 
 main {
-  margin-top: 20px;
+	margin-top: 20px;
 }
 
 & > * {
-  color: text;
+	color: text;
 }
