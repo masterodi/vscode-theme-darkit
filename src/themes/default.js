@@ -303,7 +303,7 @@ const defaultTheme = {
 			name: 'Attribute name',
 			scope: ['entity.other.attribute-name'],
 			settings: {
-				foreground: colors.cyan[500],
+				foreground: colors.indigo[300],
 				fontStyle: 'italic',
 			},
 		},

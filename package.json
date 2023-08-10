@@ -15,14 +15,14 @@
 	"contributes": {
 		"themes": [
 			{
-				"label": "Darkit Atomic",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Darkit-Atomic-color-theme.json"
-			},
-			{
 				"label": "Darkit",
 				"uiTheme": "vs-dark",
 				"path": "./themes/Darkit-color-theme.json"
+			},
+			{
+				"label": "Darkit Atomic",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Darkit-Atomic-color-theme.json"
 			},
 			{
 				"label": "Darkit Astral",
