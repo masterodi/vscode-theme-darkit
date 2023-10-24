@@ -25,11 +25,6 @@
 				"path": "./themes/Darkit-Astral-color-theme.json"
 			},
 			{
-				"label": "Darkit Malakai",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Darkit-Malakai-color-theme.json"
-			},
-			{
 				"label": "Darkit Old",
 				"uiTheme": "vs-dark",
 				"path": "./themes/Darkit-Old-color-theme.json"
