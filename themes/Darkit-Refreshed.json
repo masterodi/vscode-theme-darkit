@@ -57,7 +57,7 @@
         "editorGutter.modifiedBackground": "#FFCC95",
         "editorGutter.addedBackground": "#a5b4fc",
         "editorGutter.deletedBackground": "#FF4B82",
-        "gitDecoration.ignoredResourceForeground": "#505978",
+        "gitDecoration.ignoredResourceForeground": "#686868",
         "list.hoverBackground": "#292A2B",
         "list.hoverForeground": "#CDCDCD",
         "list.focusBackground": "#292A2B",

@@ -129,7 +129,7 @@ const refreshedTheme = {
 		'gitDecoration.stageModifiedResourceForeground': colors.orange[200],
 		'gitDecoration.stageDeletedResourceForeground': colors.roseRed[400],
 		'gitDecoration.untrackedResourceForeground': colors.aquamarine[300],
-		'gitDecoration.ignoredResourceForeground': colors.darkBlue[500],
+		'gitDecoration.ignoredResourceForeground': colors.gray[500],
 	},
 	tokenColors: createTokenColors({
 		comments: { color: colors.gray[400] },
