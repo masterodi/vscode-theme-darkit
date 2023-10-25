@@ -137,7 +137,7 @@ const refreshedTheme = {
 		regex: { color: colors.cyan[400] },
 		keywords: { color: colors.blue[200] },
 		storage: { color: colors.blue[200] },
-		functions: { color: colors.lightBlue[300] },
+		functions: { color: colors.purplePink[300] },
 		classes: { color: colors.indigo[300] },
 		tags: { color: colors.indigo[200] },
 		tagsPunctuation: { color: colors.indigo[400] },
