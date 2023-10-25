@@ -38,6 +38,7 @@ const commentsToken = new ColorToken('Comments').scope('comment');
 const variablesToken = new ColorToken('Variables').scope('variable');
 
 const objectPropertiesToken = new ColorToken('Object Properties').scope(
+	'support.type',
 	'support.variable',
 	'variable.other.predefined',
 	'variable.other.property',
@@ -113,7 +114,6 @@ const classesToken = new ColorToken('Classes').scope(
 	'entity.name.type',
 	'entity.other.inherited-class',
 	'entity.name.scope-resolution',
-	'support.type',
 	'variable.language.this',
 	'variable.language.super',
 	'variable.parameter.function.language.special.self',

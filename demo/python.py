@@ -10,7 +10,7 @@ def topo(G, ind=None, Q=[1]):
                 ind[v] += 1
         Q = deque()
         for i in G:
-            if ind[i] == 0:
+            if ind[i] == t:
                 Q.append(i)
     if not len(Q) == 0:
         return

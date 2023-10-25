@@ -4,7 +4,7 @@
 	"description": "A dark theme.",
 	"type": "module",
 	"publisher": "mrheio",
-	"version": "14.3.0",
+	"version": "15.0.0",
 	"icon": "icon.png",
 	"engines": {
 		"vscode": "^1.7.0"
@@ -17,12 +17,17 @@
 			{
 				"label": "Darkit",
 				"uiTheme": "vs-dark",
-				"path": "./themes/Darkit-color-theme.json"
+				"path": "./themes/Darkit.json"
 			},
 			{
 				"label": "Darkit Astral",
 				"uiTheme": "vs-dark",
-				"path": "./themes/Darkit-Astral-color-theme.json"
+				"path": "./themes/Darkit-Astral.json"
+			},
+			{
+				"label": "Darkit Refreshed",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Darkit-Refreshed.json"
 			},
 			{
 				"label": "Darkit Old",

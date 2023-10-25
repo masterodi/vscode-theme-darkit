@@ -25,5 +25,5 @@ export const parseTokenColors = (tokenColors) => {
 export const THEMES_PATH = `${process.cwd()}/themes`;
 
 export const getThemePath = (theme) => {
-	return `${THEMES_PATH}/${theme.name.replaceAll(' ', '-')}-color-theme.json`;
+	return `${THEMES_PATH}/${theme.name.replaceAll(' ', '-')}.json`;
 };

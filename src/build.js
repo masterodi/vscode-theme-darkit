@@ -1,5 +1,7 @@
 import { mkdirSync, writeFileSync } from 'fs';
-import { astral, base } from './themes/index.js';
+import astralTheme from './themes/astral.js';
+import defaultTheme from './themes/default.js';
+import refreshedTheme from './themes/refreshed.js';
 import {
 	THEMES_PATH,
 	getThemePath,
@@ -33,4 +35,4 @@ const buildThemes = (...themes) => {
 	}
 };
 
-buildThemes(base, astral);
+buildThemes(defaultTheme, astralTheme, refreshedTheme);

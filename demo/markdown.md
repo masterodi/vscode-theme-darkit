@@ -14,13 +14,10 @@
 6.  Click **Reload** to reload the Code
 7.  File > Preferences > Color Theme > **Night Owl**
 
--[ ] check check 12 12
--[ ] check check 12 12
+-[ ] check check 12 12 -[ ] check check 12 12
 
-Heading 1
-========
+# Heading 1
 
-Heading 2
---------------
+## Heading 2
 
 ### Heading 3
