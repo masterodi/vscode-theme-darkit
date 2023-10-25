@@ -171,7 +171,7 @@
                 "punctuation.definition.template-expression"
             ],
             "settings": {
-                "foreground": "#FF7A9C"
+                "foreground": "#B3E6F8"
             }
         },
         {
@@ -207,7 +207,7 @@
                 "entity.other.attribute-name.pseudo-element"
             ],
             "settings": {
-                "foreground": "#8FF9D8"
+                "foreground": "#94a3b8"
             }
         },
         {
@@ -218,7 +218,7 @@
                 "support.type.builtin"
             ],
             "settings": {
-                "foreground": "#8FF9D8"
+                "foreground": "#FB679C"
             }
         },
         {
@@ -269,7 +269,7 @@
                 "keyword.other.unit"
             ],
             "settings": {
-                "foreground": "#8FF9D8"
+                "foreground": "#94a3b8"
             }
         },
         {
@@ -285,7 +285,7 @@
                 "variable.language.special.self"
             ],
             "settings": {
-                "foreground": "#818cf8"
+                "foreground": "#a5b4fc"
             }
         },
         {
@@ -295,7 +295,7 @@
                 "entity.name.tag.reference"
             ],
             "settings": {
-                "foreground": "#a5b4fc"
+                "foreground": "#c7d2fe"
             }
         },
         {
@@ -325,7 +325,7 @@
                 "entity.other.attribute-name.id"
             ],
             "settings": {
-                "foreground": "#FB679C"
+                "foreground": "#8FF9D8"
             }
         },
         {
@@ -334,7 +334,9 @@
                 "support.type.property-name.json",
                 "source.yaml entity.name.tag"
             ],
-            "settings": {}
+            "settings": {
+                "foreground": "#c7d2fe"
+            }
         }
     ],
     "semanticHighlighting": true
