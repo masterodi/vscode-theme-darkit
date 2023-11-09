@@ -4,7 +4,7 @@
 	"description": "A dark theme.",
 	"type": "module",
 	"publisher": "mrheio",
-	"version": "15.2.0",
+	"version": "16.0.0",
 	"icon": "icon.png",
 	"engines": {
 		"vscode": "^1.7.0"
@@ -25,9 +25,9 @@
 				"path": "./themes/Darkit-Astral.json"
 			},
 			{
-				"label": "Darkit Refreshed",
+				"label": "Darkit Atomic",
 				"uiTheme": "vs-dark",
-				"path": "./themes/Darkit-Refreshed.json"
+				"path": "./themes/Darkit-Atomic.json"
 			},
 			{
 				"label": "Darkit Old",
@@ -57,7 +57,7 @@
 	},
 	"nodemonConfig": {
 		"ignore": [
-			"themes/**"
+			"themes/*.json"
 		]
 	}
 }
