@@ -40,7 +40,7 @@ const atomicTheme = {
 		'editorBracketMatch.border': accent,
 		'editorCodeLens.foreground': '#FFB86C40',
 		'editorWhitespace.foreground': '#3E4250',
-		'editor.selectionBackground': '#FFB86C40',
+		'editor.selectionBackground': `${Color(editorBg).lighten(1.5).hex()}aa`,
 		'editor.inactiveSelectionBackground': '#FFB86C40',
 		'editor.selectionHighlightBackground': '#FFB86C40',
 		'editor.wordHighlightBackground': `${Color(editorBg)
@@ -49,8 +49,8 @@ const atomicTheme = {
 		'editor.wordHighlightStrongBackground': `${Color(editorBg)
 			.lighten(1)
 			.hex()}77`,
-		'editor.findMatchBackground': '#B084EB90',
-		'editor.findMatchHighlightBackground': '#FFB86C40',
+		'editor.findMatchBackground': `${Color(accent).hex()}55`,
+		'editor.findMatchHighlightBackground': `${Color(accent).hex()}33`,
 		'editor.lineHighlightBackground': `${Color(editorBg)
 			.lighten(0.5)
 			.hex()}77`,
@@ -181,6 +181,16 @@ const atomicTheme = {
 		'gitDecoration.conflictingResourceForeground': '#e0af68cc',
 		'gitDecoration.stageDeletedResourceForeground': '#914c54',
 		'gitDecoration.stageModifiedResourceForeground': '#6183bb',
+		// brackets
+		'editorBracketHighlight.foreground1': '#698cd6', //"#7AA2F7",
+		'editorBracketHighlight.foreground2': '#68b3de', //"#7DCFFF",
+		'editorBracketHighlight.foreground3': '#9a7ecc', //"#BB9AF7",
+		'editorBracketHighlight.foreground4': '#25aac2', //"#2AC3DE",
+		'editorBracketHighlight.foreground5': '#80a856', //"#9ECE6A",
+		'editorBracketHighlight.foreground6': '#cfa25f', //"#e0af68",
+		'editorBracketHighlight.unexpectedBracket.foreground': '#db4b4b',
+		// debug
+		'debugToolBar.background': blocksBg,
 	},
 	tokenColors: createTokenColors({
 		comments: { color: '#5C626F' },
@@ -196,12 +206,13 @@ const atomicTheme = {
 		tagsPunctuation: { color: Color(foreground).lighten(0.25).hex() },
 		htmlAttributes: { color: '#ffba6d' },
 		htmlIds: { color: '#7cbeff' },
-		primitives: { color: '#f3cb7f' },
+		primitives: { color: '#32c8da' },
 		constants: { color: '#ffba6d' },
 		numbers: { color: '#ffba6d' },
 		objectProperties: { color: Color(foreground).lighten(0.35).hex() },
 		operators: { color: '#54e9ff' },
 		jsonYamlKeys: { color: '#e56d75' },
+		readWriteAliases: { color: '#46c4d3' },
 	}),
 	semanticHighlighting: true,
 };

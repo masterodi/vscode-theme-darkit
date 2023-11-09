@@ -28,13 +28,13 @@
         "editorBracketMatch.border": "#6084f1",
         "editorCodeLens.foreground": "#FFB86C40",
         "editorWhitespace.foreground": "#3E4250",
-        "editor.selectionBackground": "#FFB86C40",
+        "editor.selectionBackground": "#495573aa",
         "editor.inactiveSelectionBackground": "#FFB86C40",
         "editor.selectionHighlightBackground": "#FFB86C40",
         "editor.wordHighlightBackground": "#495573aa",
         "editor.wordHighlightStrongBackground": "#3A445C77",
-        "editor.findMatchBackground": "#B084EB90",
-        "editor.findMatchHighlightBackground": "#FFB86C40",
+        "editor.findMatchBackground": "#6084F155",
+        "editor.findMatchHighlightBackground": "#6084F133",
         "editor.lineHighlightBackground": "#2C334577",
         "editorLineNumber.foreground": "#414759",
         "editorLineNumber.activeForeground": "#696F7C",
@@ -149,7 +149,15 @@
         "gitDecoration.untrackedResourceForeground": "#449dab",
         "gitDecoration.conflictingResourceForeground": "#e0af68cc",
         "gitDecoration.stageDeletedResourceForeground": "#914c54",
-        "gitDecoration.stageModifiedResourceForeground": "#6183bb"
+        "gitDecoration.stageModifiedResourceForeground": "#6183bb",
+        "editorBracketHighlight.foreground1": "#698cd6",
+        "editorBracketHighlight.foreground2": "#68b3de",
+        "editorBracketHighlight.foreground3": "#9a7ecc",
+        "editorBracketHighlight.foreground4": "#25aac2",
+        "editorBracketHighlight.foreground5": "#80a856",
+        "editorBracketHighlight.foreground6": "#cfa25f",
+        "editorBracketHighlight.unexpectedBracket.foreground": "#db4b4b",
+        "debugToolBar.background": "#151920"
     },
     "tokenColors": [
         {
@@ -189,7 +197,9 @@
                 "variable.other.readwrite.alias",
                 "entity.name.namespace"
             ],
-            "settings": {}
+            "settings": {
+                "foreground": "#46c4d3"
+            }
         },
         {
             "name": "Constant Objects",
@@ -246,7 +256,7 @@
                 "entity.other.attribute-name.pseudo-element"
             ],
             "settings": {
-                "foreground": "#f3cb7f"
+                "foreground": "#32c8da"
             }
         },
         {
