@@ -151,6 +151,7 @@ const atomicTheme = {
 		'editorGroupHeader.tabsBackground': blocksBg,
 		// terminal styles
 		'panel.background': blocksBg,
+		'panel.border': border,
 		'terminalCursor.background': foreground,
 		'terminalCursor.foreground': Color(foreground).darken(0.35).hex(),
 		// terminal colors

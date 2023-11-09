@@ -123,6 +123,7 @@
         "tab.inactiveForeground": "#9ca3b3",
         "editorGroupHeader.tabsBackground": "#151920",
         "panel.background": "#151920",
+        "panel.border": "#080c13",
         "terminalCursor.background": "#9ca3b3",
         "terminalCursor.foreground": "#5F677B",
         "terminal.ansiBlack": "#414868",
