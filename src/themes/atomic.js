@@ -16,7 +16,7 @@ const atomicTheme = {
 		foreground: foreground,
 		errorForeground: '#FF4B82',
 		'activityBar.background': blocksBg,
-		'activityBar.foreground': foreground,
+		'activityBar.foreground': Color(foreground).lighten(0.25).hex(),
 		'activityBar.border': colors.transparent,
 		'activityBarBadge.background': accent,
 		'activityBarBadge.foreground': colors.white,
@@ -43,8 +43,12 @@ const atomicTheme = {
 		'editor.selectionBackground': '#FFB86C40',
 		'editor.inactiveSelectionBackground': '#FFB86C40',
 		'editor.selectionHighlightBackground': '#FFB86C40',
-		'editor.wordHighlightBackground': '#FFCC9560',
-		'editor.wordHighlightStrongBackground': '#FF9AC170',
+		'editor.wordHighlightBackground': `${Color(editorBg)
+			.lighten(1.5)
+			.hex()}aa`,
+		'editor.wordHighlightStrongBackground': `${Color(editorBg)
+			.lighten(1)
+			.hex()}77`,
 		'editor.findMatchBackground': '#B084EB90',
 		'editor.findMatchHighlightBackground': '#FFB86C40',
 		'editor.lineHighlightBackground': `${Color(editorBg)
@@ -146,13 +150,14 @@ const atomicTheme = {
 		'tab.inactiveForeground': foreground,
 		'editorGroupHeader.tabsBackground': blocksBg,
 		// terminal styles
+		'panel.background': blocksBg,
 		'terminalCursor.background': foreground,
 		'terminalCursor.foreground': Color(foreground).darken(0.35).hex(),
 		// terminal colors
 		'terminal.ansiBlack': '#414868',
 		'terminal.ansiRed': '#f7768e',
 		'terminal.ansiGreen': '#73daca',
-		'terminal.ansiYellow': '#e0af68',
+		'terminal.ansiYellow': '#E3B777',
 		'terminal.ansiBlue': '#7aa2f7',
 		'terminal.ansiMagenta': '#bb9af7',
 		'terminal.ansiCyan': '#7dcfff',
@@ -166,7 +171,7 @@ const atomicTheme = {
 		'terminal.ansiBrightCyan': '#7dcfff',
 		'terminal.ansiBrightWhite': '#a9b1d6',
 		// git
-		'gitDecoration.modifiedResourceForeground': '#6183bb',
+		'gitDecoration.modifiedResourceForeground': '#84b2ff',
 		'gitDecoration.ignoredResourceForeground': '#545c7e',
 		'gitDecoration.deletedResourceForeground': '#914c54',
 		'gitDecoration.renamedResourceForeground': '#449dab',
