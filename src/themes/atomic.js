@@ -6,7 +6,7 @@ const editorBg = '#1D222E';
 const blocksBg = '#151920';
 const border = '#080c13';
 const foreground = '#9ca3b3';
-const accent = '#6084f1';
+const accent = '#6f90f2';
 
 const atomicTheme = {
 	name: 'Darkit Atomic',
@@ -182,12 +182,12 @@ const atomicTheme = {
 		'gitDecoration.stageDeletedResourceForeground': '#914c54',
 		'gitDecoration.stageModifiedResourceForeground': '#6183bb',
 		// brackets
-		'editorBracketHighlight.foreground1': '#698cd6', //"#7AA2F7",
-		'editorBracketHighlight.foreground2': '#68b3de', //"#7DCFFF",
-		'editorBracketHighlight.foreground3': '#9a7ecc', //"#BB9AF7",
-		'editorBracketHighlight.foreground4': '#25aac2', //"#2AC3DE",
-		'editorBracketHighlight.foreground5': '#80a856', //"#9ECE6A",
-		'editorBracketHighlight.foreground6': '#cfa25f', //"#e0af68",
+		'editorBracketHighlight.foreground1': '#7AA2F7', //"#7AA2F7",
+		'editorBracketHighlight.foreground2': '#7DCFFF', //"#7DCFFF",
+		'editorBracketHighlight.foreground3': '#BB9AF7', //"#BB9AF7",
+		'editorBracketHighlight.foreground4': '#2AC3DE', //"#2AC3DE",
+		'editorBracketHighlight.foreground5': '#9ECE6A', //"#9ECE6A",
+		'editorBracketHighlight.foreground6': '#e0af68', //"#e0af68",
 		'editorBracketHighlight.unexpectedBracket.foreground': '#db4b4b',
 		// debug
 		'debugToolBar.background': blocksBg,
@@ -196,7 +196,7 @@ const atomicTheme = {
 		comments: { color: '#5C626F' },
 		variables: { color: Color(foreground).lighten(0.4).hex() },
 		strings: { color: '#97E9A4' },
-		regex: { color: '#54e9ff' },
+		regex: { color: '#32c8da' },
 		keywords: { color: '#d983ef' },
 		storage: { color: '#d983ef' },
 		functions: { color: '#7cbeff' },
