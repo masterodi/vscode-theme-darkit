@@ -106,7 +106,8 @@ const operatorsToken = new ColorToken('Operators').scope(
 	'punctuation.separator.colon',
 	'punctuation.separator.period',
 	'punctuation.section',
-	'keyword.other.unit'
+	'keyword.other.unit',
+	'punctuation.decorator'
 );
 
 const classesToken = new ColorToken('Classes').scope(

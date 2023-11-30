@@ -199,7 +199,7 @@ const atomicTheme = {
 		regex: { color: '#32c8da' },
 		keywords: { color: '#d983ef' },
 		storage: { color: '#d983ef' },
-		functions: { color: '#7cbeff' },
+		functions: { color: '#89c4ff' },
 		functionParameters: { color: Color(foreground).lighten(0.4).hex() },
 		classes: { color: '#f3cb7f' },
 		tags: { color: '#e56d75' },

@@ -218,7 +218,7 @@
                 "punctuation.definition.template-expression"
             ],
             "settings": {
-                "foreground": "#7cbeff"
+                "foreground": "#89c4ff"
             }
         },
         {
@@ -315,7 +315,8 @@
                 "punctuation.separator.colon",
                 "punctuation.separator.period",
                 "punctuation.section",
-                "keyword.other.unit"
+                "keyword.other.unit",
+                "punctuation.decorator"
             ],
             "settings": {
                 "foreground": "#54e9ff"
