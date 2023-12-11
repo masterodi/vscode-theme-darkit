@@ -2,11 +2,11 @@ import Color from 'color';
 import colors from '../colors.js';
 import { createTokenColors } from '../utils/tokens.js';
 
-const editorBg = '#1D222E';
-const blocksBg = '#151920';
-const border = '#080c13';
+const editorBg = '#202020';
+const blocksBg = '#1c1c1c';
+const border = '#ffffff00';
 const foreground = '#9ca3b3';
-const accent = '#6f90f2';
+const accent = colors.cyan[100];
 
 const atomicTheme = {
 	name: 'Darkit Atomic',
@@ -195,24 +195,24 @@ const atomicTheme = {
 	tokenColors: createTokenColors({
 		comments: { color: '#5C626F' },
 		variables: { color: Color(foreground).lighten(0.4).hex() },
-		strings: { color: '#97E9A4' },
-		regex: { color: '#32c8da' },
-		keywords: { color: '#d983ef' },
-		storage: { color: '#d983ef' },
-		functions: { color: '#89c4ff' },
+		strings: { color: colors.emerald[200] },
+		regex: { color: colors.cyan[100] },
+		keywords: { color: colors.purple[300] },
+		storage: { color: colors.purple[300] },
+		functions: { color: colors.blue[300] },
 		functionParameters: { color: Color(foreground).lighten(0.4).hex() },
-		classes: { color: '#f3cb7f' },
-		tags: { color: '#e56d75' },
+		classes: { color: colors.orange[200] },
+		tags: { color: colors.roseRed[300] },
 		tagsPunctuation: { color: Color(foreground).lighten(0.25).hex() },
-		htmlAttributes: { color: '#ffba6d' },
-		htmlIds: { color: '#7cbeff' },
-		primitives: { color: '#32c8da' },
-		constants: { color: '#ffba6d' },
-		numbers: { color: '#ffba6d' },
+		htmlAttributes: { color: colors.orange[300] },
+		htmlIds: { color: colors.cyan[300] },
+		primitives: { color: colors.cyan[100] },
+		constants: { color: colors.orange[200] },
+		numbers: { color: colors.orange[200] },
 		objectProperties: { color: Color(foreground).lighten(0.35).hex() },
-		operators: { color: '#54e9ff' },
-		jsonYamlKeys: { color: '#e56d75' },
-		readWriteAliases: { color: '#46c4d3' },
+		operators: { color: colors.lightBlue[300] },
+		jsonYamlKeys: { color: colors.roseRed[300] },
+		readWriteAliases: { color: Color(foreground).lighten(0.3).hex() },
 	}),
 	semanticHighlighting: true,
 };
