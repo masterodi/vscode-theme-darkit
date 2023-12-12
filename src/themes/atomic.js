@@ -4,15 +4,16 @@ import { createTokenColors } from '../utils/tokens.js';
 
 const editorBg = '#202020';
 const blocksBg = '#1c1c1c';
+const focusBorder = '#000';
 const border = '#ffffff00';
-const foreground = '#9ca3b3';
-const accent = colors.cyan[100];
+const foreground = '#eee';
+const accent = colors.indigo[300];
 
 const atomicTheme = {
 	name: 'Darkit Atomic',
 	colors: {
 		// general
-		focusBorder: accent,
+		focusBorder,
 		foreground: foreground,
 		errorForeground: '#FF4B82',
 		'activityBar.background': blocksBg,
@@ -34,15 +35,16 @@ const atomicTheme = {
 		'merge.incomingContentBackground': '#FFB86C40',
 		// editor styles
 		'editor.background': editorBg,
-		'editor.foreground': Color(foreground).lighten(0.35).hex(),
+		'editor.foreground': foreground,
 		'editorCursor.foreground': colors.roseRed[400],
 		'editorRuler.foreground': '#B084EB60',
-		'editorBracketMatch.border': accent,
+		'editorBracketMatch.border': '#88888877',
+		'editorBracketMatch.background': '#88888833',
 		'editorCodeLens.foreground': '#FFB86C40',
 		'editorWhitespace.foreground': '#3E4250',
 		'editor.selectionBackground': `${Color(editorBg).lighten(1.5).hex()}aa`,
-		'editor.inactiveSelectionBackground': '#FFB86C40',
-		'editor.selectionHighlightBackground': '#FFB86C40',
+		'editor.inactiveSelectionBackground': `${accent}22`,
+		'editor.selectionHighlightBackground': `${accent}22`,
 		'editor.wordHighlightBackground': `${Color(editorBg)
 			.lighten(1.5)
 			.hex()}aa`,
@@ -54,8 +56,8 @@ const atomicTheme = {
 		'editor.lineHighlightBackground': `${Color(editorBg)
 			.lighten(0.5)
 			.hex()}77`,
-		'editorLineNumber.foreground': '#414759',
-		'editorLineNumber.activeForeground': '#696F7C',
+		'editorLineNumber.foreground': '#444',
+		'editorLineNumber.activeForeground': '#888',
 		'editorSuggestWidget.selectedBackground': '#31353a',
 		'editorHoverWidget.background': '#31353a',
 		'editorOverviewRuler.border': '#00000000',
@@ -145,7 +147,7 @@ const atomicTheme = {
 		'tab.activeBackground': editorBg,
 		'tab.activeForeground': foreground,
 		'tab.activeBorder': colors.transparent,
-		'tab.activeBorderTop': accent,
+		'tab.activeBorderTop': `${accent}aa`,
 		'tab.inactiveBackground': blocksBg,
 		'tab.inactiveForeground': foreground,
 		'editorGroupHeader.tabsBackground': blocksBg,
@@ -191,28 +193,34 @@ const atomicTheme = {
 		'editorBracketHighlight.unexpectedBracket.foreground': '#db4b4b',
 		// debug
 		'debugToolBar.background': blocksBg,
+		//peek preview
+		'peekView.border': border,
+		'notifications.background': blocksBg,
+		'editorError.foreground': colors.roseRed[400],
+		'editorHoverWidget.background': blocksBg,
+		'editorHoverWidget.border': '#111',
 	},
 	tokenColors: createTokenColors({
 		comments: { color: '#5C626F' },
-		variables: { color: Color(foreground).lighten(0.4).hex() },
+		variables: { color: colors.slate[200] },
 		strings: { color: colors.emerald[200] },
 		regex: { color: colors.cyan[100] },
 		keywords: { color: colors.purple[300] },
 		storage: { color: colors.purple[300] },
-		functions: { color: colors.blue[300] },
-		functionParameters: { color: Color(foreground).lighten(0.4).hex() },
-		classes: { color: colors.orange[200] },
+		functions: { color: colors.indigo[300] },
+		functionParameters: { color: colors.slate[100] },
+		classes: { color: colors.pink[300] },
 		tags: { color: colors.roseRed[300] },
-		tagsPunctuation: { color: Color(foreground).lighten(0.25).hex() },
-		htmlAttributes: { color: colors.orange[300] },
+		tagsPunctuation: { color: colors.gray[200] },
+		htmlAttributes: { color: colors.orange[200] },
 		htmlIds: { color: colors.cyan[300] },
 		primitives: { color: colors.cyan[100] },
 		constants: { color: colors.orange[200] },
 		numbers: { color: colors.orange[200] },
-		objectProperties: { color: Color(foreground).lighten(0.35).hex() },
-		operators: { color: colors.lightBlue[300] },
+		objectProperties: { color: colors.pink[400] },
+		operators: { color: colors.lightBlue[500] },
 		jsonYamlKeys: { color: colors.roseRed[300] },
-		readWriteAliases: { color: Color(foreground).lighten(0.3).hex() },
+		readWriteAliases: { color: colors.gray[200] },
 	}),
 	semanticHighlighting: true,
 };
