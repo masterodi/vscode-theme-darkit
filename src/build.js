@@ -1,6 +1,5 @@
 import { mkdirSync, writeFileSync } from 'fs';
 import astralTheme from './themes/astral.js';
-import atomicTheme from './themes/atomic.js';
 import defaultTheme from './themes/default.js';
 import {
 	THEMES_PATH,
@@ -35,4 +34,4 @@ const buildThemes = (...themes) => {
 	}
 };
 
-buildThemes(defaultTheme, astralTheme, atomicTheme);
+buildThemes(defaultTheme, astralTheme);
