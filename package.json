@@ -4,7 +4,7 @@
 	"description": "A dark theme.",
 	"type": "module",
 	"publisher": "mrheio",
-	"version": "19.0.0",
+	"version": "19.0.1",
 	"icon": "icon.png",
 	"engines": {
 		"vscode": "^1.7.0"
@@ -23,11 +23,6 @@
 				"label": "Darkit Astral",
 				"uiTheme": "vs-dark",
 				"path": "./themes/Darkit-Astral.json"
-			},
-			{
-				"label": "Darkit Atomic",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Darkit-Atomic.json"
 			},
 			{
 				"label": "Darkit Old",
