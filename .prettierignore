@@ -1,3 +1,6 @@
 # Ignore artifacts:
 node_modules
 demo
+
+# let eslint decide here
+src/builder/**/*

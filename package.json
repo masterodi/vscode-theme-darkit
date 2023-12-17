@@ -4,7 +4,7 @@
 	"description": "A dark theme.",
 	"type": "module",
 	"publisher": "mrheio",
-	"version": "19.0.1",
+	"version": "19.0.2",
 	"icon": "icon.png",
 	"engines": {
 		"vscode": "^1.7.0"
@@ -23,21 +23,20 @@
 				"label": "Darkit Astral",
 				"uiTheme": "vs-dark",
 				"path": "./themes/Darkit-Astral.json"
-			},
-			{
-				"label": "Darkit Old",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Darkit-Old-color-theme.json"
 			}
 		]
 	},
 	"scripts": {
 		"dev": "nodemon ./src/build.js",
 		"build": "node ./src/build.js",
-		"prepare": "husky install"
+		"prepare": "husky install",
+		"lint:fix": "eslint --fix"
 	},
 	"devDependencies": {
+		"@stylistic/eslint-plugin-js": "^1.5.1",
 		"color": "^4.2.3",
+		"eslint": "^8.56.0",
+		"eslint-config-prettier": "^9.1.0",
 		"husky": "^8.0.3",
 		"lint-staged": "^13.2.2",
 		"nodemon": "^2.0.19",
