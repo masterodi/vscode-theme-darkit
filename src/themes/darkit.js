@@ -1,6 +1,6 @@
 import colors from '../colors.js';
 
-const defaultTheme = {
+export const darkit = {
 	name: 'Darkit',
 	colors: {
 		foreground: colors.slate[200],
@@ -387,5 +387,3 @@ const defaultTheme = {
 	],
 	semanticHighlighting: true,
 };
-
-export default defaultTheme;

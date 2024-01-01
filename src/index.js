@@ -1,6 +1,5 @@
 import { mkdirSync, writeFileSync } from 'fs';
-import astralTheme from './themes/astral.js';
-import defaultTheme from './themes/default.js';
+import { darkit, darkitAstral, darkitFocus } from './themes/index.js';
 import {
 	THEMES_PATH,
 	getThemePath,
@@ -9,22 +8,17 @@ import {
 } from './utils/index.js';
 
 const parseTheme = (theme) => {
-	const { colors: workbenchColors, tokenColors } = theme;
-
-	const parsedWorkbenchColors = parseWorkbenchColors(workbenchColors);
-	const parsedTokenColors = parseTokenColors(tokenColors);
-
 	const parsedTheme = {
 		...theme,
-		colors: parsedWorkbenchColors,
-		tokenColors: parsedTokenColors,
+		colors: parseWorkbenchColors(theme.colors),
+		tokenColors: parseTokenColors(theme.tokenColors),
 	};
 
 	return JSON.stringify(parsedTheme, undefined, 4);
 };
 
 const buildThemes = (...themes) => {
-	const result = mkdirSync(THEMES_PATH, { recursive: true });
+	mkdirSync(THEMES_PATH, { recursive: true });
 
 	for (const theme of themes) {
 		const THEME_PATH = getThemePath(theme);
@@ -34,4 +28,4 @@ const buildThemes = (...themes) => {
 	}
 };
 
-buildThemes(defaultTheme, astralTheme);
+buildThemes(darkit, darkitAstral, darkitFocus);

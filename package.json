@@ -4,7 +4,7 @@
 	"description": "A dark theme.",
 	"type": "module",
 	"publisher": "mrheio",
-	"version": "19.0.2",
+	"version": "20.0.0",
 	"icon": "icon.png",
 	"engines": {
 		"vscode": "^1.7.0"
@@ -23,23 +23,24 @@
 				"label": "Darkit Astral",
 				"uiTheme": "vs-dark",
 				"path": "./themes/Darkit-Astral.json"
+			},
+			{
+				"label": "Darkit Focus",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Darkit-Focus.json"
 			}
 		]
 	},
 	"scripts": {
-		"dev": "nodemon ./src/build.js",
-		"build": "node ./src/build.js",
+		"dev": "node --watch-path=./src src/index.js",
+		"build": "node ./src/index.js",
 		"prepare": "husky install",
 		"lint:fix": "eslint --fix"
 	},
 	"devDependencies": {
-		"@stylistic/eslint-plugin-js": "^1.5.1",
 		"color": "^4.2.3",
-		"eslint": "^8.56.0",
-		"eslint-config-prettier": "^9.1.0",
 		"husky": "^8.0.3",
 		"lint-staged": "^13.2.2",
-		"nodemon": "^2.0.19",
 		"prettier": "2.8.8"
 	},
 	"repository": {
@@ -47,11 +48,6 @@
 		"url": "https://github.com/mrheio/vsc-theme-darkit"
 	},
 	"lint-staged": {
-		"*.{js,css,md}": "prettier --write"
-	},
-	"nodemonConfig": {
-		"ignore": [
-			"themes/*.json"
-		]
+		"*.{js,css,md,json}": "prettier --write"
 	}
 }

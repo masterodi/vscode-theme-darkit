@@ -1,14 +1,20 @@
-export * from './tokens.js';
-
 import Color from 'color';
 
-export const maybeGetHex = (color) => {
-	return color instanceof Color ? color.hex() : color;
+export const sanitizeColor = (color) => {
+	if (color instanceof Color) {
+		return color.hex();
+	}
+
+	if (!color || color === '') {
+		return undefined;
+	}
+
+	return color;
 };
 
 export const parseWorkbenchColors = (workbenchColors) => {
 	return Object.fromEntries(
-		Object.entries(workbenchColors).map(([k, v]) => [k, maybeGetHex(v)])
+		Object.entries(workbenchColors).map(([k, v]) => [k, sanitizeColor(v)])
 	);
 };
 
@@ -17,7 +23,7 @@ export const parseTokenColors = (tokenColors) => {
 		...color,
 		settings: {
 			...color.settings,
-			foreground: maybeGetHex(color.settings.foreground),
+			foreground: sanitizeColor(color.settings.foreground),
 		},
 	}));
 };

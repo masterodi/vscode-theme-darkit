@@ -1,6 +1,6 @@
 import colors from '../colors.js';
 
-const astralTheme = {
+export const darkitAstral = {
 	name: 'Darkit Astral',
 	colors: {
 		foreground: '#787c99',
@@ -603,5 +603,3 @@ const astralTheme = {
 	],
 	semanticHighlighting: true,
 };
-
-export default astralTheme;
