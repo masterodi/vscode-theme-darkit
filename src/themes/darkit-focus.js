@@ -28,22 +28,45 @@ const palette = {
 		// #5a79b3
 		// #dfeaff
 		// #c0d6ff
+
+		// #A6B3FF
+		// #8F9ADB
+		// #747DB3
+		// #5A618A
+		// #3F4461
+
+		// #B0A6FF
+		// #978FDB
+		// #7B74B3
+		// #5F5A8A
+		// #433F61
+
+		// #B5A6FF
+		// #9B8FDB
+		// #7E74B3
+		// #625A8A
+		// #453F61
+
+		// #C2A6FF
+		// #A78FDB
+		// #8874B3
+		// #695A8A
 		comment: '#888',
 		variable: '#ececec',
-		function: '#B9B3FF',
+		function: '#8FB0DB',
 		functionParameter: null,
-		keyword: '#c6fff6',
-		storage: '#e2fffb',
-		class: '#62b3a6',
+		keyword: '#8F9ADB',
+		storage: '#747DB3',
+		class: '#B0A6FF',
 		primitive: '#b35a96',
 		constant: '#FF80B9',
 		number: '#FF80B9',
-		string: '#8CFFD9',
+		string: '#97f0d3',
 		stringRegexp: null,
-		tag: '#62b3a6',
+		tag: '#B5A6FF',
 		jsonKey: '#b35a96',
-		punctuationTag: '#c6fff6',
-		attribute: '#c0d6ff',
+		punctuationTag: '#8b7cd9',
+		attribute: '#C1A6FF',
 		id: '#ffc0eb',
 		cssProperty: '#b35a96',
 		variableProperty: '#dfeaff',
