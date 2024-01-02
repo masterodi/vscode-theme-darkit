@@ -1,5 +1,5 @@
 import { mkdirSync, writeFileSync } from 'fs';
-import { darkit, darkitAstral, darkitFocus } from './themes/index.js';
+import { darkit, darkitAstral } from './themes/index.js';
 import {
 	THEMES_PATH,
 	getThemePath,
@@ -28,4 +28,4 @@ const buildThemes = (...themes) => {
 	}
 };
 
-buildThemes(darkit, darkitAstral, darkitFocus);
+buildThemes(darkit, darkitAstral);

@@ -4,7 +4,7 @@
 	"description": "A dark theme.",
 	"type": "module",
 	"publisher": "mrheio",
-	"version": "21.0.0",
+	"version": "22.0.0",
 	"icon": "icon.png",
 	"engines": {
 		"vscode": "^1.7.0"
@@ -23,11 +23,6 @@
 				"label": "Darkit Astral",
 				"uiTheme": "vs-dark",
 				"path": "./themes/Darkit-Astral.json"
-			},
-			{
-				"label": "Darkit Focus",
-				"uiTheme": "vs-dark",
-				"path": "./themes/Darkit-Focus.json"
 			}
 		]
 	},

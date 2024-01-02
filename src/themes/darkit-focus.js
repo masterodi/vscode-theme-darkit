@@ -14,65 +14,28 @@ const palette = {
 	accentLighter: Color('#dfeaff'),
 
 	syntax: {
-		// #8CFFD9
-		// #62b3a6
-		// #e2fffb
-		// #c6fff6
-
-		// #FF80B9
-		// #b35a96
-		// #ffdff5
-		// #ffc0eb
-
-		// #808CFF
-		// #5a79b3
-		// #dfeaff
-		// #c0d6ff
-
-		// #A6B3FF
-		// #8F9ADB
-		// #747DB3
-		// #5A618A
-		// #3F4461
-
-		// #B0A6FF
-		// #978FDB
-		// #7B74B3
-		// #5F5A8A
-		// #433F61
-
-		// #B5A6FF
-		// #9B8FDB
-		// #7E74B3
-		// #625A8A
-		// #453F61
-
-		// #C2A6FF
-		// #A78FDB
-		// #8874B3
-		// #695A8A
-		comment: '#888',
-		variable: '#ececec',
-		function: '#8FB0DB',
+		comment: null,
+		variable: null,
+		function: null,
 		functionParameter: null,
-		keyword: '#8F9ADB',
-		storage: '#747DB3',
-		class: '#B0A6FF',
-		primitive: '#b35a96',
-		constant: '#FF80B9',
-		number: '#FF80B9',
-		string: '#97f0d3',
+		keyword: null,
+		storage: null,
+		class: null,
+		primitive: null,
+		constant: null,
+		number: null,
+		string: null,
 		stringRegexp: null,
-		tag: '#B5A6FF',
-		jsonKey: '#b35a96',
-		punctuationTag: '#8b7cd9',
-		attribute: '#C1A6FF',
-		id: '#ffc0eb',
-		cssProperty: '#b35a96',
-		variableProperty: '#dfeaff',
-		readWriteAlias: '#c0d6ff',
-		constantObject: '#c0d6ff',
-		punctuation: '#c0d6ff',
+		tag: null,
+		jsonKey: null,
+		punctuationTag: null,
+		attribute: null,
+		id: null,
+		cssProperty: null,
+		variableProperty: null,
+		readWriteAlias: null,
+		constantObject: null,
+		punctuation: null,
 	},
 };
 
