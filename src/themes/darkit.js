@@ -182,7 +182,7 @@ export const darkit = {
 		{
 			name: 'Variable',
 			scope: ['variable'],
-			settings: { foreground: colors.slate[200] },
+			settings: { foreground: colors.slate[100] },
 		},
 		{
 			name: 'Functions',
@@ -200,15 +200,14 @@ export const darkit = {
 			name: 'Function parameter',
 			scope: ['variable.parameter'],
 			settings: {
-				foreground: colors.indigo[200],
-				fontStyle: 'italic',
+				foreground: colors.blue[200],
 			},
 		},
 		{
 			name: 'Keywords | Keyword operator',
 			scope: ['keyword', 'meta.method.declaration storage.type'],
 			settings: {
-				foreground: colors.aquamarine[300],
+				foreground: colors.aquamarine[400],
 			},
 		},
 		{
@@ -234,7 +233,7 @@ export const darkit = {
 				'support.type',
 			],
 			settings: {
-				foreground: colors.indigo[400],
+				foreground: colors.blue[300],
 			},
 		},
 		{
@@ -245,7 +244,7 @@ export const darkit = {
 				'entity.other.attribute-name.pseudo-element',
 			],
 			settings: {
-				foreground: colors.roseRed[300],
+				foreground: colors.washedBlue[300],
 			},
 		},
 		{
@@ -303,7 +302,7 @@ export const darkit = {
 			name: 'Attribute name',
 			scope: ['entity.other.attribute-name'],
 			settings: {
-				foreground: colors.indigo[300],
+				foreground: colors.aquamarine[300],
 				fontStyle: 'italic',
 			},
 		},
@@ -355,7 +354,7 @@ export const darkit = {
 			name: 'CSS property name',
 			scope: ['source.css support.type.property-name'],
 			settings: {
-				foreground: colors.orange[300],
+				foreground: colors.slate[300],
 			},
 		},
 		{
@@ -374,7 +373,7 @@ export const darkit = {
 			name: 'Variable other readwrite alias',
 			scope: ['variable.other.readwrite.alias', 'entity.name.namespace'],
 			settings: {
-				foreground: colors.violet[300],
+				foreground: colors.blue[200],
 			},
 		},
 		{
