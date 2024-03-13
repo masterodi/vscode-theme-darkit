@@ -378,7 +378,7 @@ export const darkit = {
 				'meta.object.member',
 			],
 			settings: {
-				foreground: colors.washedBlue[100],
+				foreground: colors.white,
 			},
 		},
 		// {
