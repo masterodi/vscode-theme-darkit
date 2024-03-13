@@ -5,7 +5,7 @@ export const darkit = {
 	colors: {
 		foreground: colors.slate[200],
 		focusBorder: colors.slate[500],
-		'widget.shadow': colors.slate[900],
+		'widget.shadow': colors.transparent,
 		'activityBar.background': colors.darkBlue[800],
 		'activityBar.foreground': colors.darkBlue[50],
 		'activityBar.inactiveForeground': colors.darkBlue[400],
@@ -15,10 +15,10 @@ export const darkit = {
 		'activityBar.activeBackground': colors.transparent,
 		'sideBar.background': colors.darkBlue[800],
 		'sideBar.foreground': colors.darkBlue[300],
-		'sideBar.border': colors.darkBlue[900],
+		'sideBar.border': colors.transparent,
 		'sideBarSectionHeader.background': colors.darkBlue[800],
 		'sideBarSectionHeader.foreground': colors.darkBlue[100],
-		'sideBarSectionHeader.border': colors.darkBlue[900],
+		'sideBarSectionHeader.border': colors.transparent,
 		'sideBarTitle.foreground': colors.darkBlue[100],
 		'list.inactiveSelectionBackground': colors.darkBlue[600],
 		'list.inactiveSelectionForeground': colors.darkBlue[50],
@@ -39,16 +39,16 @@ export const darkit = {
 		'tree.indentGuidesStroke': colors.transparent,
 		'statusBar.background': colors.darkBlue[800],
 		'statusBar.foreground': colors.slate[200],
-		'statusBar.border': colors.darkBlue[900],
+		'statusBar.border': colors.transparent,
 		'statusBar.debuggingBackground': colors.darkBlue[600],
 		'statusBar.debuggingForeground': colors.slate[100],
 		'statusBar.debuggingBorder': colors.darkBlue[900],
 		'statusBar.noFolderBackground': colors.darkBlue[800],
 		'statusBar.noFolderForeground': colors.slate[200],
-		'statusBar.noFolderBorder': colors.darkBlue[900],
+		'statusBar.noFolderBorder': colors.transparent,
 		'titleBar.activeBackground': colors.darkBlue[800],
 		'titleBar.activeForeground': colors.darkBlue[200],
-		'titleBar.border': colors.darkBlue[900],
+		'titleBar.border': colors.transparent,
 		'titleBar.inactiveBackground': colors.darkBlue[800],
 		'titleBar.inactiveForeground': colors.darkBlue[200],
 		'menubar.selectionBackground': colors.darkBlue[600],
@@ -75,7 +75,7 @@ export const darkit = {
 		'inputOption.activeForeground': colors.slate[50],
 		'inputOption.activeBorder': colors.transparent,
 		'panel.background': colors.darkBlue[800],
-		'panel.border': colors.darkBlue[900],
+		'panel.border': colors.transparent,
 		'panelTitle.activeBorder': colors.darkBlue[200],
 		'panelTitle.activeForeground': colors.darkBlue[50],
 		'terminal.selectionBackground': colors.darkBlue[600],
@@ -103,17 +103,18 @@ export const darkit = {
 		'badge.foreground': colors.slate[50],
 		'editorGroupHeader.border': colors.transparent,
 		'editorGroupHeader.tabsBackground': colors.darkBlue[800],
-		'editorGroupHeader.tabsBorder': colors.darkBlue[900],
+		'editorGroupHeader.tabsBorder': colors.transparent,
 		'tab.border': colors.transparent,
-		'tab.activeBackground': colors.darkBlue[600],
+		'tab.activeBackground': colors.darkBlue[700],
 		'tab.activeForeground': colors.slate[100],
 		'tab.activeBorder': colors.transparent,
-		'tab.activeBorderTop': colors.transparent,
+		'tab.activeBorderTop': colors.darkBlue[300],
 		'tab.inactiveBackground': colors.darkBlue[800],
 		'tab.inactiveForeground': colors.darkBlue[300],
-		'breadcrumb.background': colors.darkBlue[800],
+		'breadcrumb.background': colors.darkBlue[700],
 		'breadcrumb.foreground': colors.darkBlue[300],
 		'breadcrumb.focusForeground': colors.darkBlue[50],
+		'breadcrumb.border': colors.transparent,
 		'scrollbarSlider.background': colors.darkBlue[800],
 		'scrollbarSlider.hoverBackground': colors.darkBlue[600],
 		'scrollbarSlider.activeBackground': colors.darkBlue[600],
@@ -182,7 +183,7 @@ export const darkit = {
 		{
 			name: 'Variable',
 			scope: ['variable'],
-			settings: { foreground: colors.slate[100] },
+			settings: { foreground: colors.gray[100] },
 		},
 		{
 			name: 'Functions',
@@ -193,21 +194,21 @@ export const darkit = {
 				'support.function.magic',
 			],
 			settings: {
-				foreground: '#d6ffa0',
+				foreground: colors.blue[200],
 			},
 		},
 		{
 			name: 'Function parameter',
 			scope: ['variable.parameter'],
 			settings: {
-				foreground: colors.blue[200],
+				foreground: colors.white,
 			},
 		},
 		{
 			name: 'Keywords | Keyword operator',
 			scope: ['keyword', 'meta.method.declaration storage.type'],
 			settings: {
-				foreground: colors.aquamarine[400],
+				foreground: colors.cyan[700],
 			},
 		},
 		{
@@ -220,7 +221,7 @@ export const darkit = {
 				'keyword.function',
 			],
 			settings: {
-				foreground: colors.aquamarine[300],
+				foreground: colors.cyan[700],
 			},
 		},
 		{
@@ -233,7 +234,7 @@ export const darkit = {
 				'support.type',
 			],
 			settings: {
-				foreground: colors.blue[300],
+				foreground: colors.darkBlue[200],
 			},
 		},
 		{
@@ -244,7 +245,7 @@ export const darkit = {
 				'entity.other.attribute-name.pseudo-element',
 			],
 			settings: {
-				foreground: colors.washedBlue[300],
+				foreground: colors.darkBlue[300],
 			},
 		},
 		{
@@ -258,8 +259,7 @@ export const darkit = {
 			name: 'String regex',
 			scope: ['string.regexp'],
 			settings: {
-				foreground: colors.indigo[300],
-				fontStyle: 'italic',
+				foreground: colors.aquamarine[300],
 			},
 		},
 		{
@@ -271,9 +271,10 @@ export const darkit = {
 				'variable.parameter.function.language.special.self',
 				'variable.language.special.self',
 				'entity.name.tag.reference',
+				'support.class.component',
 			],
 			settings: {
-				foreground: colors.blue[300],
+				foreground: colors.pink[400],
 			},
 		},
 		{
@@ -283,7 +284,7 @@ export const darkit = {
 				'source.yaml entity.name.tag',
 			],
 			settings: {
-				foreground: colors.blue[200],
+				foreground: colors.pink[400],
 			},
 		},
 		{
@@ -295,15 +296,14 @@ export const darkit = {
 				'punctuation.definition.typeparameters.end',
 			],
 			settings: {
-				foreground: colors.blue[200],
+				foreground: colors.slate[50],
 			},
 		},
 		{
 			name: 'Attribute name',
 			scope: ['entity.other.attribute-name'],
 			settings: {
-				foreground: colors.aquamarine[300],
-				fontStyle: 'italic',
+				foreground: colors.cyan[700],
 			},
 		},
 		{
@@ -321,14 +321,26 @@ export const darkit = {
 				'support.type.builtin',
 			],
 			settings: {
-				foreground: colors.roseRed[300],
+				foreground: colors.aquamarine[400],
+			},
+		},
+		{
+			name: 'Falsy',
+			scope: [
+				'constant.language.undefined',
+				'constant.language.null',
+				'constant.language.boolean.false',
+				'keyword.control.trycatch',
+			],
+			settings: {
+				foreground: colors.pink[400],
 			},
 		},
 		{
 			name: 'Numeric constant',
 			scope: ['constant.numeric'],
 			settings: {
-				foreground: colors.roseRed[300],
+				foreground: colors.aquamarine[400],
 			},
 		},
 		{
@@ -347,14 +359,14 @@ export const darkit = {
 				'keyword.other.unit',
 			],
 			settings: {
-				foreground: colors.cyan[100],
+				foreground: colors.cyan[600],
 			},
 		},
 		{
 			name: 'CSS property name',
 			scope: ['source.css support.type.property-name'],
 			settings: {
-				foreground: colors.slate[300],
+				foreground: colors.white,
 			},
 		},
 		{
@@ -366,23 +378,23 @@ export const darkit = {
 				'meta.object.member',
 			],
 			settings: {
-				foreground: colors.slate[200],
+				foreground: colors.washedBlue[100],
 			},
 		},
-		{
-			name: 'Variable other readwrite alias',
-			scope: ['variable.other.readwrite.alias', 'entity.name.namespace'],
-			settings: {
-				foreground: colors.blue[200],
-			},
-		},
-		{
-			name: 'Variable other constant object',
-			scope: ['variable.other.constant.object'],
-			settings: {
-				foreground: colors.slate[300],
-			},
-		},
+		// {
+		// 	name: 'Variable other readwrite alias',
+		// 	scope: ['variable.other.readwrite.alias', 'entity.name.namespace'],
+		// 	settings: {
+		// 		foreground: '',
+		// 	},
+		// },
+		// {
+		// 	name: 'Variable other constant object',
+		// 	scope: ['variable.other.constant.object'],
+		// 	settings: {
+		// 		foreground: '',
+		// 	},
+		// },
 	],
 	semanticHighlighting: true,
 };

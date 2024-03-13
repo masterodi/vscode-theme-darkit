@@ -1,5 +1,6 @@
 import { mkdirSync, writeFileSync } from 'fs';
-import { darkit, darkitAstral } from './themes/index.js';
+import { darkitAstral } from './themes/darkit-astral.js';
+import { darkit } from './themes/darkit.js';
 import {
 	THEMES_PATH,
 	getThemePath,
