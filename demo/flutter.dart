@@ -16,7 +16,7 @@ class MyButton extends StatefulWidget{
 }
 
 class MyButtonState extends State<MyButton>{
-  String flutterText = "";
+  String flutterText = null;
   List<String> collection = ['Flutter', 'is', 'great'];
   int index = 0;
 

@@ -4,7 +4,7 @@
 	"description": "A dark theme.",
 	"type": "module",
 	"publisher": "mrheio",
-	"version": "24.1.0",
+	"version": "25.0.0",
 	"icon": "icon.png",
 	"engines": {
 		"vscode": "^1.7.0"
@@ -23,6 +23,11 @@
 				"label": "Darkit Astral",
 				"uiTheme": "vs-dark",
 				"path": "./themes/Darkit-Astral.json"
+			},
+			{
+				"label": "Darkit Poimandres",
+				"uiTheme": "vs-dark",
+				"path": "./themes/Darkit-Poimandres.json"
 			}
 		]
 	},

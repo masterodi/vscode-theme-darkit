@@ -3,7 +3,7 @@ import { For } from 'solid-js';
 import Dialog from '../../components/Dialog';
 import { useJobsContext } from './jobs-provider';
 
-// test
+// Lorem ipsum dolor
 
 const DialogJobDetails = () => {
 	const params = useParams();
