@@ -485,7 +485,7 @@ export const darkit = {
 				'support.function.magic',
 			],
 			settings: {
-				foreground: '#c0e5ff',
+				foreground: '#b9e6ec',
 			},
 		},
 		{
@@ -540,7 +540,7 @@ export const darkit = {
 				'entity.other.attribute-name.pseudo-element',
 			],
 			settings: {
-				foreground: '#a2b2c1',
+				foreground: '#c2d5e7',
 			},
 		},
 		{
@@ -611,6 +611,7 @@ export const darkit = {
 		{
 			name: 'Constant',
 			scope: [
+				'support.variable',
 				'support.constant',
 				'constant.language',
 				'support.type.builtin',
@@ -654,7 +655,7 @@ export const darkit = {
 				'keyword.other.unit',
 			],
 			settings: {
-				foreground: '#6dbed2',
+				foreground: '#cbcbff',
 			},
 		},
 		{
@@ -667,13 +668,13 @@ export const darkit = {
 		{
 			name: 'Variable other property',
 			scope: [
-				'support.variable',
 				'variable.other.predefined',
 				'variable.other.property',
 				'meta.object.member',
+				'support.variable.property',
 			],
 			settings: {
-				foreground: '#F1D4E5',
+				foreground: '#ceccff',
 			},
 		},
 		// {
