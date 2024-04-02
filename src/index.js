@@ -1,12 +1,11 @@
 import { mkdirSync, writeFileSync } from 'fs';
 import { darkitAstral } from './themes/darkit-astral.js';
-import { darkit } from './themes/darkit.js';
 import {
 	THEMES_PATH,
 	getThemePath,
 	parseTokenColors,
 	parseWorkbenchColors,
-} from './utils/index.js';
+} from './utils.js';
 
 const parseTheme = (theme) => {
 	const parsedTheme = {
@@ -29,4 +28,4 @@ const buildThemes = (...themes) => {
 	}
 };
 
-buildThemes(darkit, darkitAstral);
+buildThemes(darkitAstral);

@@ -1,21 +1,28 @@
 import Color from 'color';
 
 export const sanitizeColor = (color) => {
-	if (color instanceof Color) {
-		return color.hex();
-	}
-
 	if (!color || color === '') {
 		return undefined;
 	}
 
-	return color;
+	if (color instanceof Color) {
+		return color.hex().toLowerCase();
+	}
+
+	if (typeof color === 'string') {
+		return color.toLowerCase();
+	}
+
+	throw new Error('Invalid color');
 };
 
 export const parseWorkbenchColors = (workbenchColors) => {
-	return Object.fromEntries(
-		Object.entries(workbenchColors).map(([k, v]) => [k, sanitizeColor(v)])
-	);
+	const parsed = Object.entries(workbenchColors).map(([k, v]) => [
+		k,
+		sanitizeColor(v),
+	]);
+
+	return Object.fromEntries(parsed);
 };
 
 export const parseTokenColors = (tokenColors) => {
