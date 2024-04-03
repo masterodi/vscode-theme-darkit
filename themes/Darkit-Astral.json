@@ -502,7 +502,8 @@
 				"punctuation.separator.colon",
 				"punctuation.separator.period",
 				"punctuation.section",
-				"keyword.other.unit"
+				"keyword.other.unit",
+				"punctuation.definition.block"
 			],
 			"settings": {
 				"foreground": "#a3faff"

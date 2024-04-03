@@ -503,6 +503,7 @@ export const darkitAstral = {
 				'punctuation.separator.period',
 				'punctuation.section',
 				'keyword.other.unit',
+				'punctuation.definition.block',
 			],
 			settings: {
 				foreground: '#a3faff',
